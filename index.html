@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no, maximum-scale=1.0">
   <title>Ontario Fall Colors - Live Map</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
@@ -12,6 +12,8 @@
       padding: 0;
       box-sizing: border-box;
       -webkit-tap-highlight-color: transparent;
+      -webkit-user-select: none;
+      user-select: none;
     }
     
     html, body {
@@ -20,6 +22,7 @@
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
       background: #fff;
       overflow: hidden;
+      position: fixed;
     }
     
     /* Falling Leaves */
@@ -41,7 +44,7 @@
       width: 100%;
       height: 100%;
       pointer-events: none;
-      z-index: 50;
+      z-index: 30;
       overflow: hidden;
     }
     
@@ -58,107 +61,248 @@
       justify-content: center;
     }
     
-    /* Minimal Header */
-    .header {
-      background: linear-gradient(135deg, #c41c3b 0%, #d84315 100%);
-      color: white;
-      padding: 0.5rem 1rem;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-      z-index: 100;
-      position: relative;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+    /* DESKTOP: Side-by-side layout */
+    @media (min-width: 769px) {
+      .header {
+        background: linear-gradient(135deg, #c41c3b 0%, #d84315 100%);
+        color: white;
+        padding: 0.5rem 1rem;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        z-index: 100;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      
+      .header-left {
+        flex: 1;
+      }
+      
+      .header-title {
+        font-size: 0.95rem;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+        margin-bottom: 0.15rem;
+      }
+      
+      .header-location {
+        font-size: 0.75rem;
+        opacity: 0.95;
+        font-weight: 600;
+      }
+      
+      .header-subtitle {
+        font-size: 0.7rem;
+        opacity: 0.85;
+      }
+      
+      .toggle-btn {
+        background: rgba(255,255,255,0.2);
+        color: white;
+        border: 1px solid rgba(255,255,255,0.3);
+        padding: 0.4rem 0.6rem;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1.1rem;
+        width: 36px;
+        height: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.2s;
+      }
+      
+      .toggle-btn:active {
+        background: rgba(255,255,255,0.35);
+        transform: scale(0.95);
+      }
+      
+      .container {
+        position: fixed;
+        top: 48px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        z-index: 50;
+      }
+      
+      #map {
+        flex: 1;
+        min-width: 0;
+        transition: all 0.3s ease;
+      }
+      
+      .sidebar {
+        width: 360px;
+        background: #fff;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        box-shadow: -1px 0 3px rgba(0,0,0,0.08);
+        border-top: 1px solid #f0f0f0;
+        transition: width 0.3s ease;
+        z-index: 10;
+      }
+      
+      .sidebar.hidden {
+        width: 0;
+        overflow: hidden;
+        box-shadow: none;
+      }
+      
+      .sidebar-content {
+        width: 360px;
+        padding: 0.8rem;
+      }
     }
     
-    .header-left {
-      flex: 1;
+    /* MOBILE: Bottom drawer layout */
+    @media (max-width: 768px) {
+      body {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+      }
+      
+      .header {
+        background: linear-gradient(135deg, #c41c3b 0%, #d84315 100%);
+        color: white;
+        padding: 0.5rem 0.8rem;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        z-index: 100;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: auto;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 0.5rem;
+      }
+      
+      .header-left {
+        flex: 1;
+        min-width: 0;
+      }
+      
+      .header-title {
+        font-size: 0.9rem;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        gap: 0.3rem;
+        margin-bottom: 0.1rem;
+      }
+      
+      .header-location {
+        font-size: 0.7rem;
+        opacity: 0.95;
+        font-weight: 600;
+      }
+      
+      .header-subtitle {
+        font-size: 0.65rem;
+        opacity: 0.85;
+      }
+      
+      .header-right {
+        flex-shrink: 0;
+        display: flex;
+        gap: 0.3rem;
+      }
+      
+      .toggle-btn {
+        background: rgba(255,255,255,0.25);
+        color: white;
+        border: 1px solid rgba(255,255,255,0.4);
+        padding: 0.35rem;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 1.2rem;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.2s;
+        flex-shrink: 0;
+        -webkit-user-select: none;
+        user-select: none;
+      }
+      
+      .toggle-btn:active {
+        background: rgba(255,255,255,0.35);
+        transform: scale(0.92);
+      }
+      
+      .container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        z-index: 40;
+      }
+      
+      #map {
+        flex: 1;
+        width: 100%;
+        margin-top: auto;
+      }
+      
+      .sidebar {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 0;
+        background: #fff;
+        overflow: hidden;
+        box-shadow: 0 -2px 8px rgba(0,0,0,0.15);
+        border-radius: 16px 16px 0 0;
+        transition: height 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        z-index: 105;
+        -webkit-overflow-scrolling: touch;
+      }
+      
+      .sidebar.visible {
+        height: 60vh;
+        max-height: 80vh;
+      }
+      
+      .sidebar-content {
+        width: 100%;
+        padding: 1rem;
+        height: 100%;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+      }
+      
+      .sidebar-handle {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 40px;
+        height: 4px;
+        background: #ddd;
+        border-radius: 2px;
+        margin-top: 8px;
+      }
     }
     
-    .header-title {
-      font-size: 0.95rem;
-      font-weight: 700;
-      display: flex;
-      align-items: center;
-      gap: 0.4rem;
-      margin-bottom: 0.15rem;
-    }
-    
-    .header-location {
-      font-size: 0.75rem;
-      opacity: 0.95;
-      min-height: 14px;
-      font-weight: 600;
-    }
-    
-    .header-subtitle {
-      font-size: 0.7rem;
-      opacity: 0.85;
-    }
-    
-    .header-right {
-      display: flex;
-      gap: 0.5rem;
-      align-items: center;
-    }
-    
-    .toggle-btn {
-      background: rgba(255,255,255,0.2);
-      color: white;
-      border: 1px solid rgba(255,255,255,0.3);
-      padding: 0.4rem 0.6rem;
-      border-radius: 5px;
-      cursor: pointer;
-      font-size: 1.1rem;
-      width: 36px;
-      height: 36px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transition: all 0.2s;
-    }
-    
-    .toggle-btn:active {
-      background: rgba(255,255,255,0.3);
-      transform: scale(0.95);
-    }
-    
-    .container {
-      display: flex;
-      height: calc(100vh - 48px);
-      position: relative;
-      z-index: 1;
-    }
-    
-    #map {
-      flex: 1;
-      min-width: 0;
-      transition: all 0.3s ease;
-    }
-    
-    .sidebar {
-      width: 360px;
-      background: #fff;
-      overflow-y: auto;
-      box-shadow: -1px 0 3px rgba(0,0,0,0.08);
-      border-top: 1px solid #f0f0f0;
-      -webkit-overflow-scrolling: touch;
-      transition: all 0.3s ease;
-      position: relative;
-      z-index: 10;
-    }
-    
-    .sidebar.hidden {
-      width: 0;
-      overflow: hidden;
-      box-shadow: none;
-    }
-    
-    .sidebar-content {
-      padding: 0.8rem;
-      width: 360px;
-    }
-    
+    /* Shared Styles */
     .sidebar-header {
       font-size: 0.9rem;
       font-weight: 700;
@@ -187,7 +331,6 @@
       background: #a01630;
     }
     
-    /* Filters */
     .filters-section {
       background: #f8f8f8;
       padding: 0.7rem;
@@ -212,6 +355,12 @@
       margin-bottom: 0.7rem;
     }
     
+    @media (max-width: 480px) {
+      .status-filters {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+    }
+    
     .status-btn {
       padding: 0.35rem 0.4rem;
       border: 1px solid #ddd;
@@ -228,10 +377,6 @@
       border-color: #c41c3b;
       background: #c41c3b;
       color: white;
-    }
-    
-    .distance-filter {
-      margin-top: 0.5rem;
     }
     
     .distance-slider {
@@ -349,6 +494,12 @@
       font-size: 0.6rem;
     }
     
+    @media (max-width: 480px) {
+      .park-distances {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    
     .distance-item {
       background: rgba(0,0,0,0.02);
       padding: 0.25rem;
@@ -409,53 +560,13 @@
       border-top: 1px solid #f0f0f0;
       margin-top: 0.6rem;
     }
-    
-    /* Mobile */
-    @media (max-width: 768px) {
-      .header { padding: 0.5rem 0.8rem; }
-      .header-title { font-size: 0.9rem; }
-      
-      .container {
-        flex-direction: column;
-        height: calc(100vh - 44px);
-      }
-      
-      #map { height: 100%; width: 100%; }
-      
-      .sidebar {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        width: 100% !important;
-        height: 50vh;
-        border-radius: 12px 12px 0 0;
-        z-index: 105;
-      }
-      
-      .sidebar.hidden {
-        height: 0;
-        width: 100% !important;
-        overflow: hidden;
-      }
-      
-      .status-filters { grid-template-columns: 1fr 1fr 1fr; }
-      .park-distances { grid-template-columns: 1fr 1fr; }
-    }
-    
-    @media (max-width: 480px) {
-      .header { padding: 0.45rem 0.7rem; }
-      .header-title { font-size: 0.85rem; }
-      .sidebar-content { padding: 0.7rem; }
-      .park-card { padding: 0.55rem; }
-    }
   </style>
 </head>
 <body>
   <!-- Falling Leaves -->
   <div class="leaves-container" id="leavesContainer"></div>
   
-  <!-- Minimal Header -->
+  <!-- Header -->
   <div class="header">
     <div class="header-left">
       <div class="header-title">🍂 Ontario Fall Colors</div>
@@ -467,16 +578,17 @@
     </div>
   </div>
   
+  <!-- Map & Sidebar -->
   <div class="container">
     <div id="map"></div>
     <div class="sidebar" id="sidebar">
+      <div class="sidebar-handle"></div>
       <div class="sidebar-content">
         <div class="sidebar-header">
           <span>📍 Parks</span>
           <button class="refresh-btn" id="refreshBtn">🔄</button>
         </div>
         
-        <!-- Filters -->
         <div class="filters-section">
           <div class="filter-title">Status</div>
           <div class="status-filters">
@@ -493,7 +605,6 @@
           </div>
         </div>
         
-        <!-- Legend -->
         <div class="legend">
           <div class="legend-item">
             <div class="legend-dot peak"></div>
@@ -534,7 +645,8 @@
     let maxDistance = 400;
     let userLocation = DEFAULT_LOCATION;
     let locationDetected = false;
-    let sidebarOpen = true;
+    let sidebarOpen = false;
+    let isMobile = window.innerWidth <= 768;
     
     function createFallingLeaves() {
       const container = document.getElementById('leavesContainer');
@@ -558,16 +670,30 @@
     
     function toggleSidebar() {
       const sidebar = document.getElementById('sidebar');
+      const toggleBtn = document.getElementById('toggleBtn');
+      
       sidebarOpen = !sidebarOpen;
       
-      if (sidebarOpen) {
-        sidebar.classList.remove('hidden');
+      if (isMobile) {
+        if (sidebarOpen) {
+          sidebar.classList.add('visible');
+          toggleBtn.textContent = '✕';
+        } else {
+          sidebar.classList.remove('visible');
+          toggleBtn.textContent = '☰';
+        }
       } else {
-        sidebar.classList.add('hidden');
+        if (sidebarOpen) {
+          sidebar.classList.remove('hidden');
+          toggleBtn.textContent = '✕';
+        } else {
+          sidebar.classList.add('hidden');
+          toggleBtn.textContent = '☰';
+        }
       }
       
       setTimeout(() => {
-        map.invalidateSize();
+        try { map.invalidateSize(); } catch(e) {}
       }, 300);
     }
     
@@ -585,18 +711,13 @@
         }
         return 'Your Location';
       } catch (error) {
-        console.error('Geocoding error:', error);
         return 'Your Location';
       }
     }
     
     function updateLocationDisplay() {
       const locationEl = document.getElementById('locationStatus');
-      if (locationDetected) {
-        locationEl.textContent = `📍 ${userLocation.name}`;
-      } else {
-        locationEl.textContent = `📍 ${userLocation.name}`;
-      }
+      locationEl.textContent = `📍 ${userLocation.name}`;
     }
     
     function detectUserLocation() {
@@ -612,11 +733,7 @@
           
           const cityName = await reverseGeocode(lat, lng);
           
-          userLocation = {
-            lat: lat,
-            lng: lng,
-            name: cityName
-          };
+          userLocation = { lat, lng, name: cityName };
           locationDetected = true;
           updateLocationDisplay();
           filterAndDisplayParks();
@@ -626,11 +743,7 @@
           updateLocationDisplay();
           filterAndDisplayParks();
         },
-        { 
-          timeout: 8000, 
-          maximumAge: 300000,
-          enableHighAccuracy: false
-        }
+        { timeout: 8000, maximumAge: 300000, enableHighAccuracy: false }
       );
     }
     
@@ -646,7 +759,11 @@
     }
     
     function initMap() {
-      map = L.map('map').setView([51.2538, -85.3232], 5);
+      map = L.map('map', { 
+        zoomControl: true,
+        attributionControl: true 
+      }).setView([51.2538, -85.3232], 5);
+      
       L.tileLayer('https://tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png', {
         attribution: '© OpenStreetMap',
         maxZoom: 18
@@ -680,15 +797,10 @@
           cache: 'no-cache'
         });
         
-        if (!response.ok) {
-          throw new Error(`HTTP ${response.status}`);
-        }
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
         
         const data = await response.json();
-        
-        if (!data.parks) {
-          throw new Error('Invalid data');
-        }
+        if (!data.parks) throw new Error('Invalid data');
         
         parksData = data.parks;
         
@@ -711,7 +823,7 @@
       } catch (error) {
         console.error('Error:', error.message);
         document.getElementById('parkList').innerHTML = 
-          `<div class="empty-state">Unable to load data</div>`;
+          '<div class="empty-state">Unable to load data. Please try again.</div>';
       }
     }
     
@@ -800,14 +912,15 @@
       }
     }
     
-    document.getElementById('toggleBtn').addEventListener('click', toggleSidebar);
-    document.getElementById('refreshBtn').addEventListener('click', loadParks);
+    // Event Listeners
+    document.getElementById('toggleBtn').addEventListener('click', toggleSidebar, false);
+    document.getElementById('refreshBtn').addEventListener('click', loadParks, false);
     
     document.getElementById('distanceSlider').addEventListener('input', (e) => {
       maxDistance = parseInt(e.target.value);
       document.getElementById('distanceValue').textContent = maxDistance;
       filterAndDisplayParks();
-    });
+    }, false);
     
     document.querySelectorAll('.status-btn').forEach(btn => {
       btn.addEventListener('click', (e) => {
@@ -815,7 +928,7 @@
         e.target.classList.add('active');
         activeStatus = e.target.dataset.status;
         filterAndDisplayParks();
-      });
+      }, false);
     });
     
     setInterval(loadParks, 5 * 60 * 1000);
