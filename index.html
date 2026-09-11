@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
   <title>Ontario Fall Colors - Live Map</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
@@ -11,23 +11,22 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
+      -webkit-tap-highlight-color: transparent;
     }
     
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
-      background: #f5f5f5;
-      height: 100vh;
+    html, body {
+      width: 100%;
+      height: 100%;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #fff;
       overflow: hidden;
     }
     
-    /* Falling Leaves Animation */
+    /* Falling Leaves */
     @keyframes fall {
       0% {
         transform: translateY(-100px) rotateZ(0deg);
         opacity: 1;
-      }
-      90% {
-        opacity: 0.8;
       }
       100% {
         transform: translateY(100vh) rotateZ(720deg);
@@ -50,120 +49,140 @@
       position: absolute;
       width: 50px;
       height: 50px;
-      opacity: 0.75;
+      opacity: 0.7;
       animation: fall linear infinite;
-      filter: drop-shadow(0 0 3px rgba(0,0,0,0.2));
+      filter: drop-shadow(0 0 2px rgba(0,0,0,0.1));
       font-size: 32px;
       display: flex;
       align-items: center;
       justify-content: center;
-      line-height: 1;
     }
     
+    /* Minimal Header */
     .header {
-      background: linear-gradient(135deg, #c41c3b 0%, #d84315 50%, #f57c00 100%);
+      background: linear-gradient(135deg, #c41c3b 0%, #d84315 100%);
       color: white;
-      padding: 1.5rem;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      padding: 0.5rem 1rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
       z-index: 100;
       position: relative;
     }
     
-    .header h1 {
-      font-size: 1.8rem;
-      margin-bottom: 0.25rem;
+    .header-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.5rem;
+    }
+    
+    .header-title {
+      font-size: 0.95rem;
       font-weight: 700;
       display: flex;
       align-items: center;
-      gap: 0.75rem;
+      gap: 0.4rem;
     }
     
-    .header p {
-      font-size: 0.9rem;
-      opacity: 0.95;
+    .header-location {
+      font-size: 0.7rem;
+      opacity: 0.9;
+      padding-top: 0.2rem;
+      min-height: 16px;
+    }
+    
+    .header-subtitle {
+      font-size: 0.7rem;
+      opacity: 0.85;
     }
     
     .container {
       display: flex;
-      height: calc(100vh - 70px);
+      height: calc(100vh - 48px);
       position: relative;
       z-index: 1;
     }
     
     #map {
       flex: 1;
+      min-width: 0;
     }
     
     .sidebar {
-      width: 380px;
-      background: white;
+      width: 360px;
+      background: #fff;
       overflow-y: auto;
-      box-shadow: -2px 0 8px rgba(0,0,0,0.15);
-      border-top: 1px solid #e0e0e0;
+      box-shadow: -1px 0 3px rgba(0,0,0,0.08);
+      border-top: 1px solid #f0f0f0;
+      -webkit-overflow-scrolling: touch;
     }
     
     .sidebar-content {
-      padding: 1rem;
+      padding: 0.8rem;
     }
     
     .sidebar-header {
-      font-size: 1.1rem;
-      font-weight: bold;
-      margin-bottom: 1rem;
-      color: #111;
+      font-size: 0.9rem;
+      font-weight: 700;
+      margin-bottom: 0.8rem;
+      color: #222;
       display: flex;
       justify-content: space-between;
       align-items: center;
+      gap: 0.5rem;
     }
     
     .refresh-btn {
       background: #c41c3b;
       color: white;
       border: none;
-      padding: 0.5rem 0.75rem;
-      border-radius: 6px;
+      padding: 0.35rem 0.55rem;
+      border-radius: 5px;
       cursor: pointer;
-      font-size: 0.8rem;
-      font-weight: bold;
-      transition: all 0.2s;
+      font-size: 0.65rem;
+      font-weight: 600;
+      transition: all 0.15s;
     }
     
-    .refresh-btn:hover {
+    .refresh-btn:active {
+      transform: scale(0.95);
       background: #a01630;
-      transform: scale(1.05);
     }
     
     /* Filters */
     .filters-section {
-      background: #f9f9f9;
-      padding: 1rem;
-      border-radius: 8px;
-      margin-bottom: 1rem;
+      background: #f8f8f8;
+      padding: 0.7rem;
+      border-radius: 6px;
+      margin-bottom: 0.8rem;
     }
     
     .filter-title {
-      font-size: 0.9rem;
-      font-weight: bold;
+      font-size: 0.75rem;
+      font-weight: 700;
       color: #333;
-      margin-bottom: 0.75rem;
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+      opacity: 0.8;
     }
     
     .status-filters {
-      display: flex;
-      gap: 0.5rem;
-      margin-bottom: 1rem;
-      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 0.4rem;
+      margin-bottom: 0.7rem;
     }
     
     .status-btn {
-      padding: 0.5rem 0.75rem;
-      border: 2px solid #ddd;
+      padding: 0.35rem 0.4rem;
+      border: 1px solid #ddd;
       background: white;
-      border-radius: 6px;
+      border-radius: 5px;
       cursor: pointer;
-      font-size: 0.8rem;
+      font-size: 0.65rem;
       font-weight: 600;
-      transition: all 0.2s;
+      transition: all 0.15s;
+      text-align: center;
     }
     
     .status-btn.active {
@@ -173,13 +192,13 @@
     }
     
     .distance-filter {
-      margin-top: 0.75rem;
+      margin-top: 0.5rem;
     }
     
     .distance-slider {
       width: 100%;
-      height: 6px;
-      border-radius: 3px;
+      height: 4px;
+      border-radius: 2px;
       background: linear-gradient(to right, #7cb342, #f57c00, #c41c3b);
       outline: none;
       -webkit-appearance: none;
@@ -187,219 +206,197 @@
     
     .distance-slider::-webkit-slider-thumb {
       -webkit-appearance: none;
-      appearance: none;
-      width: 18px;
-      height: 18px;
+      width: 16px;
+      height: 16px;
       border-radius: 50%;
       background: #c41c3b;
       cursor: pointer;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+      box-shadow: 0 1px 3px rgba(0,0,0,0.15);
     }
     
     .distance-slider::-moz-range-thumb {
-      width: 18px;
-      height: 18px;
+      width: 16px;
+      height: 16px;
       border-radius: 50%;
       background: #c41c3b;
       cursor: pointer;
       border: none;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+      box-shadow: 0 1px 3px rgba(0,0,0,0.15);
     }
     
     .distance-value {
       text-align: center;
-      font-size: 0.85rem;
+      font-size: 0.7rem;
       color: #c41c3b;
-      font-weight: bold;
-      margin-top: 0.5rem;
+      font-weight: 700;
+      margin-top: 0.35rem;
     }
     
     .legend {
-      background: #f0f0f0;
-      padding: 0.75rem;
-      border-radius: 8px;
-      margin-bottom: 1rem;
-      font-size: 0.8rem;
+      background: #f8f8f8;
+      padding: 0.6rem;
+      border-radius: 6px;
+      margin-bottom: 0.8rem;
+      font-size: 0.7rem;
     }
     
     .legend-item {
       display: flex;
       align-items: center;
-      gap: 0.5rem;
-      margin-bottom: 0.5rem;
+      gap: 0.4rem;
+      margin-bottom: 0.3rem;
     }
     
     .legend-dot {
-      width: 12px;
-      height: 12px;
+      width: 8px;
+      height: 8px;
       border-radius: 50%;
       flex-shrink: 0;
     }
     
-    .legend-dot.peak {
-      background: #c41c3b;
-    }
-    
-    .legend-dot.approaching {
-      background: #d84315;
-    }
-    
-    .legend-dot.early {
-      background: #7cb342;
-    }
+    .legend-dot.peak { background: #c41c3b; }
+    .legend-dot.approaching { background: #d84315; }
+    .legend-dot.early { background: #7cb342; }
     
     .park-list {
       display: flex;
       flex-direction: column;
-      gap: 0.75rem;
+      gap: 0.5rem;
     }
     
     .park-card {
       background: white;
-      border-left: 4px solid #ddd;
-      padding: 0.9rem;
-      border-radius: 6px;
+      border-left: 3px solid #ddd;
+      padding: 0.6rem;
+      border-radius: 5px;
       cursor: pointer;
-      transition: all 0.2s;
-      border: 1px solid #e0e0e0;
+      transition: all 0.15s;
+      border: 1px solid #e8e8e8;
     }
     
-    .park-card:hover {
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      transform: translateX(4px);
+    .park-card:active {
+      box-shadow: 0 2px 4px rgba(0,0,0,0.08);
     }
     
-    .park-card.peak {
-      border-left-color: #c41c3b;
-      background: #fde5e8;
-    }
-    
-    .park-card.approaching {
-      border-left-color: #d84315;
-      background: #fef1e8;
-    }
-    
-    .park-card.early {
-      border-left-color: #7cb342;
-      background: #f6fdf0;
-    }
+    .park-card.peak { border-left-color: #c41c3b; background: #fde5e8; }
+    .park-card.approaching { border-left-color: #d84315; background: #fef1e8; }
+    .park-card.early { border-left-color: #7cb342; background: #f6fdf0; }
     
     .park-name {
-      font-weight: bold;
-      font-size: 0.95rem;
-      color: #111;
-      margin-bottom: 0.4rem;
+      font-weight: 700;
+      font-size: 0.8rem;
+      color: #222;
+      margin-bottom: 0.2rem;
     }
     
     .park-status {
       display: inline-block;
-      padding: 0.25rem 0.5rem;
-      border-radius: 4px;
-      font-size: 0.7rem;
-      font-weight: bold;
-      margin-bottom: 0.5rem;
+      padding: 0.15rem 0.3rem;
+      border-radius: 3px;
+      font-size: 0.6rem;
+      font-weight: 700;
+      margin-bottom: 0.3rem;
     }
     
-    .park-status.peak {
-      background: #ffcdd2;
-      color: #b71c1c;
-    }
-    
-    .park-status.approaching {
-      background: #ffe0b2;
-      color: #e65100;
-    }
-    
-    .park-status.early {
-      background: #c8e6c9;
-      color: #33691e;
-    }
+    .park-status.peak { background: #ffcdd2; color: #b71c1c; }
+    .park-status.approaching { background: #ffe0b2; color: #e65100; }
+    .park-status.early { background: #c8e6c9; color: #33691e; }
     
     .park-distances {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
-      gap: 0.5rem;
-      margin: 0.5rem 0;
-      font-size: 0.75rem;
+      gap: 0.3rem;
+      margin: 0.3rem 0;
+      font-size: 0.6rem;
     }
     
     .distance-item {
-      background: rgba(0,0,0,0.03);
-      padding: 0.4rem;
-      border-radius: 4px;
+      background: rgba(0,0,0,0.02);
+      padding: 0.25rem;
+      border-radius: 3px;
       text-align: center;
     }
     
     .distance-city {
       color: #666;
       font-weight: 600;
+      font-size: 0.55rem;
     }
     
     .distance-time {
       color: #c41c3b;
-      font-weight: bold;
-      font-size: 0.85rem;
+      font-weight: 700;
+      font-size: 0.7rem;
     }
     
     .park-stats {
       display: flex;
-      gap: 0.75rem;
-      font-size: 0.8rem;
-      margin: 0.5rem 0;
+      gap: 0.4rem;
+      font-size: 0.6rem;
+      margin: 0.3rem 0;
     }
     
     .park-stat {
       flex: 1;
-      background: rgba(196, 28, 59, 0.1);
-      padding: 0.4rem;
-      border-radius: 4px;
+      background: rgba(196, 28, 59, 0.06);
+      padding: 0.25rem;
+      border-radius: 3px;
       text-align: center;
     }
     
     .park-stat-value {
-      font-weight: bold;
-      font-size: 0.95rem;
+      font-weight: 700;
+      font-size: 0.75rem;
       color: #c41c3b;
     }
     
     .park-stat-label {
       color: #999;
-      font-size: 0.7rem;
+      font-size: 0.55rem;
     }
     
     .empty-state {
       text-align: center;
-      padding: 2rem 1rem;
+      padding: 1rem;
       color: #999;
+      font-size: 0.8rem;
     }
     
     .last-updated {
-      font-size: 0.75rem;
+      font-size: 0.65rem;
       color: #999;
       text-align: center;
-      padding: 0.75rem;
-      border-top: 1px solid #e0e0e0;
-      margin-top: 1rem;
+      padding: 0.5rem;
+      border-top: 1px solid #f0f0f0;
+      margin-top: 0.6rem;
+    }
+    
+    /* Responsive */
+    @media (max-width: 1024px) {
+      .sidebar { width: 320px; }
     }
     
     @media (max-width: 768px) {
+      .header { padding: 0.5rem 0.8rem; }
+      .header-title { font-size: 0.9rem; }
+      
       .container {
         flex-direction: column;
+        height: calc(100vh - 44px);
       }
       
-      .sidebar {
-        width: 100%;
-        height: 35vh;
-        max-height: 35vh;
-      }
+      #map { height: 50vh; width: 100%; }
+      .sidebar { width: 100%; height: 50vh; }
       
-      #map {
-        height: 65vh;
-      }
-      
-      .park-distances {
-        grid-template-columns: 1fr 1fr;
-      }
+      .status-filters { grid-template-columns: 1fr 1fr 1fr; }
+      .park-distances { grid-template-columns: 1fr 1fr; }
+    }
+    
+    @media (max-width: 480px) {
+      .header { padding: 0.45rem 0.7rem; }
+      .header-title { font-size: 0.85rem; }
+      .sidebar-content { padding: 0.7rem; }
+      .park-card { padding: 0.55rem; }
     }
   </style>
 </head>
@@ -407,9 +404,14 @@
   <!-- Falling Leaves -->
   <div class="leaves-container" id="leavesContainer"></div>
   
+  <!-- Minimal Header -->
   <div class="header">
-    <h1>🍂 Ontario Fall Colors - Live Map</h1>
-    <p>Real-time data from Ontario Parks • Auto-updates every hour</p>
+    <div class="header-top">
+      <div class="header-title">🍂 Ontario Fall Colors</div>
+      <div style="font-size: 0.7rem; opacity: 0.9;">Live Map</div>
+    </div>
+    <div class="header-subtitle">Real-time data from Ontario Parks</div>
+    <div class="header-location" id="locationStatus">📍 Detecting location...</div>
   </div>
   
   <div class="container">
@@ -418,23 +420,23 @@
       <div class="sidebar-content">
         <div class="sidebar-header">
           <span>📍 Parks</span>
-          <button class="refresh-btn" id="refreshBtn">🔄 Refresh</button>
+          <button class="refresh-btn" id="refreshBtn">🔄</button>
         </div>
         
         <!-- Filters -->
         <div class="filters-section">
-          <div class="filter-title">Status Filter</div>
+          <div class="filter-title">Status</div>
           <div class="status-filters">
             <button class="status-btn active" data-status="all">All</button>
             <button class="status-btn" data-status="peak">🔴 Peak</button>
-            <button class="status-btn" data-status="approaching">🟠 Approaching</button>
+            <button class="status-btn" data-status="approaching">🟠 Near</button>
             <button class="status-btn" data-status="early">🟢 Early</button>
           </div>
           
-          <div class="filter-title" style="margin-top: 0.75rem;">Distance Filter (Brampton)</div>
+          <div class="filter-title" style="margin-top: 0.5rem;">Distance</div>
           <div class="distance-filter">
             <input type="range" id="distanceSlider" class="distance-slider" min="0" max="400" value="400" />
-            <div class="distance-value">Show within <span id="distanceValue">400</span> min</div>
+            <div class="distance-value"><span id="distanceValue">400</span> min</div>
           </div>
         </div>
         
@@ -442,15 +444,15 @@
         <div class="legend">
           <div class="legend-item">
             <div class="legend-dot peak"></div>
-            <span><strong>Peak</strong> (10%+)</span>
+            <span>Peak (10%+)</span>
           </div>
           <div class="legend-item">
             <div class="legend-dot approaching"></div>
-            <span><strong>Approaching</strong> (5-9%)</span>
+            <span>Approaching (5-9%)</span>
           </div>
           <div class="legend-item">
             <div class="legend-dot early"></div>
-            <span><strong>Early</strong> (0-4%)</span>
+            <span>Early (0-4%)</span>
           </div>
         </div>
         
@@ -464,13 +466,12 @@
   </div>
   
   <script>
-    const DATA_SOURCE = 'https://raw.githubusercontent.com/Baljinder95/fall-colors-data/main/parks_data.json';
-    
-    // City coordinates
+    const DATA_URL = 'https://raw.githubusercontent.com/Baljinder95/fall-colors-data/main/parks_data.json';
+    const DEFAULT_LOCATION = { lat: 43.65, lng: -79.38, name: 'Toronto' };
     const CITIES = {
-      brampton: { lat: 43.73, lng: -79.76, name: 'Brampton' },
+      toronto: { lat: 43.65, lng: -79.38, name: 'Toronto' },
       mississauga: { lat: 43.59, lng: -79.64, name: 'Mississauga' },
-      toronto: { lat: 43.65, lng: -79.38, name: 'Toronto' }
+      brampton: { lat: 43.73, lng: -79.76, name: 'Brampton' }
     };
     
     let map;
@@ -478,20 +479,21 @@
     let parksData = {};
     let activeStatus = 'all';
     let maxDistance = 400;
+    let userLocation = DEFAULT_LOCATION;
+    let locationDetected = false;
     
-    // Create falling leaves
     function createFallingLeaves() {
       const container = document.getElementById('leavesContainer');
       const leafEmojis = ['🍂', '🍁', '🌿'];
       
-      for (let i = 0; i < 25; i++) {
+      for (let i = 0; i < 20; i++) {
         const leaf = document.createElement('div');
         leaf.className = 'leaf';
         leaf.textContent = leafEmojis[Math.floor(Math.random() * leafEmojis.length)];
         leaf.style.left = Math.random() * 100 + '%';
         
-        const duration = Math.random() * 8 + 10; // 10-18 seconds
-        const delay = Math.random() * 5; // 0-5 second delay
+        const duration = Math.random() * 8 + 12;
+        const delay = Math.random() * 5;
         
         leaf.style.animationDuration = duration + 's';
         leaf.style.animationDelay = delay + 's';
@@ -500,7 +502,46 @@
       }
     }
     
-    // Calculate distance between two coordinates
+    function updateLocationDisplay() {
+      const locationEl = document.getElementById('locationStatus');
+      if (locationDetected) {
+        const lat = userLocation.lat.toFixed(2);
+        const lng = userLocation.lng.toFixed(2);
+        locationEl.textContent = `📍 Your Location (${lat}, ${lng})`;
+      } else {
+        locationEl.textContent = `📍 ${userLocation.name}`;
+      }
+    }
+    
+    function detectUserLocation() {
+      if (!('geolocation' in navigator)) {
+        updateLocationDisplay();
+        return;
+      }
+      
+      navigator.geolocation.getCurrentPosition(
+        (position) => {
+          userLocation = {
+            lat: position.coords.latitude,
+            lng: position.coords.longitude
+          };
+          locationDetected = true;
+          updateLocationDisplay();
+          filterAndDisplayParks();
+        },
+        (error) => {
+          locationDetected = false;
+          updateLocationDisplay();
+          filterAndDisplayParks();
+        },
+        { 
+          timeout: 8000, 
+          maximumAge: 300000,
+          enableHighAccuracy: false
+        }
+      );
+    }
+    
     function calculateDistance(lat1, lng1, lat2, lng2) {
       const R = 6371;
       const dLat = (lat2 - lat1) * Math.PI / 180;
@@ -512,17 +553,14 @@
       return Math.round((R * c) / 1.6);
     }
     
-    // Initialize map
     function initMap() {
       map = L.map('map').setView([51.2538, -85.3232], 5);
-      
       L.tileLayer('https://tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png', {
-        attribution: '© OpenStreetMap contributors',
+        attribution: '© OpenStreetMap',
         maxZoom: 18
       }).addTo(map);
     }
     
-    // Get marker color
     function getMarkerColor(colorChange) {
       if (colorChange >= 10) return '#c41c3b';
       if (colorChange >= 5) return '#d84315';
@@ -541,63 +579,77 @@
       return '🟢 Early Season';
     }
     
-    // Load parks
     async function loadParks() {
       try {
-        const response = await fetch(DATA_SOURCE);
+        const response = await fetch(DATA_URL, {
+          method: 'GET',
+          headers: {
+            'Accept': 'application/json'
+          },
+          mode: 'cors',
+          cache: 'no-cache'
+        });
+        
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+        }
+        
         const data = await response.json();
+        
+        if (!data.parks) {
+          throw new Error('Invalid data structure');
+        }
+        
         parksData = data.parks;
         
         const lastUpdated = new Date(data.lastUpdated);
         document.getElementById('lastUpdated').textContent = 
           `Updated: ${lastUpdated.toLocaleTimeString()}`;
         
-        Object.values(markers).forEach(marker => map.removeLayer(marker));
+        Object.values(markers).forEach(marker => {
+          try { map.removeLayer(marker); } catch(e) {}
+        });
         markers = {};
         
-        // Calculate distances for each park
         Object.entries(parksData).forEach(([parkName, park]) => {
           if (park.lat && park.lng) {
-            park.distances = {
-              brampton: calculateDistance(CITIES.brampton.lat, CITIES.brampton.lng, park.lat, park.lng),
-              mississauga: calculateDistance(CITIES.mississauga.lat, CITIES.mississauga.lng, park.lat, park.lng),
-              toronto: calculateDistance(CITIES.toronto.lat, CITIES.toronto.lng, park.lat, park.lng)
-            };
+            park.distance = calculateDistance(userLocation.lat, userLocation.lng, park.lat, park.lng);
           }
         });
         
         filterAndDisplayParks();
-        
       } catch (error) {
-        console.error('Error loading parks:', error);
+        console.error('Error loading parks:', error.message);
         document.getElementById('parkList').innerHTML = 
-          '<div class="empty-state">Error loading data</div>';
+          `<div class="empty-state">Unable to load data. Please check your connection and try again.</div>`;
       }
     }
     
-    // Filter and display parks
     function filterAndDisplayParks() {
-      Object.values(markers).forEach(marker => map.removeLayer(marker));
+      if (!parksData || Object.keys(parksData).length === 0) return;
+      
+      Object.values(markers).forEach(marker => {
+        try { map.removeLayer(marker); } catch(e) {}
+      });
       markers = {};
       
       const sortedParks = Object.entries(parksData)
         .filter(([name, park]) => {
           const status = getStatusClass(park.colorChange);
           const statusMatch = activeStatus === 'all' || status === activeStatus;
-          const distanceMatch = (park.distances?.brampton || 0) <= maxDistance;
+          const distanceMatch = (park.distance || 0) <= maxDistance;
           return statusMatch && distanceMatch;
         })
         .sort((a, b) => b[1].colorChange - a[1].colorChange);
       
-      // Add markers
       sortedParks.forEach(([parkName, park]) => {
         if (park.lat && park.lng) {
           const color = getMarkerColor(park.colorChange);
           const marker = L.circleMarker([park.lat, park.lng], {
-            radius: 8,
+            radius: 7,
             fillColor: color,
             color: 'white',
-            weight: 2,
+            weight: 1.5,
             opacity: 1,
             fillOpacity: 0.8
           }).addTo(map);
@@ -610,7 +662,6 @@
       updateParkList(sortedParks);
     }
     
-    // Update park list
     function updateParkList(sortedParks) {
       const listHTML = sortedParks
         .map(([parkName, park]) => `
@@ -620,16 +671,16 @@
             
             <div class="park-distances">
               <div class="distance-item">
-                <div class="distance-city">🍁 Brampton</div>
-                <div class="distance-time">${park.distances?.brampton || 0} min</div>
+                <div class="distance-city">📍 You</div>
+                <div class="distance-time">${park.distance || 0}m</div>
               </div>
               <div class="distance-item">
-                <div class="distance-city">🌆 Mississauga</div>
-                <div class="distance-time">${park.distances?.mississauga || 0} min</div>
+                <div class="distance-city">🌆 TO</div>
+                <div class="distance-time">${calculateDistance(CITIES.toronto.lat, CITIES.toronto.lng, park.lat, park.lng)}m</div>
               </div>
               <div class="distance-item">
-                <div class="distance-city">🏙️ Toronto</div>
-                <div class="distance-time">${park.distances?.toronto || 0} min</div>
+                <div class="distance-city">🏙️ GTA</div>
+                <div class="distance-time">${calculateDistance(CITIES.mississauga.lat, CITIES.mississauga.lng, park.lat, park.lng)}m</div>
               </div>
             </div>
             
@@ -640,16 +691,15 @@
               </div>
               <div class="park-stat">
                 <div class="park-stat-value">${park.leafFall}%</div>
-                <div class="park-stat-label">Leaf Fall</div>
+                <div class="park-stat-label">Fall</div>
               </div>
             </div>
           </div>
         `).join('');
       
-      document.getElementById('parkList').innerHTML = listHTML || '<div class="empty-state">No parks match filters</div>';
+      document.getElementById('parkList').innerHTML = listHTML || '<div class="empty-state">No parks found</div>';
     }
     
-    // Focus on park
     function focusPark(parkName) {
       if (parksData[parkName]) {
         const park = parksData[parkName];
@@ -660,7 +710,6 @@
       }
     }
     
-    // Event listeners
     document.getElementById('refreshBtn').addEventListener('click', loadParks);
     
     document.getElementById('distanceSlider').addEventListener('input', (e) => {
@@ -678,14 +727,13 @@
       });
     });
     
-    // Auto-refresh
     setInterval(loadParks, 5 * 60 * 1000);
     
-    // Initialize
     window.addEventListener('load', () => {
       createFallingLeaves();
       initMap();
-      loadParks();
+      detectUserLocation();
+      setTimeout(loadParks, 1500);
     });
   </script>
 </body>
