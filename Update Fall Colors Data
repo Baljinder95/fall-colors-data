@@ -1,0 +1,36 @@
+name: Update Fall Colors Data
+
+on:
+  schedule:
+    # Run every hour at :00
+    - cron: '0 * * * *'
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4
+      
+      - name: Run scraper
+        run: python scraper.py
+      
+      - name: Commit and push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add parks_data.json
+          git commit -m "Update: Fall colors data - $(date)" || echo "No changes"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
