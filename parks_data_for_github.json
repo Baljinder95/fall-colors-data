@@ -1,0 +1,537 @@
+{
+  "parks": {
+    "Algonquin": {
+      "name": "Algonquin",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 45.90,
+      "lng": -78.50,
+      "distance": 45,
+      "desc": "Highway 60 Corridor with spectacular viewing opportunities"
+    },
+    "Killarney": {
+      "name": "Killarney",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 46.10,
+      "lng": -81.30,
+      "distance": 90,
+      "desc": "Granite Ridge Trail with lookout views"
+    },
+    "Forks of the Credit": {
+      "name": "Forks of the Credit",
+      "colorChange": 10,
+      "leafFall": 10,
+      "lat": 43.80,
+      "lng": -80.20,
+      "distance": 35,
+      "desc": "Trans Canada Trail with accessible fall colors"
+    },
+    "Bon Echo": {
+      "name": "Bon Echo",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 44.90,
+      "lng": -77.10,
+      "distance": 85,
+      "desc": "Cliff Top Trail with observation platforms"
+    },
+    "Silent Lake": {
+      "name": "Silent Lake",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 44.70,
+      "lng": -78.00,
+      "distance": 75,
+      "desc": "Multiple loops with lakeside viewing"
+    },
+    "Halfway Lake": {
+      "name": "Halfway Lake",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 46.50,
+      "lng": -81.50,
+      "distance": 120,
+      "desc": "Boreal forest with golden poplars and birch"
+    },
+    "Bronte Creek": {
+      "name": "Bronte Creek",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 43.30,
+      "lng": -79.70,
+      "distance": 25,
+      "desc": "Ravine and field trails near Brampton"
+    },
+    "Lake Superior North": {
+      "name": "Lake Superior North",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 47.80,
+      "lng": -87.50,
+      "distance": 180,
+      "desc": "Trans-Canada Highway scenic views"
+    },
+    "Kakabeka Falls": {
+      "name": "Kakabeka Falls",
+      "colorChange": 10,
+      "leafFall": 0,
+      "lat": 48.40,
+      "lng": -89.60,
+      "distance": 200,
+      "desc": "Waterfall with boardwalk viewing"
+    },
+    "Rainbow Falls": {
+      "name": "Rainbow Falls",
+      "colorChange": 10,
+      "leafFall": 10,
+      "lat": 47.80,
+      "lng": -87.70,
+      "distance": 185,
+      "desc": "Lake Superior views from scenic overlook"
+    },
+    "Arrowhead": {
+      "name": "Arrowhead",
+      "colorChange": 10,
+      "leafFall": 0,
+      "lat": 45.15,
+      "lng": -79.35,
+      "distance": 60,
+      "desc": "Muskoka lakes and forest trails"
+    },
+    "Awenda": {
+      "name": "Awenda",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 44.95,
+      "lng": -79.60,
+      "distance": 80,
+      "desc": "Georgian Bay shoreline and sand dunes"
+    },
+    "Balsam Lake": {
+      "name": "Balsam Lake",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 44.40,
+      "lng": -79.25,
+      "distance": 70,
+      "desc": "Lake trails and forest viewing"
+    },
+    "Bass Lake": {
+      "name": "Bass Lake",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 46.40,
+      "lng": -87.90,
+      "distance": 160,
+      "desc": "Northern Ontario forest scenery"
+    },
+    "Bonnechere": {
+      "name": "Bonnechere",
+      "colorChange": 10,
+      "leafFall": 10,
+      "lat": 45.45,
+      "lng": -77.80,
+      "distance": 95,
+      "desc": "River valley hiking trails"
+    },
+    "Craigleith": {
+      "name": "Craigleith",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 44.20,
+      "lng": -80.25,
+      "distance": 90,
+      "desc": "Blue Mountain area with scenic views"
+    },
+    "Darlington": {
+      "name": "Darlington",
+      "colorChange": 10,
+      "leafFall": 10,
+      "lat": 43.85,
+      "lng": -79.05,
+      "distance": 35,
+      "desc": "Ajax waterfront park with trails"
+    },
+    "Earl Rowe": {
+      "name": "Earl Rowe",
+      "colorChange": 10,
+      "leafFall": 10,
+      "lat": 44.60,
+      "lng": -80.20,
+      "distance": 85,
+      "desc": "Forest and lake loops near Grey County"
+    },
+    "Emily": {
+      "name": "Emily",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 44.60,
+      "lng": -79.45,
+      "distance": 75,
+      "desc": "Lake and forest hiking trails"
+    },
+    "Fairbank": {
+      "name": "Fairbank",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 45.35,
+      "lng": -79.55,
+      "distance": 70,
+      "desc": "Muskoka region forest trails"
+    },
+    "Finlayson Point": {
+      "name": "Finlayson Point",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 45.00,
+      "lng": -76.80,
+      "distance": 140,
+      "desc": "Lake views and forest camping"
+    },
+    "Frontenac": {
+      "name": "Frontenac",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 44.50,
+      "lng": -76.70,
+      "distance": 120,
+      "desc": "Cataraqui Lake hiking trails"
+    },
+    "Grundy Lake": {
+      "name": "Grundy Lake",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 45.85,
+      "lng": -79.20,
+      "distance": 80,
+      "desc": "Island chains and lake scenery"
+    },
+    "Inverhuron": {
+      "name": "Inverhuron",
+      "colorChange": 10,
+      "leafFall": 0,
+      "lat": 44.00,
+      "lng": -81.45,
+      "distance": 110,
+      "desc": "Lake Huron beach and forest"
+    },
+    "Ivanhoe Lake": {
+      "name": "Ivanhoe Lake",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 45.80,
+      "lng": -81.00,
+      "distance": 105,
+      "desc": "Backcountry lake access"
+    },
+    "Kawartha Highlands": {
+      "name": "Kawartha Highlands",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 44.75,
+      "lng": -78.45,
+      "distance": 65,
+      "desc": "Highland lake and forest trails"
+    },
+    "Kettle Lakes": {
+      "name": "Kettle Lakes",
+      "colorChange": 10,
+      "leafFall": 0,
+      "lat": 47.70,
+      "lng": -85.10,
+      "distance": 200,
+      "desc": "Northern forest lake scenery"
+    },
+    "Killbear": {
+      "name": "Killbear",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 45.25,
+      "lng": -80.65,
+      "distance": 105,
+      "desc": "Georgian Bay peninsula views"
+    },
+    "Long Point": {
+      "name": "Long Point",
+      "colorChange": 10,
+      "leafFall": 10,
+      "lat": 42.55,
+      "lng": -80.35,
+      "distance": 105,
+      "desc": "Lake Erie wildlife area"
+    },
+    "MacGregor Point": {
+      "name": "MacGregor Point",
+      "colorChange": 10,
+      "leafFall": 10,
+      "lat": 44.70,
+      "lng": -81.20,
+      "distance": 115,
+      "desc": "Lake Huron beach camping"
+    },
+    "Mono Cliffs": {
+      "name": "Mono Cliffs",
+      "colorChange": 10,
+      "leafFall": 10,
+      "lat": 43.95,
+      "lng": -80.05,
+      "distance": 50,
+      "desc": "Escarpment cliff trails"
+    },
+    "Oxtongue River - Ragged Falls": {
+      "name": "Oxtongue River - Ragged Falls",
+      "colorChange": 10,
+      "leafFall": 0,
+      "lat": 45.60,
+      "lng": -78.70,
+      "distance": 60,
+      "desc": "Waterfall and river hiking"
+    },
+    "Quetico": {
+      "name": "Quetico",
+      "colorChange": 10,
+      "leafFall": 0,
+      "lat": 49.50,
+      "lng": -90.70,
+      "distance": 370,
+      "desc": "Wilderness lake canoeing"
+    },
+    "Sauble Falls": {
+      "name": "Sauble Falls",
+      "colorChange": 10,
+      "leafFall": 10,
+      "lat": 44.50,
+      "lng": -80.75,
+      "distance": 110,
+      "desc": "Waterfall and scenic overlook"
+    },
+    "Sibbald Point": {
+      "name": "Sibbald Point",
+      "colorChange": 10,
+      "leafFall": 10,
+      "lat": 44.20,
+      "lng": -79.40,
+      "distance": 55,
+      "desc": "Lake Simcoe peninsula camping"
+    },
+    "Pigeon River": {
+      "name": "Pigeon River",
+      "colorChange": 10,
+      "leafFall": 0,
+      "lat": 47.85,
+      "lng": -87.70,
+      "distance": 290,
+      "desc": "Northern river valley scenery"
+    },
+    "Presqu'ile": {
+      "name": "Presqu'ile",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 43.85,
+      "lng": -77.70,
+      "distance": 130,
+      "desc": "Rice Lake peninsula marsh trails"
+    },
+    "Petroglyphs": {
+      "name": "Petroglyphs",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 44.80,
+      "lng": -77.50,
+      "distance": 120,
+      "desc": "Historic rock art and forest"
+    },
+    "Pinery": {
+      "name": "Pinery",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 43.20,
+      "lng": -81.75,
+      "distance": 125,
+      "desc": "Lake Huron dune ecology trails"
+    },
+    "Point Farms": {
+      "name": "Point Farms",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 44.00,
+      "lng": -81.90,
+      "distance": 120,
+      "desc": "Lake Huron beach access"
+    },
+    "Port Burwell": {
+      "name": "Port Burwell",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 42.65,
+      "lng": -80.60,
+      "distance": 100,
+      "desc": "Lake Erie waterfront"
+    },
+    "Port Bruce": {
+      "name": "Port Bruce",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 42.70,
+      "lng": -80.80,
+      "distance": 100,
+      "desc": "Thames River estuary area"
+    },
+    "Turkey Point": {
+      "name": "Turkey Point",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 42.70,
+      "lng": -80.35,
+      "distance": 100,
+      "desc": "Lake Erie nature trails"
+    },
+    "Rock Point": {
+      "name": "Rock Point",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 42.85,
+      "lng": -80.25,
+      "distance": 100,
+      "desc": "Lake Erie woodland area"
+    },
+    "Rondeau": {
+      "name": "Rondeau",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 42.30,
+      "lng": -81.85,
+      "distance": 155,
+      "desc": "Lake Erie peninsula wildlife"
+    },
+    "Wheatley": {
+      "name": "Wheatley",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 42.10,
+      "lng": -82.40,
+      "distance": 165,
+      "desc": "Southwestern Ontario marsh"
+    },
+    "Komoka": {
+      "name": "Komoka",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 42.95,
+      "lng": -81.30,
+      "distance": 95,
+      "desc": "Thames River valley camping"
+    },
+    "Selkirk": {
+      "name": "Selkirk",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 43.70,
+      "lng": -80.40,
+      "distance": 65,
+      "desc": "Grand River valley trails"
+    },
+    "Mark S. Burnham": {
+      "name": "Mark S. Burnham",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 43.65,
+      "lng": -79.50,
+      "distance": 50,
+      "desc": "Oak ridges forest trails"
+    },
+    "Uxbridge Urban": {
+      "name": "Uxbridge Urban",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 44.10,
+      "lng": -79.15,
+      "distance": 50,
+      "desc": "Oak ridges village trails"
+    },
+    "Charleston Lake": {
+      "name": "Charleston Lake",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 44.70,
+      "lng": -76.30,
+      "distance": 110,
+      "desc": "Eastern Ontario lake trails"
+    },
+    "Murphys Point": {
+      "name": "Murphys Point",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 44.90,
+      "lng": -76.35,
+      "distance": 135,
+      "desc": "Mississippi Lake area"
+    },
+    "Sharbot Lake": {
+      "name": "Sharbot Lake",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 44.65,
+      "lng": -76.70,
+      "distance": 125,
+      "desc": "Canadian Shield lake camping"
+    },
+    "Lake St. Peter": {
+      "name": "Lake St. Peter",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 44.55,
+      "lng": -77.65,
+      "distance": 115,
+      "desc": "Kawartha lake area"
+    },
+    "Lake on the Mountain": {
+      "name": "Lake on the Mountain",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 43.90,
+      "lng": -77.80,
+      "distance": 125,
+      "desc": "Prince Edward County viewpoint"
+    },
+    "Sandbanks": {
+      "name": "Sandbanks",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 43.80,
+      "lng": -77.55,
+      "distance": 135,
+      "desc": "Prince Edward County sand dunes"
+    },
+    "Caliper Lake": {
+      "name": "Caliper Lake",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 45.05,
+      "lng": -78.30,
+      "distance": 65,
+      "desc": "Kawartha forest trails"
+    },
+    "Potholes": {
+      "name": "Potholes",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 45.30,
+      "lng": -78.05,
+      "distance": 60,
+      "desc": "Kawartha bedrock formations"
+    },
+    "Silent Lake": {
+      "name": "Silent Lake",
+      "colorChange": 0,
+      "leafFall": 0,
+      "lat": 44.70,
+      "lng": -78.00,
+      "distance": 75,
+      "desc": "Multiple lake loops for hiking"
+    }
+  },
+  "lastUpdated": "2026-09-11T16:30:00.000Z",
+  "totalParks": 55
+}
