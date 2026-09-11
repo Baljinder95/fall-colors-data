@@ -2,446 +2,710 @@
   "parks": {
     "Algonquin": {
       "name": "Algonquin",
-      "colorChange": 5,
-      "leafFall": 3,
-      "lat": 45.90,
-      "lng": -78.50,
-      "distance": 45,
-      "desc": "Highway 60 Corridor - spectacular viewing opportunities"
-    },
-    "Killarney": {
-      "name": "Killarney",
-      "colorChange": 2,
-      "leafFall": 1,
-      "lat": 46.10,
-      "lng": -81.30,
-      "distance": 90,
-      "desc": "Granite Ridge Trail - stunning lookout views"
-    },
-    "Forks of the Credit": {
-      "name": "Forks of the Credit",
-      "colorChange": 12,
-      "leafFall": 10,
-      "lat": 43.80,
-      "lng": -80.20,
-      "distance": 35,
-      "desc": "Trans Canada Trail - accessible fall colors"
-    },
-    "Bon Echo": {
-      "name": "Bon Echo",
-      "colorChange": 3,
-      "leafFall": 2,
-      "lat": 44.90,
-      "lng": -77.10,
-      "distance": 85,
-      "desc": "Cliff Top Trail - observation platforms with views"
-    },
-    "Silent Lake": {
-      "name": "Silent Lake",
-      "colorChange": 4,
-      "leafFall": 2,
-      "lat": 44.70,
-      "lng": -78.00,
-      "distance": 75,
-      "desc": "Multiple loops - lakeside viewing trails"
-    },
-    "Halfway Lake": {
-      "name": "Halfway Lake",
-      "colorChange": 1,
+      "colorChange": 10,
       "leafFall": 0,
-      "lat": 46.50,
-      "lng": -81.50,
-      "distance": 120,
-      "desc": "Boreal forest - golden poplars and birch"
-    },
-    "Bronte Creek": {
-      "name": "Bronte Creek",
-      "colorChange": 8,
-      "leafFall": 6,
-      "lat": 43.30,
-      "lng": -79.70,
-      "distance": 25,
-      "desc": "Ravine and field trails - near Brampton"
-    },
-    "Lake Superior North": {
-      "name": "Lake Superior North",
-      "colorChange": 0,
-      "leafFall": 0,
-      "lat": 47.80,
-      "lng": -87.50,
-      "distance": 180,
-      "desc": "Trans-Canada Highway - scenic Superior views"
-    },
-    "Kakabeka Falls": {
-      "name": "Kakabeka Falls",
-      "colorChange": 11,
-      "leafFall": 8,
-      "lat": 48.40,
-      "lng": -89.60,
-      "distance": 200,
-      "desc": "Waterfall - boardwalk viewing platform"
-    },
-    "Rainbow Falls": {
-      "name": "Rainbow Falls",
-      "colorChange": 14,
-      "leafFall": 12,
-      "lat": 47.80,
-      "lng": -87.70,
-      "distance": 185,
-      "desc": "Lake Superior views - scenic overlook"
+      "dominantColour": "Green",
+      "reportDate": "September 11, 2026",
+      "bestViewing": "There are spectacular viewing opportunities throughout Algonquin Provincial Park along the Highway 60 Corridor and other access points, such as the Park's trails and day use areas. Obtain your daily v",
+      "lat": 45.9,
+      "lng": -78.5,
+      "distance": 45
     },
     "Arrowhead": {
       "name": "Arrowhead",
-      "colorChange": 9,
-      "leafFall": 7,
+      "colorChange": 10,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "August 31, 2026",
+      "bestViewing": "Check out Big Bend Lookout, Beach Area #1, or the Arrowhead Lake Trail for spectacular fall colours.",
       "lat": 45.15,
       "lng": -79.35,
-      "distance": 60,
-      "desc": "Muskoka lakes - forest trails"
+      "distance": 60
     },
     "Awenda": {
       "name": "Awenda",
-      "colorChange": 6,
-      "leafFall": 4,
+      "colorChange": 0,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 10, 2026",
+      "bestViewing": "Enjoy a natural amphitheatre of vivid colour at Kettle’s Lake with a walk around the Wendat Trail. The Park’s Georgian Bay waterfront and Beach Trail offers the best September viewing while the main A",
       "lat": 44.95,
-      "lng": -79.60,
-      "distance": 80,
-      "desc": "Georgian Bay shoreline - sand dunes"
+      "lng": -79.6,
+      "distance": 80
     },
     "Balsam Lake": {
       "name": "Balsam Lake",
-      "colorChange": 5,
-      "leafFall": 3,
-      "lat": 44.40,
+      "colorChange": 0,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 7, 2026",
+      "bestViewing": "We recommend visitors walk through the closed Cedar and Maple campgrounds to enjoy the beautiful maple trees in those areas. Visitors will enjoy the Lookout Trail as portions of the trail have Staghor",
+      "lat": 44.4,
       "lng": -79.25,
-      "distance": 70,
-      "desc": "Lake trails - forest viewing"
+      "distance": 70
     },
     "Bass Lake": {
       "name": "Bass Lake",
-      "colorChange": 2,
-      "leafFall": 1,
-      "lat": 46.40,
-      "lng": -87.90,
-      "distance": 160,
-      "desc": "Northern Ontario - forest scenery"
+      "colorChange": 0,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "August 12, 2026",
+      "bestViewing": "The fall colours are especially beautiful all along our hiking trail leading along the water and through the forest.",
+      "lat": 46.4,
+      "lng": -87.9,
+      "distance": 160
+    },
+    "Batchawana Bay": {
+      "name": "Batchawana Bay",
+      "colorChange": 10,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 9, 2026",
+      "bestViewing": "The best fall colour viewing in Batchawana Bay Provincial Park is available from the beach on the east side of the park where the contrast of Lake Superior’s blue waters can be seen against the brilli",
+      "lat": 46.8,
+      "lng": -84.5,
+      "distance": 200
+    },
+    "Bon Echo": {
+      "name": "Bon Echo",
+      "colorChange": 10,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 10, 2026",
+      "bestViewing": "Take in the fall colours along the Cliff Top Trail with red, yellow, and brown leaves from Sugar Maple, White Birch and Red Oak trees. The observation platforms along this trail also provide great vie",
+      "lat": 44.9,
+      "lng": -77.1,
+      "distance": 85
     },
     "Bonnechere": {
       "name": "Bonnechere",
-      "colorChange": 13,
-      "leafFall": 11,
+      "colorChange": 10,
+      "leafFall": 10,
+      "dominantColour": "Green",
+      "reportDate": "September 3, 2026",
+      "bestViewing": "The best place to experience the vibrant tones of maple, oak, poplar, birch, and tamarack trees is at the main day use/beach area, which provides views of the entire shoreline of Round Lake.",
       "lat": 45.45,
-      "lng": -77.80,
-      "distance": 95,
-      "desc": "River valley - hiking trails"
+      "lng": -77.8,
+      "distance": 95
     },
-    "Craigleith": {
-      "name": "Craigleith",
-      "colorChange": 7,
-      "leafFall": 5,
-      "lat": 44.20,
-      "lng": -80.25,
-      "distance": 90,
-      "desc": "Blue Mountain area - scenic views"
+    "Bronte Creek": {
+      "name": "Bronte Creek",
+      "colorChange": 0,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "August 31, 2026",
+      "bestViewing": "The most scenic and picturesque areas during the fall include the Lookout/ Ravine Trail #4, Half Moon Valley Trail #6, Field and Forest Trail # 8 and for that old country charm you can't beat the farm",
+      "lat": 43.3,
+      "lng": -79.7,
+      "distance": 25
+    },
+    "Caliper Lake": {
+      "name": "Caliper Lake",
+      "colorChange": 0,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "August 26, 2026",
+      "bestViewing": "Best viewing is along the campground roads, the day use and beach areas.",
+      "lat": 45.05,
+      "lng": -78.3,
+      "distance": 65
+    },
+    "Charleston Lake": {
+      "name": "Charleston Lake",
+      "colorChange": 0,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 9, 2026",
+      "bestViewing": "The best fall colour viewing in the park is on the Quiddity Trail and the Tallow Rock Bay Trail.",
+      "lat": 44.7,
+      "lng": -76.3,
+      "distance": 110
     },
     "Darlington": {
       "name": "Darlington",
       "colorChange": 10,
-      "leafFall": 8,
+      "leafFall": 10,
+      "dominantColour": "Green",
+      "reportDate": "September 9, 2026",
+      "bestViewing": "The best place to view the stunning fall colours is the Burk Trail Viewing Platform (also known as “the lookout”). This is located roughly in the middle of the Burk Trail, west of the Park Office and ",
       "lat": 43.85,
       "lng": -79.05,
-      "distance": 35,
-      "desc": "Ajax waterfront - trails along water"
+      "distance": 35
     },
     "Earl Rowe": {
       "name": "Earl Rowe",
-      "colorChange": 11,
-      "leafFall": 9,
-      "lat": 44.60,
-      "lng": -80.20,
-      "distance": 85,
-      "desc": "Forest and lakes - Grey County loops"
+      "colorChange": 10,
+      "leafFall": 10,
+      "dominantColour": "Green",
+      "reportDate": "September 11, 2026",
+      "bestViewing": "The best spots to view fall colours is by hiking the Lookout Trail and walking through the Meadowbrook and Trillium Woods campgrounds.",
+      "lat": 44.6,
+      "lng": -80.2,
+      "distance": 85
+    },
+    "Finlayson Point": {
+      "name": "Finlayson Point",
+      "colorChange": 0,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "August 12, 2026",
+      "bestViewing": "The Temagami region features a mix of large white and red pines alongside colourful stands of tamarack, birch, and poplar. You can enjoy these striking transition forests by boat on Lake Temagami, or,",
+      "lat": 46.8,
+      "lng": -81.3,
+      "distance": 140
+    },
+    "Forks of the Credit": {
+      "name": "Forks of the Credit",
+      "colorChange": 10,
+      "leafFall": 10,
+      "dominantColour": "Green",
+      "reportDate": "September 11, 2026",
+      "bestViewing": "The best fall colour viewing spot in the park is along the Trans Canada Trail. Please note that reservations are required to guarantee your access to the park. For top tips on how to plan your trip, v",
+      "lat": 43.8,
+      "lng": -80.2,
+      "distance": 35
+    },
+    "French River": {
+      "name": "French River",
+      "colorChange": 0,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 10, 2026",
+      "bestViewing": "The French River Gorge and the area around the French River Visitor Centre, just off Highway #400, is an amazing place.  Scenic, and historic, where the river is lined with towering White Pines.  In f",
+      "lat": 45.7,
+      "lng": -80.8,
+      "distance": 115
+    },
+    "Frontenac": {
+      "name": "Frontenac",
+      "colorChange": 0,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 9, 2026",
+      "bestViewing": "With over 100 km of hiking trails, Frontenac provides excellent fall colour viewing opportunities. Two trails that are sure to provide a beautiful fall colour experience are Doe Lake Loop (3 km) and D",
+      "lat": 44.9,
+      "lng": -76.35,
+      "distance": 130
+    },
+    "Grundy Lake": {
+      "name": "Grundy Lake",
+      "colorChange": 0,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 8, 2026",
+      "bestViewing": "Drive, bike, or stroll down the main road, or through the Poplar and Red Maple Campgrounds (foot or bike traffic only) for fabulous views of the fall colours. Looking for something a little bit more a",
+      "lat": 45.25,
+      "lng": -80.35,
+      "distance": 105
+    },
+    "Halfway Lake": {
+      "name": "Halfway Lake",
+      "colorChange": 0,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 8, 2026",
+      "bestViewing": "Halfway Lake is just an hour north of Sudbury, but is also at the southern edge of the Boreal Forest in Northeastern Ontario.  This means that the park's fall colours are made up of the golds, yellows",
+      "lat": 46.5,
+      "lng": -81.5,
+      "distance": 120
     },
     "Inverhuron": {
       "name": "Inverhuron",
-      "colorChange": 9,
-      "leafFall": 7,
-      "lat": 44.00,
+      "colorChange": 10,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 11, 2026",
+      "bestViewing": "For the best views, look out from the boat launch across Inverhuron Bay. Maloney Trail is predominantly mature hardwoods and offers full immersion under the canopy of colours.",
+      "lat": 44.0,
       "lng": -81.45,
-      "distance": 110,
-      "desc": "Lake Huron beach - forest trails"
+      "distance": 110
+    },
+    "Kakabeka Falls": {
+      "name": "Kakabeka Falls",
+      "colorChange": 10,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 10, 2026",
+      "bestViewing": "Enjoy the thunder of Kakabeka Falls amongst the fall colours this season via the Boardwalk Trail around the top of the falls with various viewing pods. Walk a little further along the Mountain Portage",
+      "lat": 48.4,
+      "lng": -89.6,
+      "distance": 200
+    },
+    "Kap-Kig-Iwan": {
+      "name": "Kap-Kig-Iwan",
+      "colorChange": 0,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 1, 2026",
+      "bestViewing": "Kap-Kig-Iwan Provincial Park is bursting with autumn beauty. Top viewing spots include the High Falls Trail, where cascading water meets fiery foliage; the Aspen Crescent Lookout, offering sweeping vi",
+      "lat": 46.7,
+      "lng": -81.7,
+      "distance": 130
+    },
+    "Kettle Lakes": {
+      "name": "Kettle Lakes",
+      "colorChange": 20,
+      "leafFall": 10,
+      "dominantColour": "Green",
+      "reportDate": "September 10, 2026",
+      "bestViewing": "Enjoy the golden views of the boreal forest at Kettle Lakes. Hike the Tamarack Trail or Kettle Trail and bike the Blue Bike Trail for the best fall colour viewing opportunities. Rent one of our canoes",
+      "lat": 48.2,
+      "lng": -87.0,
+      "distance": 240
+    },
+    "Killarney": {
+      "name": "Killarney",
+      "colorChange": 10,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 10, 2026",
+      "bestViewing": "To enjoy the beauty of fall, we recommend hiking to the lookout on the Granite Ridge Trail or bringing a picnic lunch to the bog area of our Cranberry Bog Trail.  If you’re looking to beat the crowds,",
+      "lat": 46.1,
+      "lng": -81.3,
+      "distance": 90
+    },
+    "Killbear": {
+      "name": "Killbear",
+      "colorChange": 10,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 10, 2026",
+      "bestViewing": "The best fall colours can be seen along the main park road, the Recreational Trail, and the Lookout Point Trail. Colours usually peak around Thanksgiving weekend but stay surprisingly strong throughou",
+      "lat": 45.2,
+      "lng": -80.4,
+      "distance": 95
+    },
+    "Komoka": {
+      "name": "Komoka",
+      "colorChange": 0,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 10, 2026",
+      "bestViewing": "Enjoy beautiful fall colours on Komoka’s 11 kilometre trail network. The White Trail offers a walk beneath the canopy of towering maple, oak, and beech trees along the Thames River. The Blue, Yellow, ",
+      "lat": 42.95,
+      "lng": -81.3,
+      "distance": 95
+    },
+    "Lake St. Peter": {
+      "name": "Lake St. Peter",
+      "colorChange": 10,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 9, 2026",
+      "bestViewing": "For great fall colour viewing, we recommend hiking the Lookout Trail (2.5km, strenuous). The trail crosses rugged terrain, passes by a kettle lake, and leads to a spectacular lookout over the lake.",
+      "lat": 44.55,
+      "lng": -77.65,
+      "distance": 115
     },
     "Long Point": {
       "name": "Long Point",
       "colorChange": 10,
-      "leafFall": 8,
+      "leafFall": 10,
+      "dominantColour": "Green",
+      "reportDate": "August 26, 2026",
+      "bestViewing": "Within the Firefly Campground and as you go towards Turtle Dunes or Monarch Landing you are surrounded by cottonwoods, willows and Silver Maples changing into their fall colours. Watch for any moving ",
       "lat": 42.55,
       "lng": -80.35,
-      "distance": 105,
-      "desc": "Lake Erie peninsula - wildlife area"
+      "distance": 105
     },
     "MacGregor Point": {
       "name": "MacGregor Point",
-      "colorChange": 12,
-      "leafFall": 10,
-      "lat": 44.70,
-      "lng": -81.20,
-      "distance": 115,
-      "desc": "Lake Huron beach - camping area"
-    },
-    "Mono Cliffs": {
-      "name": "Mono Cliffs",
-      "colorChange": 11,
-      "leafFall": 9,
-      "lat": 43.95,
-      "lng": -80.05,
-      "distance": 50,
-      "desc": "Escarpment - cliff edge trails"
-    },
-    "Oxtongue River - Ragged Falls": {
-      "name": "Oxtongue River - Ragged Falls",
       "colorChange": 10,
-      "leafFall": 8,
-      "lat": 45.60,
-      "lng": -78.70,
-      "distance": 60,
-      "desc": "Waterfall - river hiking"
-    },
-    "Quetico": {
-      "name": "Quetico",
-      "colorChange": 8,
-      "leafFall": 6,
-      "lat": 49.50,
-      "lng": -90.70,
-      "distance": 370,
-      "desc": "Wilderness - lake canoeing"
-    },
-    "Sauble Falls": {
-      "name": "Sauble Falls",
-      "colorChange": 13,
-      "leafFall": 11,
-      "lat": 44.50,
-      "lng": -80.75,
-      "distance": 110,
-      "desc": "Waterfall - scenic overlook"
-    },
-    "Sibbald Point": {
-      "name": "Sibbald Point",
-      "colorChange": 12,
       "leafFall": 10,
-      "lat": 44.20,
-      "lng": -79.40,
-      "distance": 55,
-      "desc": "Lake Simcoe - peninsula camping"
-    },
-    "Pigeon River": {
-      "name": "Pigeon River",
-      "colorChange": 9,
-      "leafFall": 7,
-      "lat": 47.85,
-      "lng": -87.70,
-      "distance": 290,
-      "desc": "Northern river - valley scenery"
-    },
-    "Presqu'ile": {
-      "name": "Presqu'ile",
-      "colorChange": 6,
-      "leafFall": 4,
-      "lat": 43.85,
-      "lng": -77.70,
-      "distance": 130,
-      "desc": "Rice Lake - peninsula marsh trails"
-    },
-    "Petroglyphs": {
-      "name": "Petroglyphs",
-      "colorChange": 5,
-      "leafFall": 3,
-      "lat": 44.80,
-      "lng": -77.50,
-      "distance": 120,
-      "desc": "Historic rock art - forest trails"
-    },
-    "Pinery": {
-      "name": "Pinery",
-      "colorChange": 4,
-      "leafFall": 2,
-      "lat": 43.20,
-      "lng": -81.75,
-      "distance": 125,
-      "desc": "Lake Huron - dune ecology trails"
-    },
-    "Point Farms": {
-      "name": "Point Farms",
-      "colorChange": 3,
-      "leafFall": 2,
-      "lat": 44.00,
-      "lng": -81.90,
-      "distance": 120,
-      "desc": "Lake Huron - beach access"
-    },
-    "Port Burwell": {
-      "name": "Port Burwell",
-      "colorChange": 2,
-      "leafFall": 1,
-      "lat": 42.65,
-      "lng": -80.60,
-      "distance": 100,
-      "desc": "Lake Erie - waterfront area"
-    },
-    "Port Bruce": {
-      "name": "Port Bruce",
-      "colorChange": 3,
-      "leafFall": 2,
-      "lat": 42.70,
-      "lng": -80.80,
-      "distance": 100,
-      "desc": "Thames River - estuary area"
-    },
-    "Turkey Point": {
-      "name": "Turkey Point",
-      "colorChange": 4,
-      "leafFall": 3,
-      "lat": 42.70,
-      "lng": -80.35,
-      "distance": 100,
-      "desc": "Lake Erie - nature trails"
-    },
-    "Rock Point": {
-      "name": "Rock Point",
-      "colorChange": 2,
-      "leafFall": 1,
-      "lat": 42.85,
-      "lng": -80.25,
-      "distance": 100,
-      "desc": "Lake Erie - woodland area"
-    },
-    "Rondeau": {
-      "name": "Rondeau",
-      "colorChange": 5,
-      "leafFall": 3,
-      "lat": 42.30,
-      "lng": -81.85,
-      "distance": 155,
-      "desc": "Lake Erie - peninsula wildlife"
-    },
-    "Wheatley": {
-      "name": "Wheatley",
-      "colorChange": 3,
-      "leafFall": 2,
-      "lat": 42.10,
-      "lng": -82.40,
-      "distance": 165,
-      "desc": "Southwestern Ontario - marsh area"
-    },
-    "Komoka": {
-      "name": "Komoka",
-      "colorChange": 6,
-      "leafFall": 4,
-      "lat": 42.95,
-      "lng": -81.30,
-      "distance": 95,
-      "desc": "Thames River - valley camping"
-    },
-    "Selkirk": {
-      "name": "Selkirk",
-      "colorChange": 7,
-      "leafFall": 5,
-      "lat": 43.70,
-      "lng": -80.40,
-      "distance": 65,
-      "desc": "Grand River - valley trails"
+      "dominantColour": "Green",
+      "reportDate": "September 2, 2026",
+      "bestViewing": "The best place to see fall colours is near the park entrance and in Nipissing Campground.",
+      "lat": 44.7,
+      "lng": -81.2,
+      "distance": 115
     },
     "Mark S. Burnham": {
       "name": "Mark S. Burnham",
-      "colorChange": 8,
-      "leafFall": 6,
+      "colorChange": 0,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 10, 2026",
+      "bestViewing": "Mark S. Burnham has many of the oldest maple, beech, elm and hemlock trees in the area, this makes for wonderful fall colours. Try hiking the small loop or long loop of the trail to see the many diffe",
       "lat": 43.65,
-      "lng": -79.50,
-      "distance": 50,
-      "desc": "Oak ridges - forest trails"
+      "lng": -79.5,
+      "distance": 50
     },
-    "Uxbridge Urban": {
-      "name": "Uxbridge Urban",
-      "colorChange": 6,
-      "leafFall": 4,
-      "lat": 44.10,
-      "lng": -79.15,
-      "distance": 50,
-      "desc": "Oak ridges - village trails"
+    "Marten River": {
+      "name": "Marten River",
+      "colorChange": 0,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "August 12, 2026",
+      "bestViewing": "Great colour viewing can be enjoyed by hiking the park’s trails, biking throughout the campgrounds, or by boat along the Marten River. The Temagami region blends towering white pines with colourful st",
+      "lat": 46.5,
+      "lng": -81.0,
+      "distance": 130
     },
-    "Charleston Lake": {
-      "name": "Charleston Lake",
-      "colorChange": 5,
-      "leafFall": 3,
-      "lat": 44.70,
-      "lng": -76.30,
-      "distance": 110,
-      "desc": "Eastern Ontario - lake trails"
+    "Mikisew": {
+      "name": "Mikisew",
+      "colorChange": 0,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "August 12, 2026",
+      "bestViewing": "The whole park allows for an immersive experience of the beautiful fall colours at Mikisew: the disc golf course, for example, or the Beaver Meadow and Maple Canyon trails.",
+      "lat": 46.3,
+      "lng": -81.9,
+      "distance": 140
+    },
+    "Mono Cliffs": {
+      "name": "Mono Cliffs",
+      "colorChange": 10,
+      "leafFall": 10,
+      "dominantColour": "Green",
+      "reportDate": "September 11, 2026",
+      "bestViewing": "The best spot to view fall colours is by hiking along the Cliff-Top Side Trail. Please note that reservations are required to guarantee your access to the park. For top tips on how to plan your trip, ",
+      "lat": 43.95,
+      "lng": -80.05,
+      "distance": 50
     },
     "Murphys Point": {
       "name": "Murphys Point",
-      "colorChange": 4,
-      "leafFall": 2,
-      "lat": 44.90,
+      "colorChange": 0,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 11, 2026",
+      "bestViewing": "For the best viewing opportunities: By car, take a drive along the road to the Day Use Beach, or travel out to the Lally Homestead parking lot. By foot, hike the McParlan House, Point, or Lally Homest",
+      "lat": 44.9,
       "lng": -76.35,
-      "distance": 135,
-      "desc": "Mississippi Lake - area camping"
+      "distance": 135
     },
-    "Sharbot Lake": {
-      "name": "Sharbot Lake",
-      "colorChange": 6,
-      "leafFall": 4,
-      "lat": 44.65,
-      "lng": -76.70,
-      "distance": 125,
-      "desc": "Canadian Shield - lake camping"
+    "Neys": {
+      "name": "Neys",
+      "colorChange": 10,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 10, 2026",
+      "bestViewing": "Enjoy the golden fall colours of poplars, birches, and tamaracks speckled throughout the peaks at Neys Provincial Park with an easy walk along the Point Trail (1 km one-way).",
+      "lat": 48.2,
+      "lng": -87.3,
+      "distance": 250
     },
-    "Lake St. Peter": {
-      "name": "Lake St. Peter",
-      "colorChange": 5,
-      "leafFall": 3,
-      "lat": 44.55,
-      "lng": -77.65,
-      "distance": 115,
-      "desc": "Kawartha lakes - area trails"
+    "Oastler Lake": {
+      "name": "Oastler Lake",
+      "colorChange": 0,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "August 12, 2026",
+      "bestViewing": "Hardwood Hill Campground and the Pet Exercise Area offer excellent views of the lake and fall colours.",
+      "lat": 45.9,
+      "lng": -81.5,
+      "distance": 115
     },
-    "Lake on the Mountain": {
-      "name": "Lake on the Mountain",
-      "colorChange": 7,
-      "leafFall": 5,
-      "lat": 43.90,
-      "lng": -77.80,
-      "distance": 125,
-      "desc": "Prince Edward County - viewpoint"
+    "Pancake Bay": {
+      "name": "Pancake Bay",
+      "colorChange": 10,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 9, 2026",
+      "bestViewing": "Hike to the Edmund Fitzgerald Lookout for a spectacular view of the area’s fall colours and Lake Superior beyond! Those looking for a more challenging hike can complete the Pancake Falls or Tower Trai",
+      "lat": 47.5,
+      "lng": -85.5,
+      "distance": 220
+    },
+    "Petroglyphs": {
+      "name": "Petroglyphs",
+      "colorChange": 0,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 10, 2026",
+      "bestViewing": "All three trails at Petroglyphs provide great examples of the forests and fall colours found throughout the park. With predominantly pine and spruce forest, you will find pops of colour throughout the",
+      "lat": 44.8,
+      "lng": -77.5,
+      "distance": 120
+    },
+    "Pigeon River": {
+      "name": "Pigeon River",
+      "colorChange": 10,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 10, 2026",
+      "bestViewing": "Enjoy the fall colours as they engulf High Falls (High Falls Trail) and Middle Falls (Middle Falls Walk). Hike to the end of the Finger Point Trail for scenic views of Lake Superior surrounded by beau",
+      "lat": 47.85,
+      "lng": -87.7,
+      "distance": 290
+    },
+    "Pinery": {
+      "name": "Pinery",
+      "colorChange": 0,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 8, 2026",
+      "bestViewing": "Pinery’s oaks present rusty red and orange tones late in the season, with fall wildflowers in the understory displaying beautiful yellows and purples. Sassafras Trail offers great fall colour viewing ",
+      "lat": 43.2,
+      "lng": -81.75,
+      "distance": 125
+    },
+    "Point Farms": {
+      "name": "Point Farms",
+      "colorChange": 10,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 10, 2026",
+      "bestViewing": "The best views can be found along the main entrance road. Watch for beautiful displays of oranges and yellows from maple and poplar trees, complimenting the yellows and purples from goldenrods, asters",
+      "lat": 44.0,
+      "lng": -81.9,
+      "distance": 120
+    },
+    "Port Burwell": {
+      "name": "Port Burwell",
+      "colorChange": 0,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 7, 2026",
+      "bestViewing": "For the best views, head to the Ravine Creek Trail. The beach is another great option for a fall stroll. Please note that our self-serve fee station at the Day Use Gate/Beach entrance accepts cash onl",
+      "lat": 42.65,
+      "lng": -80.6,
+      "distance": 100
+    },
+    "Presqu'ile": {
+      "name": "Presqu'ile",
+      "colorChange": 0,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 1, 2026",
+      "bestViewing": "There are two areas in Presqu'ile that provide beautiful fall colours. Enjoy a leisurely walk along the road leading into our Group Camping Area north of the trailhead parking lot. Craigs Campground a",
+      "lat": 43.85,
+      "lng": -77.7,
+      "distance": 130
+    },
+    "Quetico": {
+      "name": "Quetico",
+      "colorChange": 10,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 9, 2026",
+      "bestViewing": "The dominant fall leaf colour in Quetico is yellow. Aspen, tamarack, and birch are found throughout the backcountry of the park along with pockets of smaller red maples. Quetico’s Dawson Trail Campgro",
+      "lat": 49.5,
+      "lng": -90.7,
+      "distance": 370
+    },
+    "Rainbow Falls": {
+      "name": "Rainbow Falls",
+      "colorChange": 10,
+      "leafFall": 10,
+      "dominantColour": "Green",
+      "reportDate": "September 10, 2026",
+      "bestViewing": "Enjoy fall views of Lake Superior from the Park’s Rossport Campground. At the Whitesand Campground, visit the Superior Trail and the Rainbow Falls Trails to view fall colours.",
+      "lat": 47.8,
+      "lng": -87.7,
+      "distance": 185
+    },
+    "Restoule": {
+      "name": "Restoule",
+      "colorChange": 0,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "August 30, 2026",
+      "bestViewing": "Predominately surrounded by deciduous trees, the entire park is lovely for fall colour viewing. The best viewing spots include the Fire Tower Trail (best viewing at the lookout) and the River Trail.",
+      "lat": 45.6,
+      "lng": -79.3,
+      "distance": 95
+    },
+    "Rideau River": {
+      "name": "Rideau River",
+      "colorChange": 10,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 11, 2026",
+      "bestViewing": "Rideau River's beach areas and boat launch offer great views of the fall colours displayed along the Rideau River. Visitors will enjoy relaxing in the day use area that is filled with Silver Maple. Pa",
+      "lat": 45.25,
+      "lng": -76.0,
+      "distance": 150
+    },
+    "Rondeau": {
+      "name": "Rondeau",
+      "colorChange": 0,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 9, 2026",
+      "bestViewing": "As the colours begin to change in mid-September to early October, check out Spicebush Trail for great views. Later in the season the eastern side of the park and the Black Oak Trail will display the g",
+      "lat": 42.3,
+      "lng": -81.85,
+      "distance": 155
+    },
+    "Rushing River": {
+      "name": "Rushing River",
+      "colorChange": 0,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "August 26, 2026",
+      "bestViewing": "The best viewing is on the northside of the park.",
+      "lat": 49.75,
+      "lng": -93.7,
+      "distance": 380
+    },
+    "Samuel de Champlain": {
+      "name": "Samuel de Champlain",
+      "colorChange": 10,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 11, 2026",
+      "bestViewing": "Driving the main road through the park is an easy and accessible way to view reds, yellows, and oranges as the aspens, oaks, and maples start to turn. Campion Portage is another good spot to view the ",
+      "lat": 45.65,
+      "lng": -75.7,
+      "distance": 140
     },
     "Sandbanks": {
       "name": "Sandbanks",
-      "colorChange": 4,
-      "leafFall": 2,
-      "lat": 43.80,
+      "colorChange": 0,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 9, 2026",
+      "bestViewing": "The Lakeview Trail and Woodlands Trail provide the best fall colour viewing opportunities at Sandbanks.",
+      "lat": 43.8,
       "lng": -77.55,
-      "distance": 135,
-      "desc": "Prince Edward County - sand dunes"
+      "distance": 135
     },
-    "Caliper Lake": {
-      "name": "Caliper Lake",
-      "colorChange": 5,
-      "leafFall": 3,
-      "lat": 45.05,
-      "lng": -78.30,
-      "distance": 65,
-      "desc": "Kawartha region - forest trails"
+    "Sauble Falls": {
+      "name": "Sauble Falls",
+      "colorChange": 10,
+      "leafFall": 10,
+      "dominantColour": "Green",
+      "reportDate": "September 8, 2026",
+      "bestViewing": "The best area to view the fall colours is at the entrance of the park on Sauble Falls Road.",
+      "lat": 44.5,
+      "lng": -80.75,
+      "distance": 110
     },
-    "Potholes": {
-      "name": "Potholes",
-      "colorChange": 3,
-      "leafFall": 2,
-      "lat": 45.30,
-      "lng": -78.05,
-      "distance": 60,
-      "desc": "Kawartha bedrock - geological formations"
+    "Sharbot Lake": {
+      "name": "Sharbot Lake",
+      "colorChange": 10,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 9, 2026",
+      "bestViewing": "Hike the Discovery Trail (1.2 km) to catch the best fall colours in the park. It provides great viewing opportunities all season, often highlighting some of the first areas around the park to peak in ",
+      "lat": 44.65,
+      "lng": -76.7,
+      "distance": 125
+    },
+    "Sibbald Point": {
+      "name": "Sibbald Point",
+      "colorChange": 10,
+      "leafFall": 10,
+      "dominantColour": "Green",
+      "reportDate": "September 10, 2026",
+      "bestViewing": "The best fall colour experience can be found camping in the campgrounds where you will be surrounded by beautiful falling yellow and red leaves. If a day trip suits you better, take a hike along the M",
+      "lat": 44.2,
+      "lng": -79.4,
+      "distance": 55
+    },
+    "Silent Lake": {
+      "name": "Silent Lake",
+      "colorChange": 0,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 10, 2026",
+      "bestViewing": "Silent Lake has many beautiful scenic locations to view fall colours. Silent Lake offers three hiking trails that offer plenty of opportunities to view fall colours: Lakehead Loop (1.5 km), Bonnies Po",
+      "lat": 44.7,
+      "lng": -78.0,
+      "distance": 75
+    },
+    "Silver Lake": {
+      "name": "Silver Lake",
+      "colorChange": 10,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 9, 2026",
+      "bestViewing": "When driving to the park along the Trans-Canada Highway you can view the park's fall colours as you approach. Walking through any of the campgrounds will offer spectacular views of the leaves changing",
+      "lat": 46.2,
+      "lng": -81.4,
+      "distance": 120
+    },
+    "Sioux Narrows": {
+      "name": "Sioux Narrows",
+      "colorChange": 10,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 4, 2026",
+      "bestViewing": "Best viewing locations include the Lookout and Fern Valley Trails, the beach/day use areas, and",
+      "lat": 49.8,
+      "lng": -93.6,
+      "distance": 380
+    },
+    "Sleeping Giant": {
+      "name": "Sleeping Giant",
+      "colorChange": 10,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 9, 2026",
+      "bestViewing": "The drive along Highway 587 provides some of the best fall colours viewing in Sleeping Giant Provincial Park. Thunder Bay Lookout is an excellent viewpoint for fall colours as is the gorge on the Top ",
+      "lat": 48.35,
+      "lng": -89.25,
+      "distance": 210
+    },
+    "Sturgeon Bay": {
+      "name": "Sturgeon Bay",
+      "colorChange": 0,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 8, 2026",
+      "bestViewing": "Sit back, relax, and take in the breathtaking views of the fall colours along the shores of Georgian Bay right from the beautiful beach! If you have a motorboat, canoe, or kayak, check out the foreste",
+      "lat": 45.5,
+      "lng": -81.0,
+      "distance": 120
+    },
+    "The Massasauga": {
+      "name": "The Massasauga",
+      "colorChange": 0,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "August 12, 2026",
+      "bestViewing": "Spider Lake and Clear Lake offer excellent views of fall colours.",
+      "lat": 45.3,
+      "lng": -80.3,
+      "distance": 100
+    },
+    "Turkey Point": {
+      "name": "Turkey Point",
+      "colorChange": 10,
+      "leafFall": 10,
+      "dominantColour": "Green",
+      "reportDate": "September 10, 2026",
+      "bestViewing": "Check out the Lookout Bluff Trail to enjoy beautiful fall colours. View maples, birch, oak, sassafras, and tulip trees changing colour.",
+      "lat": 42.7,
+      "lng": -80.35,
+      "distance": 100
+    },
+    "Voyageur": {
+      "name": "Voyageur",
+      "colorChange": 0,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 10, 2026",
+      "bestViewing": "The best fall colour spots at Voyageur are at Iroquois Beach, Iroquois Boat Launch, and on the water in Iroquois Bay. You also have a great view of the colours all along our main road and on both of o",
+      "lat": 45.4,
+      "lng": -75.7,
+      "distance": 145
+    },
+    "Wasaga Beach": {
+      "name": "Wasaga Beach",
+      "colorChange": 0,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 7, 2026",
+      "bestViewing": "Visitors to Wasaga Beach can enjoy the fall colours by taking a stroll through any of our beach areas and viewing the colours around Georgian Bay. The Nordic and Trail Centre also offers great opportu",
+      "lat": 44.5,
+      "lng": -80.65,
+      "distance": 100
+    },
+    "Wheatley": {
+      "name": "Wheatley",
+      "colorChange": 0,
+      "leafFall": 0,
+      "dominantColour": "Green",
+      "reportDate": "September 11, 2026",
+      "bestViewing": "Campers will be treated to beautiful colours throughout the campground. Due to shoreline erosion, the Day Use Area has reduced parking capacity and amenities. Visitors should plan accordingly and make",
+      "lat": 42.1,
+      "lng": -82.4,
+      "distance": 165
     }
   },
-  "lastUpdated": "2026-09-11T12:00:00.000Z",
-  "totalParks": 50
+  "lastUpdated": "2026-09-11T16:44:44.326377Z",
+  "totalParks": 64,
+  "source": "https://www.ontarioparks.ca/fallcolour"
 }
