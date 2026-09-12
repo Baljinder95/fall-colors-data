@@ -178,10 +178,10 @@
     },
     "Frontenac": {
       "name": "Frontenac",
-      "colorChange": 0,
+      "colorChange": 10,
       "leafFall": 0,
       "dominantColour": "Green",
-      "reportDate": "September 9, 2026",
+      "reportDate": "September 12, 2026",
       "bestViewing": "With over 100 km of hiking trails, Frontenac provides excellent fall colour viewing opportunities. Two trails that are sure to provide a beautiful fall colour experience are Doe Lake Loop (3 km) and D",
       "lat": 44.9,
       "lng": -76.35,
@@ -705,7 +705,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-09-12T16:10:15.271657Z",
+  "lastUpdated": "2026-09-12T19:07:27.754308Z",
   "totalParks": 64,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
