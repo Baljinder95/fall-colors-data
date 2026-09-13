@@ -101,10 +101,10 @@
     },
     "Caliper Lake": {
       "name": "Caliper Lake",
-      "colorChange": 0,
+      "colorChange": 20,
       "leafFall": 0,
       "dominantColour": "Green",
-      "reportDate": "August 26, 2026",
+      "reportDate": "September 13, 2026",
       "bestViewing": "Best viewing is along the campground roads, the day use and beach areas.",
       "lat": 45.05,
       "lng": -78.3,
@@ -192,7 +192,7 @@
       "colorChange": 0,
       "leafFall": 0,
       "dominantColour": "Green",
-      "reportDate": "September 8, 2026",
+      "reportDate": "September 13, 2026",
       "bestViewing": "Drive, bike, or stroll down the main road, or through the Poplar and Red Maple Campgrounds (foot or bike traffic only) for fabulous views of the fall colours. Looking for something a little bit more a",
       "lat": 45.25,
       "lng": -80.35,
@@ -376,10 +376,10 @@
     },
     "Neys": {
       "name": "Neys",
-      "colorChange": 10,
-      "leafFall": 0,
+      "colorChange": 20,
+      "leafFall": 10,
       "dominantColour": "Green",
-      "reportDate": "September 10, 2026",
+      "reportDate": "September 13, 2026",
       "bestViewing": "Enjoy the golden fall colours of poplars, birches, and tamaracks speckled throughout the peaks at Neys Provincial Park with an easy walk along the Point Trail (1 km one-way).",
       "lat": 48.2,
       "lng": -87.3,
@@ -530,10 +530,10 @@
     },
     "Rushing River": {
       "name": "Rushing River",
-      "colorChange": 0,
+      "colorChange": 20,
       "leafFall": 0,
       "dominantColour": "Green",
-      "reportDate": "August 26, 2026",
+      "reportDate": "September 13, 2026",
       "bestViewing": "The best viewing is on the northside of the park.",
       "lat": 49.75,
       "lng": -93.7,
@@ -705,7 +705,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-09-13T11:37:00.671105Z",
+  "lastUpdated": "2026-09-13T16:05:36.948633Z",
   "totalParks": 64,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
