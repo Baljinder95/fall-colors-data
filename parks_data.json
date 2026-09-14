@@ -137,7 +137,7 @@
       "colorChange": 10,
       "leafFall": 10,
       "dominantColour": "Green",
-      "reportDate": "September 11, 2026",
+      "reportDate": "September 14, 2026",
       "bestViewing": "The best spots to view fall colours is by hiking the Lookout Trail and walking through the Meadowbrook and Trillium Woods campgrounds.",
       "lat": 44.6,
       "lng": -80.2,
@@ -705,7 +705,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-09-14T06:01:51.283251Z",
+  "lastUpdated": "2026-09-14T13:51:15.066934Z",
   "totalParks": 64,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
