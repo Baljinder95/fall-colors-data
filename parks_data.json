@@ -310,10 +310,10 @@
     },
     "MacGregor Point": {
       "name": "MacGregor Point",
-      "colorChange": 10,
-      "leafFall": 10,
+      "colorChange": 20,
+      "leafFall": 20,
       "dominantColour": "Green",
-      "reportDate": "September 2, 2026",
+      "reportDate": "September 14, 2026",
       "bestViewing": "The best place to see fall colours is near the park entrance and in Nipissing Campground.",
       "lat": 44.7,
       "lng": -81.2,
@@ -357,7 +357,7 @@
       "colorChange": 10,
       "leafFall": 10,
       "dominantColour": "Green",
-      "reportDate": "September 11, 2026",
+      "reportDate": "September 14, 2026",
       "bestViewing": "The best spot to view fall colours is by hiking along the Cliff-Top Side Trail. Please note that reservations are required to guarantee your access to the park. For top tips on how to plan your trip, ",
       "lat": 43.95,
       "lng": -80.05,
@@ -368,7 +368,7 @@
       "colorChange": 0,
       "leafFall": 0,
       "dominantColour": "Green",
-      "reportDate": "September 11, 2026",
+      "reportDate": "September 14, 2026",
       "bestViewing": "For the best viewing opportunities: By car, take a drive along the road to the Day Use Beach, or travel out to the Lally Homestead parking lot. By foot, hike the McParlan House, Point, or Lally Homest",
       "lat": 44.9,
       "lng": -76.35,
@@ -705,7 +705,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-09-14T19:13:40.904729Z",
+  "lastUpdated": "2026-09-14T23:03:25.976693Z",
   "totalParks": 64,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
