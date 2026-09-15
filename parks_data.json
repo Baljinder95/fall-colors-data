@@ -145,10 +145,10 @@
     },
     "Finlayson Point": {
       "name": "Finlayson Point",
-      "colorChange": 0,
+      "colorChange": 10,
       "leafFall": 0,
       "dominantColour": "Green",
-      "reportDate": "August 12, 2026",
+      "reportDate": "September 15, 2026",
       "bestViewing": "The Temagami region features a mix of large white and red pines alongside colourful stands of tamarack, birch, and poplar. You can enjoy these striking transition forests by boat on Lake Temagami, or,",
       "lat": 46.8,
       "lng": -81.3,
@@ -332,10 +332,10 @@
     },
     "Marten River": {
       "name": "Marten River",
-      "colorChange": 0,
+      "colorChange": 10,
       "leafFall": 0,
       "dominantColour": "Green",
-      "reportDate": "August 12, 2026",
+      "reportDate": "September 15, 2026",
       "bestViewing": "Great colour viewing can be enjoyed by hiking the park’s trails, biking throughout the campgrounds, or by boat along the Marten River. The Temagami region blends towering white pines with colourful st",
       "lat": 46.5,
       "lng": -81.0,
@@ -497,10 +497,10 @@
     },
     "Restoule": {
       "name": "Restoule",
-      "colorChange": 0,
+      "colorChange": 10,
       "leafFall": 0,
       "dominantColour": "Green",
-      "reportDate": "August 30, 2026",
+      "reportDate": "September 15, 2026",
       "bestViewing": "Predominately surrounded by deciduous trees, the entire park is lovely for fall colour viewing. The best viewing spots include the Fire Tower Trail (best viewing at the lookout) and the River Trail.",
       "lat": 45.6,
       "lng": -79.3,
@@ -665,7 +665,7 @@
       "colorChange": 10,
       "leafFall": 10,
       "dominantColour": "Green",
-      "reportDate": "September 10, 2026",
+      "reportDate": "September 15, 2026",
       "bestViewing": "Check out the Lookout Bluff Trail to enjoy beautiful fall colours. View maples, birch, oak, sassafras, and tulip trees changing colour.",
       "lat": 42.7,
       "lng": -80.35,
@@ -705,7 +705,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-09-15T09:57:49.179417Z",
+  "lastUpdated": "2026-09-15T14:53:01.812606Z",
   "totalParks": 64,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
