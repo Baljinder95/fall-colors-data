@@ -81,8 +81,8 @@
       "name": "Bonnechere",
       "colorChange": 10,
       "leafFall": 10,
-      "dominantColour": "Green",
-      "reportDate": "September 3, 2026",
+      "dominantColour": "Yellow/Orange",
+      "reportDate": "September 16, 2026",
       "bestViewing": "The best place to experience the vibrant tones of maple, oak, poplar, birch, and tamarack trees is at the main day use/beach area, which provides views of the entire shoreline of Round Lake.",
       "lat": 45.45,
       "lng": -77.8,
@@ -575,9 +575,9 @@
     "Sharbot Lake": {
       "name": "Sharbot Lake",
       "colorChange": 10,
-      "leafFall": 0,
-      "dominantColour": "Green",
-      "reportDate": "September 9, 2026",
+      "leafFall": 10,
+      "dominantColour": "Yellow",
+      "reportDate": "September 16, 2026",
       "bestViewing": "Hike the Discovery Trail (1.2 km) to catch the best fall colours in the park. It provides great viewing opportunities all season, often highlighting some of the first areas around the park to peak in ",
       "lat": 44.65,
       "lng": -76.7,
@@ -608,9 +608,9 @@
     "Silver Lake": {
       "name": "Silver Lake",
       "colorChange": 10,
-      "leafFall": 0,
+      "leafFall": 10,
       "dominantColour": "Green",
-      "reportDate": "September 9, 2026",
+      "reportDate": "September 16, 2026",
       "bestViewing": "When driving to the park along the Trans-Canada Highway you can view the park's fall colours as you approach. Walking through any of the campgrounds will offer spectacular views of the leaves changing",
       "lat": 46.2,
       "lng": -81.4,
@@ -705,7 +705,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-09-16T13:24:10.774569Z",
+  "lastUpdated": "2026-09-16T18:06:47.755569Z",
   "totalParks": 64,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
