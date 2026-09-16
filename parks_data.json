@@ -343,10 +343,10 @@
     },
     "Mikisew": {
       "name": "Mikisew",
-      "colorChange": 0,
+      "colorChange": 10,
       "leafFall": 0,
       "dominantColour": "Green",
-      "reportDate": "August 12, 2026",
+      "reportDate": "September 16, 2026",
       "bestViewing": "The whole park allows for an immersive experience of the beautiful fall colours at Mikisew: the disc golf course, for example, or the Beaver Meadow and Maple Canyon trails.",
       "lat": 46.3,
       "lng": -81.9,
@@ -409,10 +409,10 @@
     },
     "Petroglyphs": {
       "name": "Petroglyphs",
-      "colorChange": 0,
+      "colorChange": 10,
       "leafFall": 0,
       "dominantColour": "Green",
-      "reportDate": "September 10, 2026",
+      "reportDate": "September 16, 2026",
       "bestViewing": "All three trails at Petroglyphs provide great examples of the forests and fall colours found throughout the park. With predominantly pine and spruce forest, you will find pops of colour throughout the",
       "lat": 44.8,
       "lng": -77.5,
@@ -497,7 +497,7 @@
     },
     "Restoule": {
       "name": "Restoule",
-      "colorChange": 0,
+      "colorChange": 10,
       "leafFall": 0,
       "dominantColour": "Green",
       "reportDate": "September 16, 2026",
@@ -705,7 +705,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-09-16T18:06:47.755569Z",
+  "lastUpdated": "2026-09-16T22:02:10.459838Z",
   "totalParks": 64,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
