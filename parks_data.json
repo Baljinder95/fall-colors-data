@@ -632,7 +632,7 @@
       "colorChange": 10,
       "leafFall": 0,
       "dominantColour": "Green",
-      "reportDate": "September 9, 2026",
+      "reportDate": "September 17, 2026",
       "bestViewing": "The drive along Highway 587 provides some of the best fall colours viewing in Sleeping Giant Provincial Park. Thunder Bay Lookout is an excellent viewpoint for fall colours as is the gorge on the Top ",
       "lat": 48.35,
       "lng": -89.25,
@@ -705,7 +705,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-09-17T18:06:55.160128Z",
+  "lastUpdated": "2026-09-17T22:02:33.763730Z",
   "totalParks": 64,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
