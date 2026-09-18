@@ -115,7 +115,7 @@
       "colorChange": 10,
       "leafFall": 0,
       "dominantColour": "Green",
-      "reportDate": "September 14, 2026",
+      "reportDate": "September 18, 2026",
       "bestViewing": "The best fall colour viewing in the park is on the Quiddity Trail and the Tallow Rock Bay Trail.",
       "lat": 44.7,
       "lng": -76.3,
@@ -368,7 +368,7 @@
       "colorChange": 0,
       "leafFall": 0,
       "dominantColour": "Green",
-      "reportDate": "September 14, 2026",
+      "reportDate": "September 18, 2026",
       "bestViewing": "For the best viewing opportunities: By car, take a drive along the road to the Day Use Beach, or travel out to the Lally Homestead parking lot. By foot, hike the McParlan House, Point, or Lally Homest",
       "lat": 44.9,
       "lng": -76.35,
@@ -390,7 +390,7 @@
       "colorChange": 0,
       "leafFall": 0,
       "dominantColour": "Green",
-      "reportDate": "September 15, 2026",
+      "reportDate": "September 18, 2026",
       "bestViewing": "Hardwood Hill Campground and the Pet Exercise Area offer excellent views of the lake and fall colours.",
       "lat": 45.9,
       "lng": -81.5,
@@ -651,10 +651,10 @@
     },
     "The Massasauga": {
       "name": "The Massasauga",
-      "colorChange": 0,
+      "colorChange": 10,
       "leafFall": 0,
       "dominantColour": "Green",
-      "reportDate": "September 15, 2026",
+      "reportDate": "September 18, 2026",
       "bestViewing": "Spider Lake and Clear Lake offer excellent views of fall colours.",
       "lat": 45.3,
       "lng": -80.3,
@@ -705,7 +705,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-09-18T12:54:21.977938Z",
+  "lastUpdated": "2026-09-18T17:02:23.810213Z",
   "totalParks": 64,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
