@@ -126,7 +126,7 @@
       "colorChange": 10,
       "leafFall": 10,
       "dominantColour": "Green",
-      "reportDate": "September 9, 2026",
+      "reportDate": "September 17, 2026",
       "bestViewing": "The best place to view the stunning fall colours is the Burk Trail Viewing Platform (also known as “the lookout”). This is located roughly in the middle of the Burk Trail, west of the Park Office and ",
       "lat": 43.85,
       "lng": -79.05,
@@ -705,7 +705,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-09-17T22:02:33.763730Z",
+  "lastUpdated": "2026-09-18T01:12:10.861505Z",
   "totalParks": 64,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
