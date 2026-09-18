@@ -2,10 +2,10 @@
   "parks": {
     "Algonquin": {
       "name": "Algonquin",
-      "colorChange": 10,
+      "colorChange": 20,
       "leafFall": 0,
       "dominantColour": "Green",
-      "reportDate": "September 14, 2026",
+      "reportDate": "September 18, 2026",
       "bestViewing": "There are spectacular viewing opportunities throughout Algonquin Provincial Park along the Highway 60 Corridor and other access points, such as the Park's trails and day use areas. Obtain your daily v",
       "lat": 45.9,
       "lng": -78.5,
@@ -145,10 +145,10 @@
     },
     "Finlayson Point": {
       "name": "Finlayson Point",
-      "colorChange": 10,
-      "leafFall": 0,
+      "colorChange": 20,
+      "leafFall": 10,
       "dominantColour": "Green",
-      "reportDate": "September 15, 2026",
+      "reportDate": "September 18, 2026",
       "bestViewing": "The Temagami region features a mix of large white and red pines alongside colourful stands of tamarack, birch, and poplar. You can enjoy these striking transition forests by boat on Lake Temagami, or,",
       "lat": 46.8,
       "lng": -81.3,
@@ -277,10 +277,10 @@
     },
     "Komoka": {
       "name": "Komoka",
-      "colorChange": 0,
-      "leafFall": 0,
+      "colorChange": 10,
+      "leafFall": 10,
       "dominantColour": "Green",
-      "reportDate": "September 10, 2026",
+      "reportDate": "September 18, 2026",
       "bestViewing": "Enjoy beautiful fall colours on Komoka’s 11 kilometre trail network. The White Trail offers a walk beneath the canopy of towering maple, oak, and beech trees along the Thames River. The Blue, Yellow, ",
       "lat": 42.95,
       "lng": -81.3,
@@ -332,10 +332,10 @@
     },
     "Marten River": {
       "name": "Marten River",
-      "colorChange": 10,
-      "leafFall": 0,
+      "colorChange": 20,
+      "leafFall": 10,
       "dominantColour": "Green",
-      "reportDate": "September 15, 2026",
+      "reportDate": "September 18, 2026",
       "bestViewing": "Great colour viewing can be enjoyed by hiking the park’s trails, biking throughout the campgrounds, or by boat along the Marten River. The Temagami region blends towering white pines with colourful st",
       "lat": 46.5,
       "lng": -81.0,
@@ -705,7 +705,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-09-18T07:19:45.888723Z",
+  "lastUpdated": "2026-09-18T12:54:21.977938Z",
   "totalParks": 64,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
