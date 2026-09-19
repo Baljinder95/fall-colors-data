@@ -445,7 +445,7 @@
       "colorChange": 10,
       "leafFall": 0,
       "dominantColour": "Green",
-      "reportDate": "September 10, 2026",
+      "reportDate": "September 19, 2026",
       "bestViewing": "The best views can be found along the main entrance road. Watch for beautiful displays of oranges and yellows from maple and poplar trees, complimenting the yellows and purples from goldenrods, asters",
       "lat": 44.0,
       "lng": -81.9,
@@ -705,7 +705,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-09-19T13:50:40.402325Z",
+  "lastUpdated": "2026-09-19T17:08:53.789797Z",
   "totalParks": 64,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
