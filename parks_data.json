@@ -137,7 +137,7 @@
       "colorChange": 10,
       "leafFall": 10,
       "dominantColour": "Green",
-      "reportDate": "September 14, 2026",
+      "reportDate": "September 19, 2026",
       "bestViewing": "The best spots to view fall colours is by hiking the Lookout Trail and walking through the Meadowbrook and Trillium Woods campgrounds.",
       "lat": 44.6,
       "lng": -80.2,
@@ -214,7 +214,7 @@
       "colorChange": 10,
       "leafFall": 0,
       "dominantColour": "Green",
-      "reportDate": "September 14, 2026",
+      "reportDate": "September 19, 2026",
       "bestViewing": "For the best views, look out from the boat launch across Inverhuron Bay. Maloney Trail is predominantly mature hardwoods and offers full immersion under the canopy of colours.",
       "lat": 44.0,
       "lng": -81.45,
@@ -705,7 +705,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-09-19T09:21:27.087123Z",
+  "lastUpdated": "2026-09-19T13:50:40.402325Z",
   "totalParks": 64,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
