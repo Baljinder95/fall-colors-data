@@ -258,7 +258,7 @@
       "colorChange": 10,
       "leafFall": 0,
       "dominantColour": "Green",
-      "reportDate": "September 10, 2026",
+      "reportDate": "September 19, 2026",
       "bestViewing": "To enjoy the beauty of fall, we recommend hiking to the lookout on the Granite Ridge Trail or bringing a picnic lunch to the bog area of our Cranberry Bog Trail.  If you’re looking to beat the crowds,",
       "lat": 46.1,
       "lng": -81.3,
@@ -489,7 +489,7 @@
       "colorChange": 20,
       "leafFall": 10,
       "dominantColour": "Green",
-      "reportDate": "September 16, 2026",
+      "reportDate": "September 19, 2026",
       "bestViewing": "Enjoy fall views of Lake Superior from the Park’s Rossport Campground. At the Whitesand Campground, visit the Superior Trail and the Rainbow Falls Trails to view fall colours.",
       "lat": 47.8,
       "lng": -87.7,
@@ -705,7 +705,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-09-19T17:08:53.789797Z",
+  "lastUpdated": "2026-09-19T20:28:49.586434Z",
   "totalParks": 64,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
