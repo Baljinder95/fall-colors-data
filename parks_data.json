@@ -198,17 +198,6 @@
       "lng": -80.35,
       "distance": 105
     },
-    "Halfway Lake": {
-      "name": "Halfway Lake",
-      "colorChange": 0,
-      "leafFall": 0,
-      "dominantColour": "Green",
-      "reportDate": "September 8, 2026",
-      "bestViewing": "Halfway Lake is just an hour north of Sudbury, but is also at the southern edge of the Boreal Forest in Northeastern Ontario.  This means that the park's fall colours are made up of the golds, yellows",
-      "lat": 46.5,
-      "lng": -81.5,
-      "distance": 120
-    },
     "Inverhuron": {
       "name": "Inverhuron",
       "colorChange": 10,
@@ -705,7 +694,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-09-20T00:56:23.564287Z",
-  "totalParks": 64,
+  "lastUpdated": "2026-09-20T06:01:53.040309Z",
+  "totalParks": 63,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
