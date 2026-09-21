@@ -2,10 +2,10 @@
   "parks": {
     "Algonquin": {
       "name": "Algonquin",
-      "colorChange": 20,
+      "colorChange": 30,
       "leafFall": 0,
       "dominantColour": "Green",
-      "reportDate": "September 18, 2026",
+      "reportDate": "September 21, 2026",
       "bestViewing": "There are spectacular viewing opportunities throughout Algonquin Provincial Park along the Highway 60 Corridor and other access points, such as the Park's trails and day use areas. Obtain your daily v",
       "lat": 45.9,
       "lng": -78.5,
@@ -13,10 +13,10 @@
     },
     "Arrowhead": {
       "name": "Arrowhead",
-      "colorChange": 10,
+      "colorChange": 20,
       "leafFall": 10,
       "dominantColour": "Green",
-      "reportDate": "September 14, 2026",
+      "reportDate": "September 21, 2026",
       "bestViewing": "Check out Big Bend Lookout, Beach Area #1, or the Arrowhead Lake Trail for spectacular fall colours.",
       "lat": 45.15,
       "lng": -79.35,
@@ -478,7 +478,7 @@
       "colorChange": 20,
       "leafFall": 10,
       "dominantColour": "Green",
-      "reportDate": "September 19, 2026",
+      "reportDate": "September 21, 2026",
       "bestViewing": "Enjoy fall views of Lake Superior from the Park’s Rossport Campground. At the Whitesand Campground, visit the Superior Trail and the Rainbow Falls Trails to view fall colours.",
       "lat": 47.8,
       "lng": -87.7,
@@ -489,7 +489,7 @@
       "colorChange": 10,
       "leafFall": 0,
       "dominantColour": "Green",
-      "reportDate": "September 16, 2026",
+      "reportDate": "September 21, 2026",
       "bestViewing": "Predominately surrounded by deciduous trees, the entire park is lovely for fall colour viewing. The best viewing spots include the Fire Tower Trail (best viewing at the lookout) and the River Trail.",
       "lat": 45.6,
       "lng": -79.3,
@@ -541,10 +541,10 @@
     },
     "Sandbanks": {
       "name": "Sandbanks",
-      "colorChange": 0,
+      "colorChange": 10,
       "leafFall": 0,
       "dominantColour": "Green",
-      "reportDate": "September 17, 2026",
+      "reportDate": "September 21, 2026",
       "bestViewing": "The Lakeview Trail and Woodlands Trail provide the best fall colour viewing opportunities at Sandbanks.",
       "lat": 43.8,
       "lng": -77.55,
@@ -585,10 +585,10 @@
     },
     "Silent Lake": {
       "name": "Silent Lake",
-      "colorChange": 10,
+      "colorChange": 20,
       "leafFall": 10,
       "dominantColour": "Green",
-      "reportDate": "September 17, 2026",
+      "reportDate": "September 21, 2026",
       "bestViewing": "Silent Lake has many beautiful scenic locations to view fall colours. Silent Lake offers three hiking trails that offer plenty of opportunities to view fall colours: Lakehead Loop (1.5 km), Bonnies Po",
       "lat": 44.7,
       "lng": -78.0,
@@ -694,7 +694,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-09-21T06:11:40.361364Z",
+  "lastUpdated": "2026-09-21T13:53:26.729566Z",
   "totalParks": 63,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
