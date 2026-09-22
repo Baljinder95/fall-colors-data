@@ -68,10 +68,10 @@
     },
     "Bon Echo": {
       "name": "Bon Echo",
-      "colorChange": 10,
+      "colorChange": 20,
       "leafFall": 10,
       "dominantColour": "Green",
-      "reportDate": "September 17, 2026",
+      "reportDate": "September 22, 2026",
       "bestViewing": "Take in the fall colours along the Cliff Top Trail with red, yellow, and brown leaves from Sugar Maple, White Birch and Red Oak trees. The observation platforms along this trail also provide great vie",
       "lat": 44.9,
       "lng": -77.1,
@@ -113,9 +113,9 @@
     "Charleston Lake": {
       "name": "Charleston Lake",
       "colorChange": 10,
-      "leafFall": 0,
+      "leafFall": 10,
       "dominantColour": "Green",
-      "reportDate": "September 18, 2026",
+      "reportDate": "September 22, 2026",
       "bestViewing": "The best fall colour viewing in the park is on the Quiddity Trail and the Tallow Rock Bay Trail.",
       "lat": 44.7,
       "lng": -76.3,
@@ -277,10 +277,10 @@
     },
     "Lake St. Peter": {
       "name": "Lake St. Peter",
-      "colorChange": 10,
+      "colorChange": 20,
       "leafFall": 10,
       "dominantColour": "Green",
-      "reportDate": "September 15, 2026",
+      "reportDate": "September 22, 2026",
       "bestViewing": "For great fall colour viewing, we recommend hiking the Lookout Trail (2.5km, strenuous). The trail crosses rugged terrain, passes by a kettle lake, and leads to a spectacular lookout over the lake.",
       "lat": 44.55,
       "lng": -77.65,
@@ -684,17 +684,17 @@
     },
     "Wheatley": {
       "name": "Wheatley",
-      "colorChange": 0,
+      "colorChange": 10,
       "leafFall": 0,
       "dominantColour": "Green",
-      "reportDate": "September 11, 2026",
+      "reportDate": "September 22, 2026",
       "bestViewing": "Campers will be treated to beautiful colours throughout the campground. Due to shoreline erosion, the Day Use Area has reduced parking capacity and amenities. Visitors should plan accordingly and make",
       "lat": 42.1,
       "lng": -82.4,
       "distance": 165
     }
   },
-  "lastUpdated": "2026-09-22T09:49:00.746948Z",
+  "lastUpdated": "2026-09-22T14:38:13.486106Z",
   "totalParks": 63,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
