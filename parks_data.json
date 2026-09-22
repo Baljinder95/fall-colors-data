@@ -192,7 +192,7 @@
       "colorChange": 10,
       "leafFall": 10,
       "dominantColour": "Green",
-      "reportDate": "September 20, 2026",
+      "reportDate": "September 22, 2026",
       "bestViewing": "Drive, bike, or stroll down the main road, or through the Poplar and Red Maple Campgrounds (foot or bike traffic only) for fabulous views of the fall colours. Looking for something a little bit more a",
       "lat": 45.25,
       "lng": -80.35,
@@ -233,10 +233,10 @@
     },
     "Kettle Lakes": {
       "name": "Kettle Lakes",
-      "colorChange": 20,
-      "leafFall": 10,
+      "colorChange": 30,
+      "leafFall": 20,
       "dominantColour": "Green",
-      "reportDate": "September 14, 2026",
+      "reportDate": "September 22, 2026",
       "bestViewing": "Enjoy the golden views of the boreal forest at Kettle Lakes. Hike the Tamarack Trail or Kettle Trail and bike the Blue Bike Trail for the best fall colour viewing opportunities. Rent one of our canoes",
       "lat": 48.2,
       "lng": -87.0,
@@ -694,7 +694,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-09-22T18:43:25.658785Z",
+  "lastUpdated": "2026-09-22T21:57:42.763905Z",
   "totalParks": 63,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
