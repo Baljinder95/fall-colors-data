@@ -2,10 +2,10 @@
   "parks": {
     "Algonquin": {
       "name": "Algonquin",
-      "colorChange": 30,
+      "colorChange": 40,
       "leafFall": 0,
       "dominantColour": "Green",
-      "reportDate": "September 21, 2026",
+      "reportDate": "September 22, 2026",
       "bestViewing": "There are spectacular viewing opportunities throughout Algonquin Provincial Park along the Highway 60 Corridor and other access points, such as the Park's trails and day use areas. Obtain your daily v",
       "lat": 45.9,
       "lng": -78.5,
@@ -59,8 +59,8 @@
       "name": "Batchawana Bay",
       "colorChange": 20,
       "leafFall": 10,
-      "dominantColour": "Green",
-      "reportDate": "September 15, 2026",
+      "dominantColour": "Red",
+      "reportDate": "September 22, 2026",
       "bestViewing": "The best fall colour viewing in Batchawana Bay Provincial Park is available from the beach on the east side of the park where the contrast of Lake Superior’s blue waters can be seen against the brilli",
       "lat": 46.8,
       "lng": -84.5,
@@ -200,10 +200,10 @@
     },
     "Inverhuron": {
       "name": "Inverhuron",
-      "colorChange": 10,
-      "leafFall": 0,
+      "colorChange": 20,
+      "leafFall": 10,
       "dominantColour": "Green",
-      "reportDate": "September 19, 2026",
+      "reportDate": "September 22, 2026",
       "bestViewing": "For the best views, look out from the boat launch across Inverhuron Bay. Maloney Trail is predominantly mature hardwoods and offers full immersion under the canopy of colours.",
       "lat": 44.0,
       "lng": -81.45,
@@ -464,10 +464,10 @@
     },
     "Quetico": {
       "name": "Quetico",
-      "colorChange": 20,
+      "colorChange": 30,
       "leafFall": 10,
       "dominantColour": "Green",
-      "reportDate": "September 15, 2026",
+      "reportDate": "September 22, 2026",
       "bestViewing": "The dominant fall leaf colour in Quetico is yellow. Aspen, tamarack, and birch are found throughout the backcountry of the park along with pockets of smaller red maples. Quetico’s Dawson Trail Campgro",
       "lat": 49.5,
       "lng": -90.7,
@@ -694,7 +694,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-09-22T14:38:13.486106Z",
+  "lastUpdated": "2026-09-22T18:43:25.658785Z",
   "totalParks": 63,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
