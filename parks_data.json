@@ -178,10 +178,10 @@
     },
     "Frontenac": {
       "name": "Frontenac",
-      "colorChange": 10,
-      "leafFall": 0,
+      "colorChange": 20,
+      "leafFall": 10,
       "dominantColour": "Green",
-      "reportDate": "September 17, 2026",
+      "reportDate": "September 23, 2026",
       "bestViewing": "With over 100 km of hiking trails, Frontenac provides excellent fall colour viewing opportunities. Two trails that are sure to provide a beautiful fall colour experience are Doe Lake Loop (3 km) and D",
       "lat": 44.9,
       "lng": -76.35,
@@ -563,10 +563,10 @@
     },
     "Sharbot Lake": {
       "name": "Sharbot Lake",
-      "colorChange": 10,
+      "colorChange": 20,
       "leafFall": 10,
-      "dominantColour": "Yellow",
-      "reportDate": "September 16, 2026",
+      "dominantColour": "Green",
+      "reportDate": "September 23, 2026",
       "bestViewing": "Hike the Discovery Trail (1.2 km) to catch the best fall colours in the park. It provides great viewing opportunities all season, often highlighting some of the first areas around the park to peak in ",
       "lat": 44.65,
       "lng": -76.7,
@@ -596,10 +596,10 @@
     },
     "Silver Lake": {
       "name": "Silver Lake",
-      "colorChange": 10,
-      "leafFall": 10,
+      "colorChange": 20,
+      "leafFall": 20,
       "dominantColour": "Green",
-      "reportDate": "September 16, 2026",
+      "reportDate": "September 23, 2026",
       "bestViewing": "When driving to the park along the Trans-Canada Highway you can view the park's fall colours as you approach. Walking through any of the campgrounds will offer spectacular views of the leaves changing",
       "lat": 46.2,
       "lng": -81.4,
@@ -694,7 +694,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-09-23T16:42:53.168980Z",
+  "lastUpdated": "2026-09-23T20:08:44.891969Z",
   "totalParks": 63,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
