@@ -35,10 +35,10 @@
     },
     "Balsam Lake": {
       "name": "Balsam Lake",
-      "colorChange": 0,
-      "leafFall": 0,
+      "colorChange": 10,
+      "leafFall": 10,
       "dominantColour": "Green",
-      "reportDate": "September 7, 2026",
+      "reportDate": "September 24, 2026",
       "bestViewing": "We recommend visitors walk through the closed Cedar and Maple campgrounds to enjoy the beautiful maple trees in those areas. Visitors will enjoy the Lookout Trail as portions of the trail have Staghor",
       "lat": 44.4,
       "lng": -79.25,
@@ -112,10 +112,10 @@
     },
     "Charleston Lake": {
       "name": "Charleston Lake",
-      "colorChange": 10,
+      "colorChange": 20,
       "leafFall": 10,
       "dominantColour": "Green",
-      "reportDate": "September 22, 2026",
+      "reportDate": "September 24, 2026",
       "bestViewing": "The best fall colour viewing in the park is on the Quiddity Trail and the Tallow Rock Bay Trail.",
       "lat": 44.7,
       "lng": -76.3,
@@ -453,10 +453,10 @@
     },
     "Presqu'ile": {
       "name": "Presqu'ile",
-      "colorChange": 0,
+      "colorChange": 10,
       "leafFall": 0,
       "dominantColour": "Green",
-      "reportDate": "September 1, 2026",
+      "reportDate": "September 24, 2026",
       "bestViewing": "There are two areas in Presqu'ile that provide beautiful fall colours. Enjoy a leisurely walk along the road leading into our Group Camping Area north of the trailhead parking lot. Craigs Campground a",
       "lat": 43.85,
       "lng": -77.7,
@@ -694,7 +694,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-09-24T18:59:33.368570Z",
+  "lastUpdated": "2026-09-24T22:17:44.022165Z",
   "totalParks": 63,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
