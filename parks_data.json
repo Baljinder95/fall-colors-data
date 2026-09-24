@@ -310,10 +310,10 @@
     },
     "Mark S. Burnham": {
       "name": "Mark S. Burnham",
-      "colorChange": 0,
+      "colorChange": 10,
       "leafFall": 0,
       "dominantColour": "Green",
-      "reportDate": "September 17, 2026",
+      "reportDate": "September 24, 2026",
       "bestViewing": "Mark S. Burnham has many of the oldest maple, beech, elm and hemlock trees in the area, this makes for wonderful fall colours. Try hiking the small loop or long loop of the trail to see the many diffe",
       "lat": 43.65,
       "lng": -79.5,
@@ -401,7 +401,7 @@
       "colorChange": 10,
       "leafFall": 0,
       "dominantColour": "Green",
-      "reportDate": "September 20, 2026",
+      "reportDate": "September 24, 2026",
       "bestViewing": "All three trails at Petroglyphs provide great examples of the forests and fall colours found throughout the park. With predominantly pine and spruce forest, you will find pops of colour throughout the",
       "lat": 44.8,
       "lng": -77.5,
@@ -445,7 +445,7 @@
       "colorChange": 0,
       "leafFall": 0,
       "dominantColour": "Green",
-      "reportDate": "September 17, 2026",
+      "reportDate": "September 24, 2026",
       "bestViewing": "For the best views, head to the Ravine Creek Trail. The beach is another great option for a fall stroll. Please note that our self-serve fee station at the Day Use Gate/Beach entrance accepts cash onl",
       "lat": 42.65,
       "lng": -80.6,
@@ -497,10 +497,10 @@
     },
     "Rideau River": {
       "name": "Rideau River",
-      "colorChange": 0,
+      "colorChange": 10,
       "leafFall": 0,
       "dominantColour": "Green",
-      "reportDate": "September 17, 2026",
+      "reportDate": "September 24, 2026",
       "bestViewing": "Rideau River's beach areas and boat launch offer great views of the fall colours displayed along the Rideau River. Visitors will enjoy relaxing in the day use area that is filled with Silver Maple. Pa",
       "lat": 45.25,
       "lng": -76.0,
@@ -652,9 +652,9 @@
     "Turkey Point": {
       "name": "Turkey Point",
       "colorChange": 10,
-      "leafFall": 10,
+      "leafFall": 30,
       "dominantColour": "Green",
-      "reportDate": "September 17, 2026",
+      "reportDate": "September 24, 2026",
       "bestViewing": "Check out the Lookout Bluff Trail to enjoy beautiful fall colours. View maples, birch, oak, sassafras, and tulip trees changing colour.",
       "lat": 42.7,
       "lng": -80.35,
@@ -673,10 +673,10 @@
     },
     "Wasaga Beach": {
       "name": "Wasaga Beach",
-      "colorChange": 10,
+      "colorChange": 20,
       "leafFall": 0,
       "dominantColour": "Green",
-      "reportDate": "September 15, 2026",
+      "reportDate": "September 24, 2026",
       "bestViewing": "Visitors to Wasaga Beach can enjoy the fall colours by taking a stroll through any of our beach areas and viewing the colours around Georgian Bay. The Nordic and Trail Centre also offers great opportu",
       "lat": 44.5,
       "lng": -80.65,
@@ -694,7 +694,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-09-24T09:51:48.138541Z",
+  "lastUpdated": "2026-09-24T14:51:54.191334Z",
   "totalParks": 63,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
