@@ -277,10 +277,10 @@
     },
     "Lake St. Peter": {
       "name": "Lake St. Peter",
-      "colorChange": 20,
+      "colorChange": 30,
       "leafFall": 10,
-      "dominantColour": "Green",
-      "reportDate": "September 22, 2026",
+      "dominantColour": "Orange",
+      "reportDate": "September 25, 2026",
       "bestViewing": "For great fall colour viewing, we recommend hiking the Lookout Trail (2.5km, strenuous). The trail crosses rugged terrain, passes by a kettle lake, and leads to a spectacular lookout over the lake.",
       "lat": 44.55,
       "lng": -77.65,
@@ -332,10 +332,10 @@
     },
     "Mikisew": {
       "name": "Mikisew",
-      "colorChange": 10,
-      "leafFall": 0,
+      "colorChange": 30,
+      "leafFall": 10,
       "dominantColour": "Green",
-      "reportDate": "September 16, 2026",
+      "reportDate": "September 25, 2026",
       "bestViewing": "The whole park allows for an immersive experience of the beautiful fall colours at Mikisew: the disc golf course, for example, or the Beaver Meadow and Maple Canyon trails.",
       "lat": 46.3,
       "lng": -81.9,
@@ -357,7 +357,7 @@
       "colorChange": 10,
       "leafFall": 10,
       "dominantColour": "Green",
-      "reportDate": "September 21, 2026",
+      "reportDate": "September 25, 2026",
       "bestViewing": "For the best viewing opportunities: By car, take a drive along the road to the Day Use Beach, or travel out to the Lally Homestead parking lot. By foot, hike the McParlan House, Point, or Lally Homest",
       "lat": 44.9,
       "lng": -76.35,
@@ -694,7 +694,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-09-25T18:27:35.572515Z",
+  "lastUpdated": "2026-09-25T22:11:30.328081Z",
   "totalParks": 63,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
