@@ -2,7 +2,7 @@
   "parks": {
     "Algonquin": {
       "name": "Algonquin",
-      "colorChange": 70,
+      "colorChange": 80,
       "leafFall": 10,
       "dominantColour": "Yellow/Orange",
       "reportDate": "September 25, 2026",
@@ -134,10 +134,10 @@
     },
     "Earl Rowe": {
       "name": "Earl Rowe",
-      "colorChange": 10,
+      "colorChange": 20,
       "leafFall": 10,
       "dominantColour": "Green",
-      "reportDate": "September 19, 2026",
+      "reportDate": "September 25, 2026",
       "bestViewing": "The best spots to view fall colours is by hiking the Lookout Trail and walking through the Meadowbrook and Trillium Woods campgrounds.",
       "lat": 44.6,
       "lng": -80.2,
@@ -159,7 +159,7 @@
       "colorChange": 20,
       "leafFall": 10,
       "dominantColour": "Green",
-      "reportDate": "September 14, 2026",
+      "reportDate": "September 25, 2026",
       "bestViewing": "The best fall colour viewing spot in the park is along the Trans Canada Trail. Please note that reservations are required to guarantee your access to the park. For top tips on how to plan your trip, v",
       "lat": 43.8,
       "lng": -80.2,
@@ -223,9 +223,9 @@
     "Kap-Kig-Iwan": {
       "name": "Kap-Kig-Iwan",
       "colorChange": 10,
-      "leafFall": 0,
-      "dominantColour": "Green",
-      "reportDate": "September 15, 2026",
+      "leafFall": 10,
+      "dominantColour": "Yellow",
+      "reportDate": "September 25, 2026",
       "bestViewing": "Kap-Kig-Iwan Provincial Park is bursting with autumn beauty. Top viewing spots include the High Falls Trail, where cascading water meets fiery foliage; the Aspen Crescent Lookout, offering sweeping vi",
       "lat": 46.7,
       "lng": -81.7,
@@ -269,7 +269,7 @@
       "colorChange": 10,
       "leafFall": 10,
       "dominantColour": "Green",
-      "reportDate": "September 18, 2026",
+      "reportDate": "September 25, 2026",
       "bestViewing": "Enjoy beautiful fall colours on Komoka’s 11 kilometre trail network. The White Trail offers a walk beneath the canopy of towering maple, oak, and beech trees along the Thames River. The Blue, Yellow, ",
       "lat": 42.95,
       "lng": -81.3,
@@ -343,10 +343,10 @@
     },
     "Mono Cliffs": {
       "name": "Mono Cliffs",
-      "colorChange": 10,
+      "colorChange": 20,
       "leafFall": 10,
       "dominantColour": "Green",
-      "reportDate": "September 14, 2026",
+      "reportDate": "September 25, 2026",
       "bestViewing": "The best spot to view fall colours is by hiking along the Cliff-Top Side Trail. Please note that reservations are required to guarantee your access to the park. For top tips on how to plan your trip, ",
       "lat": 43.95,
       "lng": -80.05,
@@ -389,7 +389,7 @@
       "name": "Pancake Bay",
       "colorChange": 30,
       "leafFall": 10,
-      "dominantColour": "Red/Orange",
+      "dominantColour": "Green",
       "reportDate": "September 25, 2026",
       "bestViewing": "Hike to the Edmund Fitzgerald Lookout for a spectacular view of the area’s fall colours and Lake Superior beyond! Those looking for a more challenging hike can complete the Pancake Falls or Tower Trai",
       "lat": 47.5,
@@ -464,10 +464,10 @@
     },
     "Quetico": {
       "name": "Quetico",
-      "colorChange": 30,
-      "leafFall": 10,
+      "colorChange": 50,
+      "leafFall": 20,
       "dominantColour": "Green",
-      "reportDate": "September 22, 2026",
+      "reportDate": "September 25, 2026",
       "bestViewing": "The dominant fall leaf colour in Quetico is yellow. Aspen, tamarack, and birch are found throughout the backcountry of the park along with pockets of smaller red maples. Quetico’s Dawson Trail Campgro",
       "lat": 49.5,
       "lng": -90.7,
@@ -694,7 +694,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-09-25T13:35:39.243466Z",
+  "lastUpdated": "2026-09-25T18:27:35.572515Z",
   "totalParks": 63,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
