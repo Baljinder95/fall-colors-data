@@ -530,10 +530,10 @@
     },
     "Samuel de Champlain": {
       "name": "Samuel de Champlain",
-      "colorChange": 20,
-      "leafFall": 0,
-      "dominantColour": "Green",
-      "reportDate": "September 21, 2026",
+      "colorChange": 30,
+      "leafFall": 10,
+      "dominantColour": "Yellow/Orange",
+      "reportDate": "September 26, 2026",
       "bestViewing": "Driving the main road through the park is an easy and accessible way to view reds, yellows, and oranges as the aspens, oaks, and maples start to turn. Campion Portage is another good spot to view the ",
       "lat": 45.65,
       "lng": -75.7,
@@ -585,10 +585,10 @@
     },
     "Silent Lake": {
       "name": "Silent Lake",
-      "colorChange": 20,
+      "colorChange": 30,
       "leafFall": 10,
       "dominantColour": "Green",
-      "reportDate": "September 23, 2026",
+      "reportDate": "September 26, 2026",
       "bestViewing": "Silent Lake has many beautiful scenic locations to view fall colours. Silent Lake offers three hiking trails that offer plenty of opportunities to view fall colours: Lakehead Loop (1.5 km), Bonnies Po",
       "lat": 44.7,
       "lng": -78.0,
@@ -694,7 +694,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-09-26T17:04:14.438387Z",
+  "lastUpdated": "2026-09-26T20:58:41.029840Z",
   "totalParks": 63,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
