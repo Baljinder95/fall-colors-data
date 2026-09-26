@@ -244,10 +244,10 @@
     },
     "Killarney": {
       "name": "Killarney",
-      "colorChange": 10,
+      "colorChange": 20,
       "leafFall": 0,
       "dominantColour": "Green",
-      "reportDate": "September 19, 2026",
+      "reportDate": "September 26, 2026",
       "bestViewing": "To enjoy the beauty of fall, we recommend hiking to the lookout on the Granite Ridge Trail or bringing a picnic lunch to the bog area of our Cranberry Bog Trail.  If you’re looking to beat the crowds,",
       "lat": 46.1,
       "lng": -81.3,
@@ -694,7 +694,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-09-26T20:58:41.029840Z",
+  "lastUpdated": "2026-09-26T23:31:49.277966Z",
   "totalParks": 63,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
