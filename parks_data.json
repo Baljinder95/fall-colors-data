@@ -101,10 +101,10 @@
     },
     "Caliper Lake": {
       "name": "Caliper Lake",
-      "colorChange": 20,
-      "leafFall": 0,
-      "dominantColour": "Green",
-      "reportDate": "September 20, 2026",
+      "colorChange": 50,
+      "leafFall": 20,
+      "dominantColour": "Yellow",
+      "reportDate": "September 26, 2026",
       "bestViewing": "Best viewing is along the campground roads, the day use and beach areas.",
       "lat": 45.05,
       "lng": -78.3,
@@ -277,10 +277,10 @@
     },
     "Lake St. Peter": {
       "name": "Lake St. Peter",
-      "colorChange": 30,
+      "colorChange": 40,
       "leafFall": 10,
-      "dominantColour": "Orange",
-      "reportDate": "September 25, 2026",
+      "dominantColour": "Yellow/Orange",
+      "reportDate": "September 26, 2026",
       "bestViewing": "For great fall colour viewing, we recommend hiking the Lookout Trail (2.5km, strenuous). The trail crosses rugged terrain, passes by a kettle lake, and leads to a spectacular lookout over the lake.",
       "lat": 44.55,
       "lng": -77.65,
@@ -519,10 +519,10 @@
     },
     "Rushing River": {
       "name": "Rushing River",
-      "colorChange": 20,
-      "leafFall": 0,
-      "dominantColour": "Green",
-      "reportDate": "September 20, 2026",
+      "colorChange": 50,
+      "leafFall": 20,
+      "dominantColour": "Yellow",
+      "reportDate": "September 26, 2026",
       "bestViewing": "The best viewing is on the northside of the park.",
       "lat": 49.75,
       "lng": -93.7,
@@ -618,10 +618,10 @@
     },
     "Sleeping Giant": {
       "name": "Sleeping Giant",
-      "colorChange": 20,
-      "leafFall": 0,
+      "colorChange": 30,
+      "leafFall": 10,
       "dominantColour": "Green",
-      "reportDate": "September 23, 2026",
+      "reportDate": "September 26, 2026",
       "bestViewing": "The drive along Highway 587 provides some of the best fall colours viewing in Sleeping Giant Provincial Park. Thunder Bay Lookout is an excellent viewpoint for fall colours as is the gorge on the Top ",
       "lat": 48.35,
       "lng": -89.25,
@@ -694,7 +694,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-09-26T12:57:25.126963Z",
+  "lastUpdated": "2026-09-26T17:04:14.438387Z",
   "totalParks": 63,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
