@@ -57,10 +57,10 @@
     },
     "Batchawana Bay": {
       "name": "Batchawana Bay",
-      "colorChange": 20,
-      "leafFall": 10,
-      "dominantColour": "Red",
-      "reportDate": "September 22, 2026",
+      "colorChange": 30,
+      "leafFall": 20,
+      "dominantColour": "Yellow",
+      "reportDate": "September 27, 2026",
       "bestViewing": "The best fall colour viewing in Batchawana Bay Provincial Park is available from the beach on the east side of the park where the contrast of Lake Superior’s blue waters can be seen against the brilli",
       "lat": 46.8,
       "lng": -84.5,
@@ -167,10 +167,10 @@
     },
     "French River": {
       "name": "French River",
-      "colorChange": 10,
+      "colorChange": 20,
       "leafFall": 0,
       "dominantColour": "Green",
-      "reportDate": "September 14, 2026",
+      "reportDate": "September 27, 2026",
       "bestViewing": "The French River Gorge and the area around the French River Visitor Centre, just off Highway #400, is an amazing place.  Scenic, and historic, where the river is lined with towering White Pines.  In f",
       "lat": 45.7,
       "lng": -80.8,
@@ -321,10 +321,10 @@
     },
     "Marten River": {
       "name": "Marten River",
-      "colorChange": 20,
+      "colorChange": 30,
       "leafFall": 10,
-      "dominantColour": "Green",
-      "reportDate": "September 18, 2026",
+      "dominantColour": "Red/Orange",
+      "reportDate": "September 27, 2026",
       "bestViewing": "Great colour viewing can be enjoyed by hiking the park’s trails, biking throughout the campgrounds, or by boat along the Marten River. The Temagami region blends towering white pines with colourful st",
       "lat": 46.5,
       "lng": -81.0,
@@ -541,10 +541,10 @@
     },
     "Sandbanks": {
       "name": "Sandbanks",
-      "colorChange": 10,
+      "colorChange": 20,
       "leafFall": 0,
       "dominantColour": "Green",
-      "reportDate": "September 23, 2026",
+      "reportDate": "September 27, 2026",
       "bestViewing": "The Lakeview Trail and Woodlands Trail provide the best fall colour viewing opportunities at Sandbanks.",
       "lat": 43.8,
       "lng": -77.55,
@@ -694,7 +694,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-09-27T11:52:42.840774Z",
+  "lastUpdated": "2026-09-27T16:50:58.683210Z",
   "totalParks": 63,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
