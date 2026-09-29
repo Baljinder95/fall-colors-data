@@ -2,10 +2,10 @@
   "parks": {
     "Algonquin": {
       "name": "Algonquin",
-      "colorChange": 80,
+      "colorChange": 90,
       "leafFall": 10,
-      "dominantColour": "Yellow/Orange",
-      "reportDate": "September 25, 2026",
+      "dominantColour": "Red/Orange",
+      "reportDate": "September 29, 2026",
       "bestViewing": "There are spectacular viewing opportunities throughout Algonquin Provincial Park along the Highway 60 Corridor and other access points, such as the Park's trails and day use areas. Obtain your daily v",
       "lat": 45.9,
       "lng": -78.5,
@@ -68,10 +68,10 @@
     },
     "Bon Echo": {
       "name": "Bon Echo",
-      "colorChange": 40,
+      "colorChange": 50,
       "leafFall": 20,
-      "dominantColour": "Yellow",
-      "reportDate": "September 28, 2026",
+      "dominantColour": "Yellow/Orange",
+      "reportDate": "September 29, 2026",
       "bestViewing": "Take in the fall colours along the Cliff Top Trail with red, yellow, and brown leaves from Sugar Maple, White Birch and Red Oak trees. The observation platforms along this trail also provide great vie",
       "lat": 44.9,
       "lng": -77.1,
@@ -486,10 +486,10 @@
     },
     "Restoule": {
       "name": "Restoule",
-      "colorChange": 30,
+      "colorChange": 50,
       "leafFall": 10,
       "dominantColour": "Yellow/Orange",
-      "reportDate": "September 28, 2026",
+      "reportDate": "September 29, 2026",
       "bestViewing": "Predominately surrounded by deciduous trees, the entire park is lovely for fall colour viewing. The best viewing spots include the Fire Tower Trail (best viewing at the lookout) and the River Trail.",
       "lat": 45.6,
       "lng": -79.3,
@@ -511,7 +511,7 @@
       "colorChange": 10,
       "leafFall": 10,
       "dominantColour": "Green",
-      "reportDate": "September 23, 2026",
+      "reportDate": "September 29, 2026",
       "bestViewing": "As the colours begin to change in mid-September to early October, check out Spicebush Trail for great views. Later in the season the eastern side of the park and the Black Oak Trail will display the g",
       "lat": 42.3,
       "lng": -81.85,
@@ -684,17 +684,17 @@
     },
     "Wheatley": {
       "name": "Wheatley",
-      "colorChange": 0,
+      "colorChange": 10,
       "leafFall": 0,
       "dominantColour": "Green",
-      "reportDate": "September 23, 2026",
+      "reportDate": "September 29, 2026",
       "bestViewing": "Campers will be treated to beautiful colours throughout the campground. Due to shoreline erosion, the Day Use Area has reduced parking capacity and amenities. Visitors should plan accordingly and make",
       "lat": 42.1,
       "lng": -82.4,
       "distance": 165
     }
   },
-  "lastUpdated": "2026-09-29T06:46:17.294471Z",
+  "lastUpdated": "2026-09-29T13:56:44.050321Z",
   "totalParks": 63,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
