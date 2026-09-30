@@ -310,10 +310,10 @@
     },
     "Mark S. Burnham": {
       "name": "Mark S. Burnham",
-      "colorChange": 10,
-      "leafFall": 0,
+      "colorChange": 40,
+      "leafFall": 10,
       "dominantColour": "Green",
-      "reportDate": "September 24, 2026",
+      "reportDate": "September 30, 2026",
       "bestViewing": "Mark S. Burnham has many of the oldest maple, beech, elm and hemlock trees in the area, this makes for wonderful fall colours. Try hiking the small loop or long loop of the trail to see the many diffe",
       "lat": 43.65,
       "lng": -79.5,
@@ -694,7 +694,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-09-30T18:21:43.337894Z",
+  "lastUpdated": "2026-09-30T22:55:03.882104Z",
   "totalParks": 63,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
