@@ -3,9 +3,9 @@
     "Algonquin": {
       "name": "Algonquin",
       "colorChange": 90,
-      "leafFall": 20,
+      "leafFall": 30,
       "dominantColour": "Red/Orange",
-      "reportDate": "October 2, 2026",
+      "reportDate": "October 3, 2026",
       "bestViewing": "There are spectacular viewing opportunities throughout Algonquin Provincial Park along the Highway 60 Corridor and other access points, such as the Park's trails and day use areas. Obtain your daily v",
       "lat": 45.9,
       "lng": -78.5,
@@ -101,10 +101,10 @@
     },
     "Caliper Lake": {
       "name": "Caliper Lake",
-      "colorChange": 50,
+      "colorChange": 60,
       "leafFall": 20,
       "dominantColour": "Yellow",
-      "reportDate": "September 26, 2026",
+      "reportDate": "October 3, 2026",
       "bestViewing": "Best viewing is along the campground roads, the day use and beach areas.",
       "lat": 45.05,
       "lng": -78.3,
@@ -255,10 +255,10 @@
     },
     "Killbear": {
       "name": "Killbear",
-      "colorChange": 30,
+      "colorChange": 40,
       "leafFall": 10,
-      "dominantColour": "Green",
-      "reportDate": "September 30, 2026",
+      "dominantColour": "Yellow",
+      "reportDate": "October 3, 2026",
       "bestViewing": "The best fall colours can be seen along the main park road, the Recreational Trail, and the Lookout Point Trail. Colours usually peak around Thanksgiving weekend but stay surprisingly strong throughou",
       "lat": 45.2,
       "lng": -80.4,
@@ -399,9 +399,9 @@
     "Petroglyphs": {
       "name": "Petroglyphs",
       "colorChange": 70,
-      "leafFall": 10,
+      "leafFall": 20,
       "dominantColour": "Yellow",
-      "reportDate": "September 30, 2026",
+      "reportDate": "October 3, 2026",
       "bestViewing": "All three trails at Petroglyphs provide great examples of the forests and fall colours found throughout the park. With predominantly pine and spruce forest, you will find pops of colour throughout the",
       "lat": 44.8,
       "lng": -77.5,
@@ -519,10 +519,10 @@
     },
     "Rushing River": {
       "name": "Rushing River",
-      "colorChange": 50,
+      "colorChange": 60,
       "leafFall": 20,
       "dominantColour": "Yellow",
-      "reportDate": "September 26, 2026",
+      "reportDate": "October 3, 2026",
       "bestViewing": "The best viewing is on the northside of the park.",
       "lat": 49.75,
       "lng": -93.7,
@@ -694,7 +694,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-10-03T12:24:54.575068Z",
+  "lastUpdated": "2026-10-03T17:09:34.219189Z",
   "totalParks": 63,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
