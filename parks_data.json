@@ -57,10 +57,10 @@
     },
     "Batchawana Bay": {
       "name": "Batchawana Bay",
-      "colorChange": 30,
-      "leafFall": 20,
-      "dominantColour": "Yellow",
-      "reportDate": "September 27, 2026",
+      "colorChange": 50,
+      "leafFall": 30,
+      "dominantColour": "Yellow/Orange",
+      "reportDate": "October 3, 2026",
       "bestViewing": "The best fall colour viewing in Batchawana Bay Provincial Park is available from the beach on the east side of the park where the contrast of Lake Superior’s blue waters can be seen against the brilli",
       "lat": 46.8,
       "lng": -84.5,
@@ -530,10 +530,10 @@
     },
     "Samuel de Champlain": {
       "name": "Samuel de Champlain",
-      "colorChange": 60,
-      "leafFall": 20,
+      "colorChange": 80,
+      "leafFall": 30,
       "dominantColour": "Yellow/Orange",
-      "reportDate": "October 1, 2026",
+      "reportDate": "October 3, 2026",
       "bestViewing": "Driving the main road through the park is an easy and accessible way to view reds, yellows, and oranges as the aspens, oaks, and maples start to turn. Campion Portage is another good spot to view the ",
       "lat": 45.65,
       "lng": -75.7,
@@ -618,10 +618,10 @@
     },
     "Sleeping Giant": {
       "name": "Sleeping Giant",
-      "colorChange": 40,
-      "leafFall": 10,
-      "dominantColour": "Green",
-      "reportDate": "September 30, 2026",
+      "colorChange": 50,
+      "leafFall": 20,
+      "dominantColour": "Yellow",
+      "reportDate": "October 3, 2026",
       "bestViewing": "The drive along Highway 587 provides some of the best fall colours viewing in Sleeping Giant Provincial Park. Thunder Bay Lookout is an excellent viewpoint for fall colours as is the gorge on the Top ",
       "lat": 48.35,
       "lng": -89.25,
@@ -694,7 +694,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-10-03T17:09:34.219189Z",
+  "lastUpdated": "2026-10-03T20:56:42.632125Z",
   "totalParks": 63,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
