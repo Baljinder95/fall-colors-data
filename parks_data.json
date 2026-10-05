@@ -333,9 +333,9 @@
     "Mikisew": {
       "name": "Mikisew",
       "colorChange": 90,
-      "leafFall": 20,
+      "leafFall": 40,
       "dominantColour": "Red/Orange",
-      "reportDate": "October 2, 2026",
+      "reportDate": "October 5, 2026",
       "bestViewing": "The whole park allows for an immersive experience of the beautiful fall colours at Mikisew: the disc golf course, for example, or the Beaver Meadow and Maple Canyon trails.",
       "lat": 46.3,
       "lng": -81.9,
@@ -420,10 +420,10 @@
     },
     "Pinery": {
       "name": "Pinery",
-      "colorChange": 0,
+      "colorChange": 10,
       "leafFall": 0,
       "dominantColour": "Green",
-      "reportDate": "September 28, 2026",
+      "reportDate": "October 5, 2026",
       "bestViewing": "Pinery’s oaks present rusty red and orange tones late in the season, with fall wildflowers in the understory displaying beautiful yellows and purples. Sassafras Trail offers great fall colour viewing ",
       "lat": 43.2,
       "lng": -81.75,
@@ -431,10 +431,10 @@
     },
     "Point Farms": {
       "name": "Point Farms",
-      "colorChange": 20,
-      "leafFall": 10,
-      "dominantColour": "Green",
-      "reportDate": "September 25, 2026",
+      "colorChange": 40,
+      "leafFall": 20,
+      "dominantColour": "Yellow",
+      "reportDate": "October 5, 2026",
       "bestViewing": "The best views can be found along the main entrance road. Watch for beautiful displays of oranges and yellows from maple and poplar trees, complimenting the yellows and purples from goldenrods, asters",
       "lat": 44.0,
       "lng": -81.9,
@@ -651,10 +651,10 @@
     },
     "Turkey Point": {
       "name": "Turkey Point",
-      "colorChange": 20,
-      "leafFall": 30,
+      "colorChange": 30,
+      "leafFall": 40,
       "dominantColour": "Green",
-      "reportDate": "October 1, 2026",
+      "reportDate": "October 5, 2026",
       "bestViewing": "Check out the Lookout Bluff Trail to enjoy beautiful fall colours. View maples, birch, oak, sassafras, and tulip trees changing colour.",
       "lat": 42.7,
       "lng": -80.35,
@@ -694,7 +694,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-10-05T15:50:16.334049Z",
+  "lastUpdated": "2026-10-05T22:29:44.703678Z",
   "totalParks": 63,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
