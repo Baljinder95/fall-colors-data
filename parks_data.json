@@ -58,9 +58,9 @@
     "Batchawana Bay": {
       "name": "Batchawana Bay",
       "colorChange": 50,
-      "leafFall": 30,
-      "dominantColour": "Yellow/Orange",
-      "reportDate": "October 3, 2026",
+      "leafFall": 20,
+      "dominantColour": "Yellow",
+      "reportDate": "October 6, 2026",
       "bestViewing": "The best fall colour viewing in Batchawana Bay Provincial Park is available from the beach on the east side of the park where the contrast of Lake Superior’s blue waters can be seen against the brilli",
       "lat": 46.8,
       "lng": -84.5,
@@ -553,9 +553,9 @@
     "Sauble Falls": {
       "name": "Sauble Falls",
       "colorChange": 70,
-      "leafFall": 30,
+      "leafFall": 40,
       "dominantColour": "Yellow/Orange",
-      "reportDate": "October 1, 2026",
+      "reportDate": "October 6, 2026",
       "bestViewing": "The best area to view the fall colours is at the entrance of the park on Sauble Falls Road.",
       "lat": 44.5,
       "lng": -80.75,
@@ -694,7 +694,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-10-06T17:07:42.359744Z",
+  "lastUpdated": "2026-10-06T22:34:56.380745Z",
   "totalParks": 63,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
