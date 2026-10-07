@@ -310,10 +310,10 @@
     },
     "Mark S. Burnham": {
       "name": "Mark S. Burnham",
-      "colorChange": 40,
-      "leafFall": 10,
-      "dominantColour": "Green",
-      "reportDate": "September 30, 2026",
+      "colorChange": 50,
+      "leafFall": 20,
+      "dominantColour": "Yellow/Orange",
+      "reportDate": "October 7, 2026",
       "bestViewing": "Mark S. Burnham has many of the oldest maple, beech, elm and hemlock trees in the area, this makes for wonderful fall colours. Try hiking the small loop or long loop of the trail to see the many diffe",
       "lat": 43.65,
       "lng": -79.5,
@@ -488,8 +488,8 @@
       "name": "Restoule",
       "colorChange": 80,
       "leafFall": 30,
-      "dominantColour": "Red/Orange",
-      "reportDate": "October 2, 2026",
+      "dominantColour": "Yellow/Orange",
+      "reportDate": "October 7, 2026",
       "bestViewing": "Predominately surrounded by deciduous trees, the entire park is lovely for fall colour viewing. The best viewing spots include the Fire Tower Trail (best viewing at the lookout) and the River Trail.",
       "lat": 45.6,
       "lng": -79.3,
@@ -629,10 +629,10 @@
     },
     "Sturgeon Bay": {
       "name": "Sturgeon Bay",
-      "colorChange": 30,
-      "leafFall": 20,
+      "colorChange": 50,
+      "leafFall": 40,
       "dominantColour": "Green",
-      "reportDate": "October 1, 2026",
+      "reportDate": "October 7, 2026",
       "bestViewing": "Sit back, relax, and take in the breathtaking views of the fall colours along the shores of Georgian Bay right from the beautiful beach! If you have a motorboat, canoe, or kayak, check out the foreste",
       "lat": 45.5,
       "lng": -81.0,
@@ -694,7 +694,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-10-07T17:44:55.412954Z",
+  "lastUpdated": "2026-10-07T22:59:14.934849Z",
   "totalParks": 63,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
