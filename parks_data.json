@@ -27,7 +27,7 @@
       "colorChange": 70,
       "leafFall": 10,
       "dominantColour": "Yellow",
-      "reportDate": "October 8, 2026",
+      "reportDate": "October 9, 2026",
       "bestViewing": "Enjoy a natural amphitheatre of vivid colour at Kettle’s Lake with a walk around the Wendat Trail. The Park’s Georgian Bay waterfront and Beach Trail offers the best September viewing while the main A",
       "lat": 44.95,
       "lng": -79.6,
@@ -189,10 +189,10 @@
     },
     "Grundy Lake": {
       "name": "Grundy Lake",
-      "colorChange": 50,
+      "colorChange": 70,
       "leafFall": 40,
-      "dominantColour": "Yellow",
-      "reportDate": "October 1, 2026",
+      "dominantColour": "Orange",
+      "reportDate": "October 9, 2026",
       "bestViewing": "Drive, bike, or stroll down the main road, or through the Poplar and Red Maple Campgrounds (foot or bike traffic only) for fabulous views of the fall colours. Looking for something a little bit more a",
       "lat": 45.25,
       "lng": -80.35,
@@ -365,10 +365,10 @@
     },
     "Neys": {
       "name": "Neys",
-      "colorChange": 60,
-      "leafFall": 20,
+      "colorChange": 80,
+      "leafFall": 30,
       "dominantColour": "Yellow",
-      "reportDate": "October 2, 2026",
+      "reportDate": "October 9, 2026",
       "bestViewing": "Enjoy the golden fall colours of poplars, birches, and tamaracks speckled throughout the peaks at Neys Provincial Park with an easy walk along the Point Trail (1 km one-way).",
       "lat": 48.2,
       "lng": -87.3,
@@ -673,10 +673,10 @@
     },
     "Wasaga Beach": {
       "name": "Wasaga Beach",
-      "colorChange": 30,
-      "leafFall": 10,
+      "colorChange": 50,
+      "leafFall": 30,
       "dominantColour": "Green",
-      "reportDate": "October 1, 2026",
+      "reportDate": "October 9, 2026",
       "bestViewing": "Visitors to Wasaga Beach can enjoy the fall colours by taking a stroll through any of our beach areas and viewing the colours around Georgian Bay. The Nordic and Trail Centre also offers great opportu",
       "lat": 44.5,
       "lng": -80.65,
@@ -694,7 +694,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-10-09T05:51:14.602508Z",
+  "lastUpdated": "2026-10-09T13:02:58.944772Z",
   "totalParks": 63,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
