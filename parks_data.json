@@ -376,10 +376,10 @@
     },
     "Oastler Lake": {
       "name": "Oastler Lake",
-      "colorChange": 60,
-      "leafFall": 20,
+      "colorChange": 70,
+      "leafFall": 40,
       "dominantColour": "Orange",
-      "reportDate": "October 5, 2026",
+      "reportDate": "October 9, 2026",
       "bestViewing": "Hardwood Hill Campground and the Pet Exercise Area offer excellent views of the lake and fall colours.",
       "lat": 45.9,
       "lng": -81.5,
@@ -530,10 +530,10 @@
     },
     "Samuel de Champlain": {
       "name": "Samuel de Champlain",
-      "colorChange": 80,
+      "colorChange": 90,
       "leafFall": 30,
       "dominantColour": "Yellow/Orange",
-      "reportDate": "October 3, 2026",
+      "reportDate": "October 9, 2026",
       "bestViewing": "Driving the main road through the park is an easy and accessible way to view reds, yellows, and oranges as the aspens, oaks, and maples start to turn. Campion Portage is another good spot to view the ",
       "lat": 45.65,
       "lng": -75.7,
@@ -640,10 +640,10 @@
     },
     "The Massasauga": {
       "name": "The Massasauga",
-      "colorChange": 60,
-      "leafFall": 20,
-      "dominantColour": "Orange",
-      "reportDate": "October 5, 2026",
+      "colorChange": 80,
+      "leafFall": 50,
+      "dominantColour": "Red/Orange",
+      "reportDate": "October 9, 2026",
       "bestViewing": "Spider Lake and Clear Lake offer excellent views of fall colours.",
       "lat": 45.3,
       "lng": -80.3,
@@ -694,7 +694,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-10-09T19:24:38.321611Z",
+  "lastUpdated": "2026-10-09T23:57:20.415624Z",
   "totalParks": 63,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
