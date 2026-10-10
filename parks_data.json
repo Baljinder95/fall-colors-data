@@ -134,10 +134,10 @@
     },
     "Earl Rowe": {
       "name": "Earl Rowe",
-      "colorChange": 40,
+      "colorChange": 70,
       "leafFall": 10,
-      "dominantColour": "Yellow",
-      "reportDate": "October 5, 2026",
+      "dominantColour": "Yellow/Orange",
+      "reportDate": "October 10, 2026",
       "bestViewing": "The best spots to view fall colours is by hiking the Lookout Trail and walking through the Meadowbrook and Trillium Woods campgrounds.",
       "lat": 44.6,
       "lng": -80.2,
@@ -346,7 +346,7 @@
       "colorChange": 70,
       "leafFall": 10,
       "dominantColour": "Yellow/Orange",
-      "reportDate": "October 5, 2026",
+      "reportDate": "October 10, 2026",
       "bestViewing": "The best spot to view fall colours is by hiking along the Cliff-Top Side Trail. Please note that reservations are required to guarantee your access to the park. For top tips on how to plan your trip, ",
       "lat": 43.95,
       "lng": -80.05,
@@ -618,10 +618,10 @@
     },
     "Sleeping Giant": {
       "name": "Sleeping Giant",
-      "colorChange": 80,
+      "colorChange": 90,
       "leafFall": 30,
       "dominantColour": "Yellow",
-      "reportDate": "October 8, 2026",
+      "reportDate": "October 10, 2026",
       "bestViewing": "The drive along Highway 587 provides some of the best fall colours viewing in Sleeping Giant Provincial Park. Thunder Bay Lookout is an excellent viewpoint for fall colours as is the gorge on the Top ",
       "lat": 48.35,
       "lng": -89.25,
@@ -694,7 +694,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-10-10T12:19:35.147598Z",
+  "lastUpdated": "2026-10-10T17:45:04.053712Z",
   "totalParks": 63,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
