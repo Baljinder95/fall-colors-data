@@ -35,10 +35,10 @@
     },
     "Balsam Lake": {
       "name": "Balsam Lake",
-      "colorChange": 60,
+      "colorChange": 70,
       "leafFall": 30,
       "dominantColour": "Yellow/Orange",
-      "reportDate": "October 6, 2026",
+      "reportDate": "October 10, 2026",
       "bestViewing": "We recommend visitors walk through the closed Cedar and Maple campgrounds to enjoy the beautiful maple trees in those areas. Visitors will enjoy the Lookout Trail as portions of the trail have Staghor",
       "lat": 44.4,
       "lng": -79.25,
@@ -694,7 +694,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-10-10T17:45:04.053712Z",
+  "lastUpdated": "2026-10-10T21:30:30.709352Z",
   "totalParks": 63,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
