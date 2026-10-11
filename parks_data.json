@@ -585,10 +585,10 @@
     },
     "Silent Lake": {
       "name": "Silent Lake",
-      "colorChange": 70,
-      "leafFall": 30,
+      "colorChange": 80,
+      "leafFall": 40,
       "dominantColour": "Yellow",
-      "reportDate": "October 8, 2026",
+      "reportDate": "October 11, 2026",
       "bestViewing": "Silent Lake has many beautiful scenic locations to view fall colours. Silent Lake offers three hiking trails that offer plenty of opportunities to view fall colours: Lakehead Loop (1.5 km), Bonnies Po",
       "lat": 44.7,
       "lng": -78.0,
@@ -694,7 +694,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-10-11T18:46:36.270887Z",
+  "lastUpdated": "2026-10-11T22:45:59.133121Z",
   "totalParks": 63,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
