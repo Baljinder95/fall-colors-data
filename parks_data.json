@@ -5,7 +5,7 @@
       "colorChange": 100,
       "leafFall": 50,
       "dominantColour": "Yellow/Orange",
-      "reportDate": "October 9, 2026",
+      "reportDate": "October 11, 2026",
       "bestViewing": "There are spectacular viewing opportunities throughout Algonquin Provincial Park along the Highway 60 Corridor and other access points, such as the Park's trails and day use areas. Obtain your daily v",
       "lat": 45.9,
       "lng": -78.5,
@@ -68,10 +68,10 @@
     },
     "Bon Echo": {
       "name": "Bon Echo",
-      "colorChange": 60,
+      "colorChange": 80,
       "leafFall": 40,
       "dominantColour": "Orange",
-      "reportDate": "October 8, 2026",
+      "reportDate": "October 11, 2026",
       "bestViewing": "Take in the fall colours along the Cliff Top Trail with red, yellow, and brown leaves from Sugar Maple, White Birch and Red Oak trees. The observation platforms along this trail also provide great vie",
       "lat": 44.9,
       "lng": -77.1,
@@ -475,10 +475,10 @@
     },
     "Rainbow Falls": {
       "name": "Rainbow Falls",
-      "colorChange": 50,
-      "leafFall": 20,
+      "colorChange": 70,
+      "leafFall": 30,
       "dominantColour": "Yellow/Orange",
-      "reportDate": "October 1, 2026",
+      "reportDate": "October 11, 2026",
       "bestViewing": "Enjoy fall views of Lake Superior from the Park’s Rossport Campground. At the Whitesand Campground, visit the Superior Trail and the Rainbow Falls Trails to view fall colours.",
       "lat": 47.8,
       "lng": -87.7,
@@ -694,7 +694,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-10-11T13:56:57.938455Z",
+  "lastUpdated": "2026-10-11T18:46:36.270887Z",
   "totalParks": 63,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
