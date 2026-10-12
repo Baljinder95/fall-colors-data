@@ -629,10 +629,10 @@
     },
     "Sturgeon Bay": {
       "name": "Sturgeon Bay",
-      "colorChange": 50,
-      "leafFall": 40,
-      "dominantColour": "Green",
-      "reportDate": "October 7, 2026",
+      "colorChange": 70,
+      "leafFall": 60,
+      "dominantColour": "Yellow",
+      "reportDate": "October 11, 2026",
       "bestViewing": "Sit back, relax, and take in the breathtaking views of the fall colours along the shores of Georgian Bay right from the beautiful beach! If you have a motorboat, canoe, or kayak, check out the foreste",
       "lat": 45.5,
       "lng": -81.0,
@@ -694,7 +694,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-10-11T22:45:59.133121Z",
+  "lastUpdated": "2026-10-12T02:14:04.580171Z",
   "totalParks": 63,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
