@@ -143,17 +143,6 @@
       "lng": -80.2,
       "distance": 85
     },
-    "Finlayson Point": {
-      "name": "Finlayson Point",
-      "colorChange": 80,
-      "leafFall": 30,
-      "dominantColour": "Yellow/Orange",
-      "reportDate": "October 8, 2026",
-      "bestViewing": "The Temagami region features a mix of large white and red pines alongside colourful stands of tamarack, birch, and poplar. You can enjoy these striking transition forests by boat on Lake Temagami, or,",
-      "lat": 46.8,
-      "lng": -81.3,
-      "distance": 140
-    },
     "Forks of the Credit": {
       "name": "Forks of the Credit",
       "colorChange": 70,
@@ -219,17 +208,6 @@
       "lat": 48.4,
       "lng": -89.6,
       "distance": 200
-    },
-    "Kap-Kig-Iwan": {
-      "name": "Kap-Kig-Iwan",
-      "colorChange": 70,
-      "leafFall": 30,
-      "dominantColour": "Yellow",
-      "reportDate": "October 8, 2026",
-      "bestViewing": "Kap-Kig-Iwan Provincial Park is bursting with autumn beauty. Top viewing spots include the High Falls Trail, where cascading water meets fiery foliage; the Aspen Crescent Lookout, offering sweeping vi",
-      "lat": 46.7,
-      "lng": -81.7,
-      "distance": 130
     },
     "Kettle Lakes": {
       "name": "Kettle Lakes",
@@ -319,17 +297,6 @@
       "lng": -79.5,
       "distance": 50
     },
-    "Marten River": {
-      "name": "Marten River",
-      "colorChange": 80,
-      "leafFall": 30,
-      "dominantColour": "Yellow/Orange",
-      "reportDate": "October 8, 2026",
-      "bestViewing": "Great colour viewing can be enjoyed by hiking the park’s trails, biking throughout the campgrounds, or by boat along the Marten River. The Temagami region blends towering white pines with colourful st",
-      "lat": 46.5,
-      "lng": -81.0,
-      "distance": 130
-    },
     "Mikisew": {
       "name": "Mikisew",
       "colorChange": 90,
@@ -395,17 +362,6 @@
       "lat": 47.5,
       "lng": -85.5,
       "distance": 220
-    },
-    "Petroglyphs": {
-      "name": "Petroglyphs",
-      "colorChange": 70,
-      "leafFall": 30,
-      "dominantColour": "Yellow",
-      "reportDate": "October 7, 2026",
-      "bestViewing": "All three trails at Petroglyphs provide great examples of the forests and fall colours found throughout the park. With predominantly pine and spruce forest, you will find pops of colour throughout the",
-      "lat": 44.8,
-      "lng": -77.5,
-      "distance": 120
     },
     "Pigeon River": {
       "name": "Pigeon River",
@@ -671,17 +627,6 @@
       "lng": -75.7,
       "distance": 145
     },
-    "Wasaga Beach": {
-      "name": "Wasaga Beach",
-      "colorChange": 50,
-      "leafFall": 30,
-      "dominantColour": "Green",
-      "reportDate": "October 9, 2026",
-      "bestViewing": "Visitors to Wasaga Beach can enjoy the fall colours by taking a stroll through any of our beach areas and viewing the colours around Georgian Bay. The Nordic and Trail Centre also offers great opportu",
-      "lat": 44.5,
-      "lng": -80.65,
-      "distance": 100
-    },
     "Wheatley": {
       "name": "Wheatley",
       "colorChange": 20,
@@ -694,7 +639,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-10-12T02:14:04.580171Z",
-  "totalParks": 63,
+  "lastUpdated": "2026-10-12T10:35:47.505298Z",
+  "totalParks": 58,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
