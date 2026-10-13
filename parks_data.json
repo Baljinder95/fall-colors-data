@@ -4,8 +4,8 @@
       "name": "Algonquin",
       "colorChange": 100,
       "leafFall": 50,
-      "dominantColour": "Yellow/Orange",
-      "reportDate": "October 11, 2026",
+      "dominantColour": "Yellow",
+      "reportDate": "October 13, 2026",
       "bestViewing": "There are spectacular viewing opportunities throughout Algonquin Provincial Park along the Highway 60 Corridor and other access points, such as the Park's trails and day use areas. Obtain your daily v",
       "lat": 45.9,
       "lng": -78.5,
@@ -156,10 +156,10 @@
     },
     "Frontenac": {
       "name": "Frontenac",
-      "colorChange": 60,
-      "leafFall": 40,
+      "colorChange": 70,
+      "leafFall": 50,
       "dominantColour": "Orange",
-      "reportDate": "October 8, 2026",
+      "reportDate": "October 13, 2026",
       "bestViewing": "With over 100 km of hiking trails, Frontenac provides excellent fall colour viewing opportunities. Two trails that are sure to provide a beautiful fall colour experience are Doe Lake Loop (3 km) and D",
       "lat": 44.9,
       "lng": -76.35,
@@ -277,10 +277,10 @@
     },
     "Pinery": {
       "name": "Pinery",
-      "colorChange": 20,
-      "leafFall": 0,
+      "colorChange": 30,
+      "leafFall": 10,
       "dominantColour": "Green",
-      "reportDate": "October 12, 2026",
+      "reportDate": "October 13, 2026",
       "bestViewing": "Pinery’s oaks present rusty red and orange tones late in the season, with fall wildflowers in the understory displaying beautiful yellows and purples. Sassafras Trail offers great fall colour viewing ",
       "lat": 43.2,
       "lng": -81.75,
@@ -310,10 +310,10 @@
     },
     "Quetico": {
       "name": "Quetico",
-      "colorChange": 80,
-      "leafFall": 40,
+      "colorChange": 100,
+      "leafFall": 70,
       "dominantColour": "Green",
-      "reportDate": "October 7, 2026",
+      "reportDate": "October 13, 2026",
       "bestViewing": "The dominant fall leaf colour in Quetico is yellow. Aspen, tamarack, and birch are found throughout the backcountry of the park along with pockets of smaller red maples. Quetico’s Dawson Trail Campgro",
       "lat": 49.5,
       "lng": -90.7,
@@ -452,7 +452,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-10-13T18:05:48.436613Z",
+  "lastUpdated": "2026-10-13T23:14:35.942100Z",
   "totalParks": 41,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
