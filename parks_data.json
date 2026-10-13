@@ -99,17 +99,6 @@
       "lng": -79.7,
       "distance": 25
     },
-    "Caliper Lake": {
-      "name": "Caliper Lake",
-      "colorChange": 90,
-      "leafFall": 40,
-      "dominantColour": "Yellow",
-      "reportDate": "October 9, 2026",
-      "bestViewing": "Best viewing is along the campground roads, the day use and beach areas.",
-      "lat": 45.05,
-      "lng": -78.3,
-      "distance": 65
-    },
     "Charleston Lake": {
       "name": "Charleston Lake",
       "colorChange": 60,
@@ -176,17 +165,6 @@
       "lng": -76.35,
       "distance": 130
     },
-    "Grundy Lake": {
-      "name": "Grundy Lake",
-      "colorChange": 70,
-      "leafFall": 40,
-      "dominantColour": "Orange",
-      "reportDate": "October 9, 2026",
-      "bestViewing": "Drive, bike, or stroll down the main road, or through the Poplar and Red Maple Campgrounds (foot or bike traffic only) for fabulous views of the fall colours. Looking for something a little bit more a",
-      "lat": 45.25,
-      "lng": -80.35,
-      "distance": 105
-    },
     "Inverhuron": {
       "name": "Inverhuron",
       "colorChange": 50,
@@ -208,17 +186,6 @@
       "lat": 48.4,
       "lng": -89.6,
       "distance": 200
-    },
-    "Kettle Lakes": {
-      "name": "Kettle Lakes",
-      "colorChange": 70,
-      "leafFall": 50,
-      "dominantColour": "Yellow",
-      "reportDate": "October 8, 2026",
-      "bestViewing": "Enjoy the golden views of the boreal forest at Kettle Lakes. Hike the Tamarack Trail or Kettle Trail and bike the Blue Bike Trail for the best fall colour viewing opportunities. Rent one of our canoes",
-      "lat": 48.2,
-      "lng": -87.0,
-      "distance": 240
     },
     "Killarney": {
       "name": "Killarney",
@@ -253,17 +220,6 @@
       "lng": -81.3,
       "distance": 95
     },
-    "Lake St. Peter": {
-      "name": "Lake St. Peter",
-      "colorChange": 80,
-      "leafFall": 40,
-      "dominantColour": "Yellow",
-      "reportDate": "October 9, 2026",
-      "bestViewing": "For great fall colour viewing, we recommend hiking the Lookout Trail (2.5km, strenuous). The trail crosses rugged terrain, passes by a kettle lake, and leads to a spectacular lookout over the lake.",
-      "lat": 44.55,
-      "lng": -77.65,
-      "distance": 115
-    },
     "Long Point": {
       "name": "Long Point",
       "colorChange": 30,
@@ -297,17 +253,6 @@
       "lng": -79.5,
       "distance": 50
     },
-    "Mikisew": {
-      "name": "Mikisew",
-      "colorChange": 90,
-      "leafFall": 40,
-      "dominantColour": "Red/Orange",
-      "reportDate": "October 5, 2026",
-      "bestViewing": "The whole park allows for an immersive experience of the beautiful fall colours at Mikisew: the disc golf course, for example, or the Beaver Meadow and Maple Canyon trails.",
-      "lat": 46.3,
-      "lng": -81.9,
-      "distance": 140
-    },
     "Mono Cliffs": {
       "name": "Mono Cliffs",
       "colorChange": 70,
@@ -318,50 +263,6 @@
       "lat": 43.95,
       "lng": -80.05,
       "distance": 50
-    },
-    "Murphys Point": {
-      "name": "Murphys Point",
-      "colorChange": 70,
-      "leafFall": 20,
-      "dominantColour": "Yellow",
-      "reportDate": "October 9, 2026",
-      "bestViewing": "For the best viewing opportunities: By car, take a drive along the road to the Day Use Beach, or travel out to the Lally Homestead parking lot. By foot, hike the McParlan House, Point, or Lally Homest",
-      "lat": 44.9,
-      "lng": -76.35,
-      "distance": 135
-    },
-    "Neys": {
-      "name": "Neys",
-      "colorChange": 80,
-      "leafFall": 30,
-      "dominantColour": "Yellow",
-      "reportDate": "October 9, 2026",
-      "bestViewing": "Enjoy the golden fall colours of poplars, birches, and tamaracks speckled throughout the peaks at Neys Provincial Park with an easy walk along the Point Trail (1 km one-way).",
-      "lat": 48.2,
-      "lng": -87.3,
-      "distance": 250
-    },
-    "Oastler Lake": {
-      "name": "Oastler Lake",
-      "colorChange": 70,
-      "leafFall": 40,
-      "dominantColour": "Orange",
-      "reportDate": "October 9, 2026",
-      "bestViewing": "Hardwood Hill Campground and the Pet Exercise Area offer excellent views of the lake and fall colours.",
-      "lat": 45.9,
-      "lng": -81.5,
-      "distance": 115
-    },
-    "Pancake Bay": {
-      "name": "Pancake Bay",
-      "colorChange": 70,
-      "leafFall": 40,
-      "dominantColour": "Yellow/Orange",
-      "reportDate": "October 8, 2026",
-      "bestViewing": "Hike to the Edmund Fitzgerald Lookout for a spectacular view of the area’s fall colours and Lake Superior beyond! Those looking for a more challenging hike can complete the Pancake Falls or Tower Trai",
-      "lat": 47.5,
-      "lng": -85.5,
-      "distance": 220
     },
     "Pigeon River": {
       "name": "Pigeon River",
@@ -384,17 +285,6 @@
       "lat": 43.2,
       "lng": -81.75,
       "distance": 125
-    },
-    "Point Farms": {
-      "name": "Point Farms",
-      "colorChange": 40,
-      "leafFall": 20,
-      "dominantColour": "Yellow",
-      "reportDate": "October 5, 2026",
-      "bestViewing": "The best views can be found along the main entrance road. Watch for beautiful displays of oranges and yellows from maple and poplar trees, complimenting the yellows and purples from goldenrods, asters",
-      "lat": 44.0,
-      "lng": -81.9,
-      "distance": 120
     },
     "Port Burwell": {
       "name": "Port Burwell",
@@ -428,39 +318,6 @@
       "lat": 49.5,
       "lng": -90.7,
       "distance": 370
-    },
-    "Rainbow Falls": {
-      "name": "Rainbow Falls",
-      "colorChange": 70,
-      "leafFall": 30,
-      "dominantColour": "Yellow/Orange",
-      "reportDate": "October 11, 2026",
-      "bestViewing": "Enjoy fall views of Lake Superior from the Park’s Rossport Campground. At the Whitesand Campground, visit the Superior Trail and the Rainbow Falls Trails to view fall colours.",
-      "lat": 47.8,
-      "lng": -87.7,
-      "distance": 185
-    },
-    "Restoule": {
-      "name": "Restoule",
-      "colorChange": 80,
-      "leafFall": 30,
-      "dominantColour": "Yellow/Orange",
-      "reportDate": "October 7, 2026",
-      "bestViewing": "Predominately surrounded by deciduous trees, the entire park is lovely for fall colour viewing. The best viewing spots include the Fire Tower Trail (best viewing at the lookout) and the River Trail.",
-      "lat": 45.6,
-      "lng": -79.3,
-      "distance": 95
-    },
-    "Rideau River": {
-      "name": "Rideau River",
-      "colorChange": 20,
-      "leafFall": 20,
-      "dominantColour": "Yellow/Orange",
-      "reportDate": "October 8, 2026",
-      "bestViewing": "Rideau River's beach areas and boat launch offer great views of the fall colours displayed along the Rideau River. Visitors will enjoy relaxing in the day use area that is filled with Silver Maple. Pa",
-      "lat": 45.25,
-      "lng": -76.0,
-      "distance": 150
     },
     "Rondeau": {
       "name": "Rondeau",
@@ -550,28 +407,6 @@
       "lng": -78.0,
       "distance": 75
     },
-    "Silver Lake": {
-      "name": "Silver Lake",
-      "colorChange": 70,
-      "leafFall": 50,
-      "dominantColour": "Orange",
-      "reportDate": "October 6, 2026",
-      "bestViewing": "When driving to the park along the Trans-Canada Highway you can view the park's fall colours as you approach. Walking through any of the campgrounds will offer spectacular views of the leaves changing",
-      "lat": 46.2,
-      "lng": -81.4,
-      "distance": 120
-    },
-    "Sioux Narrows": {
-      "name": "Sioux Narrows",
-      "colorChange": 60,
-      "leafFall": 40,
-      "dominantColour": "Yellow",
-      "reportDate": "October 6, 2026",
-      "bestViewing": "Best viewing locations include the Lookout and Fern Valley Trails, the beach/day use areas, and",
-      "lat": 49.8,
-      "lng": -93.6,
-      "distance": 380
-    },
     "Sleeping Giant": {
       "name": "Sleeping Giant",
       "colorChange": 100,
@@ -582,17 +417,6 @@
       "lat": 48.35,
       "lng": -89.25,
       "distance": 210
-    },
-    "Sturgeon Bay": {
-      "name": "Sturgeon Bay",
-      "colorChange": 70,
-      "leafFall": 60,
-      "dominantColour": "Yellow",
-      "reportDate": "October 11, 2026",
-      "bestViewing": "Sit back, relax, and take in the breathtaking views of the fall colours along the shores of Georgian Bay right from the beautiful beach! If you have a motorboat, canoe, or kayak, check out the foreste",
-      "lat": 45.5,
-      "lng": -81.0,
-      "distance": 120
     },
     "The Massasauga": {
       "name": "The Massasauga",
@@ -616,17 +440,6 @@
       "lng": -80.35,
       "distance": 100
     },
-    "Voyageur": {
-      "name": "Voyageur",
-      "colorChange": 80,
-      "leafFall": 30,
-      "dominantColour": "Yellow/Orange",
-      "reportDate": "October 8, 2026",
-      "bestViewing": "The best fall colour spots at Voyageur are at Iroquois Beach, Iroquois Boat Launch, and on the water in Iroquois Bay. You also have a great view of the colours all along our main road and on both of o",
-      "lat": 45.4,
-      "lng": -75.7,
-      "distance": 145
-    },
     "Wheatley": {
       "name": "Wheatley",
       "colorChange": 20,
@@ -639,7 +452,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-10-13T02:30:47.377216Z",
-  "totalParks": 58,
+  "lastUpdated": "2026-10-13T10:23:44.419446Z",
+  "totalParks": 41,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
