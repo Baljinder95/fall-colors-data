@@ -390,7 +390,7 @@
       "colorChange": 80,
       "leafFall": 50,
       "dominantColour": "Orange",
-      "reportDate": "October 13, 2026",
+      "reportDate": "October 15, 2026",
       "bestViewing": "The best fall colour experience can be found camping in the campgrounds where you will be surrounded by beautiful falling yellow and red leaves. If a day trip suits you better, take a hike along the M",
       "lat": 44.2,
       "lng": -79.4,
@@ -452,7 +452,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-10-15T19:00:13.530841Z",
+  "lastUpdated": "2026-10-15T22:59:36.958259Z",
   "totalParks": 41,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
