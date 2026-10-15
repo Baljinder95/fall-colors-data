@@ -102,9 +102,9 @@
     "Charleston Lake": {
       "name": "Charleston Lake",
       "colorChange": 70,
-      "leafFall": 30,
+      "leafFall": 40,
       "dominantColour": "Yellow/Orange",
-      "reportDate": "October 13, 2026",
+      "reportDate": "October 15, 2026",
       "bestViewing": "The best fall colour viewing in the park is on the Quiddity Trail and the Tallow Rock Bay Trail.",
       "lat": 44.7,
       "lng": -76.3,
@@ -189,10 +189,10 @@
     },
     "Killarney": {
       "name": "Killarney",
-      "colorChange": 80,
+      "colorChange": 90,
       "leafFall": 30,
       "dominantColour": "Green",
-      "reportDate": "October 12, 2026",
+      "reportDate": "October 15, 2026",
       "bestViewing": "To enjoy the beauty of fall, we recommend hiking to the lookout on the Granite Ridge Trail or bringing a picnic lunch to the bog area of our Cranberry Bog Trail.  If you’re looking to beat the crowds,",
       "lat": 46.1,
       "lng": -81.3,
@@ -288,10 +288,10 @@
     },
     "Port Burwell": {
       "name": "Port Burwell",
-      "colorChange": 30,
+      "colorChange": 40,
       "leafFall": 20,
-      "dominantColour": "Green",
-      "reportDate": "October 8, 2026",
+      "dominantColour": "Yellow/Orange",
+      "reportDate": "October 15, 2026",
       "bestViewing": "For the best views, head to the Ravine Creek Trail. The beach is another great option for a fall stroll. Please note that our self-serve fee station at the Day Use Gate/Beach entrance accepts cash onl",
       "lat": 42.65,
       "lng": -80.6,
@@ -354,10 +354,10 @@
     },
     "Sandbanks": {
       "name": "Sandbanks",
-      "colorChange": 60,
+      "colorChange": 80,
       "leafFall": 30,
       "dominantColour": "Yellow/Orange",
-      "reportDate": "October 13, 2026",
+      "reportDate": "October 15, 2026",
       "bestViewing": "The Lakeview Trail and Woodlands Trail provide the best fall colour viewing opportunities at Sandbanks.",
       "lat": 43.8,
       "lng": -77.55,
@@ -431,10 +431,10 @@
     },
     "Turkey Point": {
       "name": "Turkey Point",
-      "colorChange": 30,
+      "colorChange": 40,
       "leafFall": 40,
-      "dominantColour": "Green",
-      "reportDate": "October 9, 2026",
+      "dominantColour": "Yellow/Orange",
+      "reportDate": "October 15, 2026",
       "bestViewing": "Check out the Lookout Bluff Trail to enjoy beautiful fall colours. View maples, birch, oak, sassafras, and tulip trees changing colour.",
       "lat": 42.7,
       "lng": -80.35,
@@ -452,7 +452,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-10-15T09:44:28.631766Z",
+  "lastUpdated": "2026-10-15T14:49:24.693959Z",
   "totalParks": 41,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
