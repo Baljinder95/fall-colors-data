@@ -68,10 +68,10 @@
     },
     "Bon Echo": {
       "name": "Bon Echo",
-      "colorChange": 80,
+      "colorChange": 90,
       "leafFall": 50,
       "dominantColour": "Red/Orange",
-      "reportDate": "October 13, 2026",
+      "reportDate": "October 16, 2026",
       "bestViewing": "Take in the fall colours along the Cliff Top Trail with red, yellow, and brown leaves from Sugar Maple, White Birch and Red Oak trees. The observation platforms along this trail also provide great vie",
       "lat": 44.9,
       "lng": -77.1,
@@ -200,10 +200,10 @@
     },
     "Killbear": {
       "name": "Killbear",
-      "colorChange": 70,
+      "colorChange": 80,
       "leafFall": 20,
       "dominantColour": "Yellow/Orange",
-      "reportDate": "October 14, 2026",
+      "reportDate": "October 16, 2026",
       "bestViewing": "The best fall colours can be seen along the main park road, the Recreational Trail, and the Lookout Point Trail. Colours usually peak around Thanksgiving weekend but stay surprisingly strong throughou",
       "lat": 45.2,
       "lng": -80.4,
@@ -398,10 +398,10 @@
     },
     "Silent Lake": {
       "name": "Silent Lake",
-      "colorChange": 80,
-      "leafFall": 40,
+      "colorChange": 90,
+      "leafFall": 50,
       "dominantColour": "Yellow",
-      "reportDate": "October 14, 2026",
+      "reportDate": "October 16, 2026",
       "bestViewing": "Silent Lake has many beautiful scenic locations to view fall colours. Silent Lake offers three hiking trails that offer plenty of opportunities to view fall colours: Lakehead Loop (1.5 km), Bonnies Po",
       "lat": 44.7,
       "lng": -78.0,
@@ -442,17 +442,17 @@
     },
     "Wheatley": {
       "name": "Wheatley",
-      "colorChange": 30,
-      "leafFall": 0,
+      "colorChange": 40,
+      "leafFall": 10,
       "dominantColour": "Green",
-      "reportDate": "October 13, 2026",
+      "reportDate": "October 16, 2026",
       "bestViewing": "Campers will be treated to beautiful colours throughout the campground. Due to shoreline erosion, the Day Use Area has reduced parking capacity and amenities. Visitors should plan accordingly and make",
       "lat": 42.1,
       "lng": -82.4,
       "distance": 165
     }
   },
-  "lastUpdated": "2026-10-16T07:00:24.946571Z",
+  "lastUpdated": "2026-10-16T13:10:10.441823Z",
   "totalParks": 41,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
