@@ -167,10 +167,10 @@
     },
     "Komoka": {
       "name": "Komoka",
-      "colorChange": 50,
+      "colorChange": 60,
       "leafFall": 30,
       "dominantColour": "Yellow",
-      "reportDate": "October 16, 2026",
+      "reportDate": "October 18, 2026",
       "bestViewing": "Enjoy beautiful fall colours on Komoka’s 11 kilometre trail network. The White Trail offers a walk beneath the canopy of towering maple, oak, and beech trees along the Thames River. The Blue, Yellow, ",
       "lat": 42.95,
       "lng": -81.3,
@@ -354,10 +354,10 @@
     },
     "Silent Lake": {
       "name": "Silent Lake",
-      "colorChange": 90,
-      "leafFall": 50,
+      "colorChange": 100,
+      "leafFall": 60,
       "dominantColour": "Yellow",
-      "reportDate": "October 16, 2026",
+      "reportDate": "October 18, 2026",
       "bestViewing": "Silent Lake has many beautiful scenic locations to view fall colours. Silent Lake offers three hiking trails that offer plenty of opportunities to view fall colours: Lakehead Loop (1.5 km), Bonnies Po",
       "lat": 44.7,
       "lng": -78.0,
@@ -397,7 +397,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-10-18T10:50:42.536518Z",
+  "lastUpdated": "2026-10-18T14:27:23.927117Z",
   "totalParks": 36,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
