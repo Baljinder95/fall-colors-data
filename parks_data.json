@@ -55,17 +55,6 @@
       "lng": -87.9,
       "distance": 160
     },
-    "Batchawana Bay": {
-      "name": "Batchawana Bay",
-      "colorChange": 90,
-      "leafFall": 20,
-      "dominantColour": "Yellow/Orange",
-      "reportDate": "October 13, 2026",
-      "bestViewing": "The best fall colour viewing in Batchawana Bay Provincial Park is available from the beach on the east side of the park where the contrast of Lake Superior’s blue waters can be seen against the brilli",
-      "lat": 46.8,
-      "lng": -84.5,
-      "distance": 200
-    },
     "Bon Echo": {
       "name": "Bon Echo",
       "colorChange": 90,
@@ -77,17 +66,6 @@
       "lng": -77.1,
       "distance": 85
     },
-    "Bonnechere": {
-      "name": "Bonnechere",
-      "colorChange": 100,
-      "leafFall": 80,
-      "dominantColour": "Yellow/Orange",
-      "reportDate": "October 13, 2026",
-      "bestViewing": "The best place to experience the vibrant tones of maple, oak, poplar, birch, and tamarack trees is at the main day use/beach area, which provides views of the entire shoreline of Round Lake.",
-      "lat": 45.45,
-      "lng": -77.8,
-      "distance": 95
-    },
     "Bronte Creek": {
       "name": "Bronte Creek",
       "colorChange": 60,
@@ -98,17 +76,6 @@
       "lat": 43.3,
       "lng": -79.7,
       "distance": 25
-    },
-    "Charleston Lake": {
-      "name": "Charleston Lake",
-      "colorChange": 70,
-      "leafFall": 40,
-      "dominantColour": "Yellow/Orange",
-      "reportDate": "October 15, 2026",
-      "bestViewing": "The best fall colour viewing in the park is on the Quiddity Trail and the Tallow Rock Bay Trail.",
-      "lat": 44.7,
-      "lng": -76.3,
-      "distance": 110
     },
     "Darlington": {
       "name": "Darlington",
@@ -142,17 +109,6 @@
       "lat": 43.8,
       "lng": -80.2,
       "distance": 35
-    },
-    "French River": {
-      "name": "French River",
-      "colorChange": 70,
-      "leafFall": 20,
-      "dominantColour": "Yellow/Orange",
-      "reportDate": "October 9, 2026",
-      "bestViewing": "The French River Gorge and the area around the French River Visitor Centre, just off Highway #400, is an amazing place.  Scenic, and historic, where the river is lined with towering White Pines.  In f",
-      "lat": 45.7,
-      "lng": -80.8,
-      "distance": 115
     },
     "Frontenac": {
       "name": "Frontenac",
@@ -418,17 +374,6 @@
       "lng": -89.25,
       "distance": 210
     },
-    "The Massasauga": {
-      "name": "The Massasauga",
-      "colorChange": 100,
-      "leafFall": 60,
-      "dominantColour": "Red/Orange",
-      "reportDate": "October 14, 2026",
-      "bestViewing": "Spider Lake and Clear Lake offer excellent views of fall colours.",
-      "lat": 45.3,
-      "lng": -80.3,
-      "distance": 100
-    },
     "Turkey Point": {
       "name": "Turkey Point",
       "colorChange": 40,
@@ -452,7 +397,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-10-18T00:49:15.048439Z",
-  "totalParks": 41,
+  "lastUpdated": "2026-10-18T05:41:12.281795Z",
+  "totalParks": 36,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
