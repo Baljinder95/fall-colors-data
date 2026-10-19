@@ -330,17 +330,6 @@
       "lng": -80.75,
       "distance": 110
     },
-    "Sharbot Lake": {
-      "name": "Sharbot Lake",
-      "colorChange": 50,
-      "leafFall": 50,
-      "dominantColour": "Orange",
-      "reportDate": "October 6, 2026",
-      "bestViewing": "Hike the Discovery Trail (1.2 km) to catch the best fall colours in the park. It provides great viewing opportunities all season, often highlighting some of the first areas around the park to peak in ",
-      "lat": 44.65,
-      "lng": -76.7,
-      "distance": 125
-    },
     "Sibbald Point": {
       "name": "Sibbald Point",
       "colorChange": 80,
@@ -397,7 +386,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-10-19T01:05:43.318942Z",
-  "totalParks": 36,
+  "lastUpdated": "2026-10-19T07:38:10.689189Z",
+  "totalParks": 35,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
