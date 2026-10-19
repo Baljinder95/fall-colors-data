@@ -5,7 +5,7 @@
       "colorChange": 100,
       "leafFall": 60,
       "dominantColour": "Yellow",
-      "reportDate": "October 16, 2026",
+      "reportDate": "October 19, 2026",
       "bestViewing": "There are spectacular viewing opportunities throughout Algonquin Provincial Park along the Highway 60 Corridor and other access points, such as the Park's trails and day use areas. Obtain your daily v",
       "lat": 45.9,
       "lng": -78.5,
@@ -123,10 +123,10 @@
     },
     "Inverhuron": {
       "name": "Inverhuron",
-      "colorChange": 70,
-      "leafFall": 60,
+      "colorChange": 80,
+      "leafFall": 70,
       "dominantColour": "Yellow",
-      "reportDate": "October 14, 2026",
+      "reportDate": "October 19, 2026",
       "bestViewing": "For the best views, look out from the boat launch across Inverhuron Bay. Maloney Trail is predominantly mature hardwoods and offers full immersion under the canopy of colours.",
       "lat": 44.0,
       "lng": -81.45,
@@ -321,10 +321,10 @@
     },
     "Sauble Falls": {
       "name": "Sauble Falls",
-      "colorChange": 80,
-      "leafFall": 50,
+      "colorChange": 90,
+      "leafFall": 80,
       "dominantColour": "Red/Orange",
-      "reportDate": "October 14, 2026",
+      "reportDate": "October 19, 2026",
       "bestViewing": "The best area to view the fall colours is at the entrance of the park on Sauble Falls Road.",
       "lat": 44.5,
       "lng": -80.75,
@@ -355,9 +355,9 @@
     "Sleeping Giant": {
       "name": "Sleeping Giant",
       "colorChange": 100,
-      "leafFall": 40,
+      "leafFall": 60,
       "dominantColour": "Yellow",
-      "reportDate": "October 12, 2026",
+      "reportDate": "October 19, 2026",
       "bestViewing": "The drive along Highway 587 provides some of the best fall colours viewing in Sleeping Giant Provincial Park. Thunder Bay Lookout is an excellent viewpoint for fall colours as is the gorge on the Top ",
       "lat": 48.35,
       "lng": -89.25,
@@ -386,7 +386,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-10-19T15:29:54.480960Z",
+  "lastUpdated": "2026-10-19T20:58:36.201733Z",
   "totalParks": 35,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
