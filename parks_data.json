@@ -114,8 +114,8 @@
       "name": "Frontenac",
       "colorChange": 90,
       "leafFall": 60,
-      "dominantColour": "Orange",
-      "reportDate": "October 19, 2026",
+      "dominantColour": "Red/Orange",
+      "reportDate": "October 20, 2026",
       "bestViewing": "With over 100 km of hiking trails, Frontenac provides excellent fall colour viewing opportunities. Two trails that are sure to provide a beautiful fall colour experience are Doe Lake Loop (3 km) and D",
       "lat": 44.9,
       "lng": -76.35,
@@ -178,10 +178,10 @@
     },
     "Long Point": {
       "name": "Long Point",
-      "colorChange": 30,
-      "leafFall": 30,
-      "dominantColour": "Green",
-      "reportDate": "October 8, 2026",
+      "colorChange": 70,
+      "leafFall": 50,
+      "dominantColour": "Yellow",
+      "reportDate": "October 20, 2026",
       "bestViewing": "Within the Firefly Campground and as you go towards Turtle Dunes or Monarch Landing you are surrounded by cottonwoods, willows and Silver Maples changing into their fall colours. Watch for any moving ",
       "lat": 42.55,
       "lng": -80.35,
@@ -344,9 +344,9 @@
     "Silent Lake": {
       "name": "Silent Lake",
       "colorChange": 100,
-      "leafFall": 60,
+      "leafFall": 70,
       "dominantColour": "Yellow",
-      "reportDate": "October 18, 2026",
+      "reportDate": "October 20, 2026",
       "bestViewing": "Silent Lake has many beautiful scenic locations to view fall colours. Silent Lake offers three hiking trails that offer plenty of opportunities to view fall colours: Lakehead Loop (1.5 km), Bonnies Po",
       "lat": 44.7,
       "lng": -78.0,
@@ -377,16 +377,16 @@
     "Wheatley": {
       "name": "Wheatley",
       "colorChange": 40,
-      "leafFall": 10,
-      "dominantColour": "Green",
-      "reportDate": "October 16, 2026",
+      "leafFall": 20,
+      "dominantColour": "Yellow",
+      "reportDate": "October 20, 2026",
       "bestViewing": "Campers will be treated to beautiful colours throughout the campground. Due to shoreline erosion, the Day Use Area has reduced parking capacity and amenities. Visitors should plan accordingly and make",
       "lat": 42.1,
       "lng": -82.4,
       "distance": 165
     }
   },
-  "lastUpdated": "2026-10-20T11:21:33.460894Z",
+  "lastUpdated": "2026-10-20T16:46:08.679831Z",
   "totalParks": 35,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
