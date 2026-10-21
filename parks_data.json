@@ -90,10 +90,10 @@
     },
     "Earl Rowe": {
       "name": "Earl Rowe",
-      "colorChange": 90,
-      "leafFall": 70,
+      "colorChange": 100,
+      "leafFall": 80,
       "dominantColour": "Yellow/Orange",
-      "reportDate": "October 20, 2026",
+      "reportDate": "October 21, 2026",
       "bestViewing": "The best spots to view fall colours is by hiking the Lookout Trail and walking through the Meadowbrook and Trillium Woods campgrounds.",
       "lat": 44.6,
       "lng": -80.2,
@@ -102,9 +102,9 @@
     "Forks of the Credit": {
       "name": "Forks of the Credit",
       "colorChange": 100,
-      "leafFall": 30,
+      "leafFall": 70,
       "dominantColour": "Red/Orange",
-      "reportDate": "October 20, 2026",
+      "reportDate": "October 21, 2026",
       "bestViewing": "The best fall colour viewing spot in the park is along the Trans Canada Trail. Please note that reservations are required to guarantee your access to the park. For top tips on how to plan your trip, v",
       "lat": 43.8,
       "lng": -80.2,
@@ -146,9 +146,9 @@
     "Killarney": {
       "name": "Killarney",
       "colorChange": 90,
-      "leafFall": 30,
+      "leafFall": 50,
       "dominantColour": "Green",
-      "reportDate": "October 15, 2026",
+      "reportDate": "October 21, 2026",
       "bestViewing": "To enjoy the beauty of fall, we recommend hiking to the lookout on the Granite Ridge Trail or bringing a picnic lunch to the bog area of our Cranberry Bog Trail.  If you’re looking to beat the crowds,",
       "lat": 46.1,
       "lng": -81.3,
@@ -212,9 +212,9 @@
     "Mono Cliffs": {
       "name": "Mono Cliffs",
       "colorChange": 100,
-      "leafFall": 30,
+      "leafFall": 70,
       "dominantColour": "Yellow/Orange",
-      "reportDate": "October 20, 2026",
+      "reportDate": "October 21, 2026",
       "bestViewing": "The best spot to view fall colours is by hiking along the Cliff-Top Side Trail. Please note that reservations are required to guarantee your access to the park. For top tips on how to plan your trip, ",
       "lat": 43.95,
       "lng": -80.05,
@@ -267,9 +267,9 @@
     "Quetico": {
       "name": "Quetico",
       "colorChange": 100,
-      "leafFall": 70,
-      "dominantColour": "Green",
-      "reportDate": "October 13, 2026",
+      "leafFall": 80,
+      "dominantColour": "Yellow",
+      "reportDate": "October 21, 2026",
       "bestViewing": "The dominant fall leaf colour in Quetico is yellow. Aspen, tamarack, and birch are found throughout the backcountry of the park along with pockets of smaller red maples. Quetico’s Dawson Trail Campgro",
       "lat": 49.5,
       "lng": -90.7,
@@ -278,9 +278,9 @@
     "Rondeau": {
       "name": "Rondeau",
       "colorChange": 40,
-      "leafFall": 20,
+      "leafFall": 30,
       "dominantColour": "Yellow",
-      "reportDate": "October 13, 2026",
+      "reportDate": "October 21, 2026",
       "bestViewing": "As the colours begin to change in mid-September to early October, check out Spicebush Trail for great views. Later in the season the eastern side of the park and the Black Oak Trail will display the g",
       "lat": 42.3,
       "lng": -81.85,
@@ -386,7 +386,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-10-21T09:59:30.120196Z",
+  "lastUpdated": "2026-10-21T15:07:36.479283Z",
   "totalParks": 35,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
