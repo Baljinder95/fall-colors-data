@@ -104,7 +104,7 @@
       "colorChange": 100,
       "leafFall": 70,
       "dominantColour": "Red/Orange",
-      "reportDate": "October 21, 2026",
+      "reportDate": "October 22, 2026",
       "bestViewing": "The best fall colour viewing spot in the park is along the Trans Canada Trail. Please note that reservations are required to guarantee your access to the park. For top tips on how to plan your trip, v",
       "lat": 43.8,
       "lng": -80.2,
@@ -214,7 +214,7 @@
       "colorChange": 100,
       "leafFall": 70,
       "dominantColour": "Yellow/Orange",
-      "reportDate": "October 21, 2026",
+      "reportDate": "October 22, 2026",
       "bestViewing": "The best spot to view fall colours is by hiking along the Cliff-Top Side Trail. Please note that reservations are required to guarantee your access to the park. For top tips on how to plan your trip, ",
       "lat": 43.95,
       "lng": -80.05,
@@ -236,7 +236,7 @@
       "colorChange": 40,
       "leafFall": 20,
       "dominantColour": "Green",
-      "reportDate": "October 16, 2026",
+      "reportDate": "October 22, 2026",
       "bestViewing": "Pinery’s oaks present rusty red and orange tones late in the season, with fall wildflowers in the understory displaying beautiful yellows and purples. Sassafras Trail offers great fall colour viewing ",
       "lat": 43.2,
       "lng": -81.75,
@@ -244,10 +244,10 @@
     },
     "Port Burwell": {
       "name": "Port Burwell",
-      "colorChange": 40,
-      "leafFall": 20,
+      "colorChange": 50,
+      "leafFall": 40,
       "dominantColour": "Yellow/Orange",
-      "reportDate": "October 15, 2026",
+      "reportDate": "October 22, 2026",
       "bestViewing": "For the best views, head to the Ravine Creek Trail. The beach is another great option for a fall stroll. Please note that our self-serve fee station at the Day Use Gate/Beach entrance accepts cash onl",
       "lat": 42.65,
       "lng": -80.6,
@@ -311,9 +311,9 @@
     "Sandbanks": {
       "name": "Sandbanks",
       "colorChange": 90,
-      "leafFall": 50,
+      "leafFall": 60,
       "dominantColour": "Yellow/Orange",
-      "reportDate": "October 19, 2026",
+      "reportDate": "October 22, 2026",
       "bestViewing": "The Lakeview Trail and Woodlands Trail provide the best fall colour viewing opportunities at Sandbanks.",
       "lat": 43.8,
       "lng": -77.55,
@@ -386,7 +386,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-10-22T09:59:31.545332Z",
+  "lastUpdated": "2026-10-22T15:08:31.495065Z",
   "totalParks": 35,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
