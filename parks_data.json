@@ -135,9 +135,9 @@
     "Kakabeka Falls": {
       "name": "Kakabeka Falls",
       "colorChange": 100,
-      "leafFall": 40,
+      "leafFall": 60,
       "dominantColour": "Yellow",
-      "reportDate": "October 16, 2026",
+      "reportDate": "October 22, 2026",
       "bestViewing": "Enjoy the thunder of Kakabeka Falls amongst the fall colours this season via the Boardwalk Trail around the top of the falls with various viewing pods. Walk a little further along the Mountain Portage",
       "lat": 48.4,
       "lng": -89.6,
@@ -167,10 +167,10 @@
     },
     "Komoka": {
       "name": "Komoka",
-      "colorChange": 60,
-      "leafFall": 30,
+      "colorChange": 70,
+      "leafFall": 40,
       "dominantColour": "Yellow",
-      "reportDate": "October 18, 2026",
+      "reportDate": "October 22, 2026",
       "bestViewing": "Enjoy beautiful fall colours on Komoka’s 11 kilometre trail network. The White Trail offers a walk beneath the canopy of towering maple, oak, and beech trees along the Thames River. The Blue, Yellow, ",
       "lat": 42.95,
       "lng": -81.3,
@@ -223,9 +223,9 @@
     "Pigeon River": {
       "name": "Pigeon River",
       "colorChange": 100,
-      "leafFall": 40,
+      "leafFall": 60,
       "dominantColour": "Yellow",
-      "reportDate": "October 16, 2026",
+      "reportDate": "October 22, 2026",
       "bestViewing": "Enjoy the fall colours as they engulf High Falls (High Falls Trail) and Middle Falls (Middle Falls Walk). Hike to the end of the Finger Point Trail for scenic views of Lake Superior surrounded by beau",
       "lat": 47.85,
       "lng": -87.7,
@@ -255,10 +255,10 @@
     },
     "Presqu'ile": {
       "name": "Presqu'ile",
-      "colorChange": 60,
-      "leafFall": 20,
+      "colorChange": 90,
+      "leafFall": 40,
       "dominantColour": "Yellow",
-      "reportDate": "October 14, 2026",
+      "reportDate": "October 22, 2026",
       "bestViewing": "There are two areas in Presqu'ile that provide beautiful fall colours. Enjoy a leisurely walk along the road leading into our Group Camping Area north of the trailhead parking lot. Craigs Campground a",
       "lat": 43.85,
       "lng": -77.7,
@@ -335,7 +335,7 @@
       "colorChange": 80,
       "leafFall": 50,
       "dominantColour": "Orange",
-      "reportDate": "October 15, 2026",
+      "reportDate": "October 22, 2026",
       "bestViewing": "The best fall colour experience can be found camping in the campgrounds where you will be surrounded by beautiful falling yellow and red leaves. If a day trip suits you better, take a hike along the M",
       "lat": 44.2,
       "lng": -79.4,
@@ -386,7 +386,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-10-22T15:08:31.495065Z",
+  "lastUpdated": "2026-10-22T19:56:20.814486Z",
   "totalParks": 35,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
