@@ -3,9 +3,9 @@
     "Algonquin": {
       "name": "Algonquin",
       "colorChange": 100,
-      "leafFall": 60,
+      "leafFall": 70,
       "dominantColour": "Yellow",
-      "reportDate": "October 19, 2026",
+      "reportDate": "October 23, 2026",
       "bestViewing": "There are spectacular viewing opportunities throughout Algonquin Provincial Park along the Highway 60 Corridor and other access points, such as the Park's trails and day use areas. Obtain your daily v",
       "lat": 45.9,
       "lng": -78.5,
@@ -14,9 +14,9 @@
     "Arrowhead": {
       "name": "Arrowhead",
       "colorChange": 100,
-      "leafFall": 60,
+      "leafFall": 80,
       "dominantColour": "Orange",
-      "reportDate": "October 14, 2026",
+      "reportDate": "October 23, 2026",
       "bestViewing": "Check out Big Bend Lookout, Beach Area #1, or the Arrowhead Lake Trail for spectacular fall colours.",
       "lat": 45.15,
       "lng": -79.35,
@@ -289,9 +289,9 @@
     "Rushing River": {
       "name": "Rushing River",
       "colorChange": 100,
-      "leafFall": 40,
+      "leafFall": 80,
       "dominantColour": "Yellow",
-      "reportDate": "October 16, 2026",
+      "reportDate": "October 23, 2026",
       "bestViewing": "The best viewing is on the northside of the park.",
       "lat": 49.75,
       "lng": -93.7,
@@ -312,8 +312,8 @@
       "name": "Sandbanks",
       "colorChange": 90,
       "leafFall": 60,
-      "dominantColour": "Yellow/Orange",
-      "reportDate": "October 22, 2026",
+      "dominantColour": "Orange",
+      "reportDate": "October 23, 2026",
       "bestViewing": "The Lakeview Trail and Woodlands Trail provide the best fall colour viewing opportunities at Sandbanks.",
       "lat": 43.8,
       "lng": -77.55,
@@ -365,10 +365,10 @@
     },
     "Turkey Point": {
       "name": "Turkey Point",
-      "colorChange": 50,
+      "colorChange": 60,
       "leafFall": 40,
       "dominantColour": "Yellow/Orange",
-      "reportDate": "October 19, 2026",
+      "reportDate": "October 23, 2026",
       "bestViewing": "Check out the Lookout Bluff Trail to enjoy beautiful fall colours. View maples, birch, oak, sassafras, and tulip trees changing colour.",
       "lat": 42.7,
       "lng": -80.35,
@@ -386,7 +386,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-10-23T09:54:33.850511Z",
+  "lastUpdated": "2026-10-23T14:52:35.606453Z",
   "totalParks": 35,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
