@@ -79,10 +79,10 @@
     },
     "Darlington": {
       "name": "Darlington",
-      "colorChange": 40,
-      "leafFall": 20,
-      "dominantColour": "Yellow",
-      "reportDate": "October 14, 2026",
+      "colorChange": 70,
+      "leafFall": 50,
+      "dominantColour": "Yellow/Orange",
+      "reportDate": "October 24, 2026",
       "bestViewing": "The best place to view the stunning fall colours is the Burk Trail Viewing Platform (also known as “the lookout”). This is located roughly in the middle of the Burk Trail, west of the Park Office and ",
       "lat": 43.85,
       "lng": -79.05,
@@ -344,9 +344,9 @@
     "Silent Lake": {
       "name": "Silent Lake",
       "colorChange": 100,
-      "leafFall": 70,
+      "leafFall": 90,
       "dominantColour": "Yellow",
-      "reportDate": "October 20, 2026",
+      "reportDate": "October 24, 2026",
       "bestViewing": "Silent Lake has many beautiful scenic locations to view fall colours. Silent Lake offers three hiking trails that offer plenty of opportunities to view fall colours: Lakehead Loop (1.5 km), Bonnies Po",
       "lat": 44.7,
       "lng": -78.0,
@@ -386,7 +386,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-10-24T20:35:38.030612Z",
+  "lastUpdated": "2026-10-24T23:03:41.771252Z",
   "totalParks": 35,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
