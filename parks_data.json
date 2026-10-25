@@ -242,17 +242,6 @@
       "lng": -81.75,
       "distance": 125
     },
-    "Port Burwell": {
-      "name": "Port Burwell",
-      "colorChange": 50,
-      "leafFall": 40,
-      "dominantColour": "Yellow/Orange",
-      "reportDate": "October 22, 2026",
-      "bestViewing": "For the best views, head to the Ravine Creek Trail. The beach is another great option for a fall stroll. Please note that our self-serve fee station at the Day Use Gate/Beach entrance accepts cash onl",
-      "lat": 42.65,
-      "lng": -80.6,
-      "distance": 100
-    },
     "Presqu'ile": {
       "name": "Presqu'ile",
       "colorChange": 90,
@@ -363,17 +352,6 @@
       "lng": -89.25,
       "distance": 210
     },
-    "Turkey Point": {
-      "name": "Turkey Point",
-      "colorChange": 60,
-      "leafFall": 40,
-      "dominantColour": "Yellow/Orange",
-      "reportDate": "October 23, 2026",
-      "bestViewing": "Check out the Lookout Bluff Trail to enjoy beautiful fall colours. View maples, birch, oak, sassafras, and tulip trees changing colour.",
-      "lat": 42.7,
-      "lng": -80.35,
-      "distance": 100
-    },
     "Wheatley": {
       "name": "Wheatley",
       "colorChange": 40,
@@ -386,7 +364,7 @@
       "distance": 165
     }
   },
-  "lastUpdated": "2026-10-24T23:03:41.771252Z",
-  "totalParks": 35,
+  "lastUpdated": "2026-10-25T04:23:15.497854Z",
+  "totalParks": 33,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
