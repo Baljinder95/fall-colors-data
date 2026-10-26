@@ -33,17 +33,6 @@
       "lng": -79.6,
       "distance": 80
     },
-    "Balsam Lake": {
-      "name": "Balsam Lake",
-      "colorChange": 80,
-      "leafFall": 40,
-      "dominantColour": "Red/Orange",
-      "reportDate": "October 14, 2026",
-      "bestViewing": "We recommend visitors walk through the closed Cedar and Maple campgrounds to enjoy the beautiful maple trees in those areas. Visitors will enjoy the Lookout Trail as portions of the trail have Staghor",
-      "lat": 44.4,
-      "lng": -79.25,
-      "distance": 70
-    },
     "Bass Lake": {
       "name": "Bass Lake",
       "colorChange": 60,
@@ -297,17 +286,6 @@
       "lng": -75.7,
       "distance": 140
     },
-    "Sandbanks": {
-      "name": "Sandbanks",
-      "colorChange": 90,
-      "leafFall": 60,
-      "dominantColour": "Orange",
-      "reportDate": "October 23, 2026",
-      "bestViewing": "The Lakeview Trail and Woodlands Trail provide the best fall colour viewing opportunities at Sandbanks.",
-      "lat": 43.8,
-      "lng": -77.55,
-      "distance": 135
-    },
     "Sauble Falls": {
       "name": "Sauble Falls",
       "colorChange": 90,
@@ -351,20 +329,9 @@
       "lat": 48.35,
       "lng": -89.25,
       "distance": 210
-    },
-    "Wheatley": {
-      "name": "Wheatley",
-      "colorChange": 40,
-      "leafFall": 20,
-      "dominantColour": "Yellow",
-      "reportDate": "October 20, 2026",
-      "bestViewing": "Campers will be treated to beautiful colours throughout the campground. Due to shoreline erosion, the Day Use Area has reduced parking capacity and amenities. Visitors should plan accordingly and make",
-      "lat": 42.1,
-      "lng": -82.4,
-      "distance": 165
     }
   },
-  "lastUpdated": "2026-10-26T00:03:39.608842Z",
-  "totalParks": 33,
+  "lastUpdated": "2026-10-26T05:57:10.068096Z",
+  "totalParks": 30,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
