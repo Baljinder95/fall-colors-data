@@ -288,10 +288,10 @@
     },
     "Sauble Falls": {
       "name": "Sauble Falls",
-      "colorChange": 90,
-      "leafFall": 80,
+      "colorChange": 100,
+      "leafFall": 90,
       "dominantColour": "Red/Orange",
-      "reportDate": "October 19, 2026",
+      "reportDate": "October 27, 2026",
       "bestViewing": "The best area to view the fall colours is at the entrance of the park on Sauble Falls Road.",
       "lat": 44.5,
       "lng": -80.75,
@@ -331,7 +331,7 @@
       "distance": 210
     }
   },
-  "lastUpdated": "2026-10-27T10:21:03.481592Z",
+  "lastUpdated": "2026-10-27T16:23:11.104209Z",
   "totalParks": 30,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
