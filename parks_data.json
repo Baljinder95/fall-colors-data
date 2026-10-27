@@ -245,9 +245,9 @@
     "Quetico": {
       "name": "Quetico",
       "colorChange": 100,
-      "leafFall": 80,
-      "dominantColour": "Yellow",
-      "reportDate": "October 21, 2026",
+      "leafFall": 90,
+      "dominantColour": "Green",
+      "reportDate": "October 27, 2026",
       "bestViewing": "The dominant fall leaf colour in Quetico is yellow. Aspen, tamarack, and birch are found throughout the backcountry of the park along with pockets of smaller red maples. Quetico’s Dawson Trail Campgro",
       "lat": 49.5,
       "lng": -90.7,
@@ -331,7 +331,7 @@
       "distance": 210
     }
   },
-  "lastUpdated": "2026-10-27T16:23:11.104209Z",
+  "lastUpdated": "2026-10-27T21:11:55.487920Z",
   "totalParks": 30,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
