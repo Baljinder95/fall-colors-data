@@ -178,10 +178,10 @@
     },
     "MacGregor Point": {
       "name": "MacGregor Point",
-      "colorChange": 90,
+      "colorChange": 100,
       "leafFall": 90,
       "dominantColour": "Brown",
-      "reportDate": "October 19, 2026",
+      "reportDate": "October 28, 2026",
       "bestViewing": "The best place to see fall colours is near the park entrance and in Nipissing Campground.",
       "lat": 44.7,
       "lng": -81.2,
@@ -331,7 +331,7 @@
       "distance": 210
     }
   },
-  "lastUpdated": "2026-10-28T08:15:03.783105Z",
+  "lastUpdated": "2026-10-28T15:53:41.538349Z",
   "totalParks": 30,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
