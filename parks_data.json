@@ -145,10 +145,10 @@
     },
     "Killbear": {
       "name": "Killbear",
-      "colorChange": 90,
-      "leafFall": 30,
+      "colorChange": 100,
+      "leafFall": 50,
       "dominantColour": "Yellow/Orange",
-      "reportDate": "October 19, 2026",
+      "reportDate": "October 28, 2026",
       "bestViewing": "The best fall colours can be seen along the main park road, the Recreational Trail, and the Lookout Point Trail. Colours usually peak around Thanksgiving weekend but stay surprisingly strong throughou",
       "lat": 45.2,
       "lng": -80.4,
@@ -277,10 +277,10 @@
     },
     "Samuel de Champlain": {
       "name": "Samuel de Champlain",
-      "colorChange": 90,
-      "leafFall": 40,
+      "colorChange": 100,
+      "leafFall": 70,
       "dominantColour": "Yellow/Orange",
-      "reportDate": "October 12, 2026",
+      "reportDate": "October 28, 2026",
       "bestViewing": "Driving the main road through the park is an easy and accessible way to view reds, yellows, and oranges as the aspens, oaks, and maples start to turn. Campion Portage is another good spot to view the ",
       "lat": 45.65,
       "lng": -75.7,
@@ -331,7 +331,7 @@
       "distance": 210
     }
   },
-  "lastUpdated": "2026-10-28T15:53:41.538349Z",
+  "lastUpdated": "2026-10-28T20:55:43.807105Z",
   "totalParks": 30,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
