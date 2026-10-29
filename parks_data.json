@@ -102,9 +102,9 @@
     "Frontenac": {
       "name": "Frontenac",
       "colorChange": 100,
-      "leafFall": 70,
+      "leafFall": 80,
       "dominantColour": "Red/Orange",
-      "reportDate": "October 26, 2026",
+      "reportDate": "October 29, 2026",
       "bestViewing": "With over 100 km of hiking trails, Frontenac provides excellent fall colour viewing opportunities. Two trails that are sure to provide a beautiful fall colour experience are Doe Lake Loop (3 km) and D",
       "lat": 44.9,
       "lng": -76.35,
@@ -112,10 +112,10 @@
     },
     "Inverhuron": {
       "name": "Inverhuron",
-      "colorChange": 80,
-      "leafFall": 70,
+      "colorChange": 100,
+      "leafFall": 80,
       "dominantColour": "Yellow",
-      "reportDate": "October 19, 2026",
+      "reportDate": "October 29, 2026",
       "bestViewing": "For the best views, look out from the boat launch across Inverhuron Bay. Maloney Trail is predominantly mature hardwoods and offers full immersion under the canopy of colours.",
       "lat": 44.0,
       "lng": -81.45,
@@ -322,16 +322,16 @@
     "Sleeping Giant": {
       "name": "Sleeping Giant",
       "colorChange": 100,
-      "leafFall": 60,
+      "leafFall": 90,
       "dominantColour": "Yellow",
-      "reportDate": "October 19, 2026",
+      "reportDate": "October 29, 2026",
       "bestViewing": "The drive along Highway 587 provides some of the best fall colours viewing in Sleeping Giant Provincial Park. Thunder Bay Lookout is an excellent viewpoint for fall colours as is the gorge on the Top ",
       "lat": 48.35,
       "lng": -89.25,
       "distance": 210
     }
   },
-  "lastUpdated": "2026-10-29T06:55:09.049757Z",
+  "lastUpdated": "2026-10-29T14:05:33.836459Z",
   "totalParks": 30,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
