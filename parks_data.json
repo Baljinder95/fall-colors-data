@@ -3,9 +3,9 @@
     "Algonquin": {
       "name": "Algonquin",
       "colorChange": 100,
-      "leafFall": 80,
+      "leafFall": 90,
       "dominantColour": "Yellow",
-      "reportDate": "October 26, 2026",
+      "reportDate": "October 29, 2026",
       "bestViewing": "There are spectacular viewing opportunities throughout Algonquin Provincial Park along the Highway 60 Corridor and other access points, such as the Park's trails and day use areas. Obtain your daily v",
       "lat": 45.9,
       "lng": -78.5,
@@ -25,9 +25,9 @@
     "Awenda": {
       "name": "Awenda",
       "colorChange": 100,
-      "leafFall": 60,
-      "dominantColour": "Yellow",
-      "reportDate": "October 26, 2026",
+      "leafFall": 70,
+      "dominantColour": "Brown",
+      "reportDate": "October 29, 2026",
       "bestViewing": "Enjoy a natural amphitheatre of vivid colour at Kettle’s Lake with a walk around the Wendat Trail. The Park’s Georgian Bay waterfront and Beach Trail offers the best September viewing while the main A",
       "lat": 44.95,
       "lng": -79.6,
@@ -124,9 +124,9 @@
     "Kakabeka Falls": {
       "name": "Kakabeka Falls",
       "colorChange": 100,
-      "leafFall": 60,
+      "leafFall": 90,
       "dominantColour": "Yellow",
-      "reportDate": "October 22, 2026",
+      "reportDate": "October 29, 2026",
       "bestViewing": "Enjoy the thunder of Kakabeka Falls amongst the fall colours this season via the Boardwalk Trail around the top of the falls with various viewing pods. Walk a little further along the Mountain Portage",
       "lat": 48.4,
       "lng": -89.6,
@@ -135,9 +135,9 @@
     "Killarney": {
       "name": "Killarney",
       "colorChange": 100,
-      "leafFall": 60,
+      "leafFall": 70,
       "dominantColour": "Brown",
-      "reportDate": "October 26, 2026",
+      "reportDate": "October 29, 2026",
       "bestViewing": "To enjoy the beauty of fall, we recommend hiking to the lookout on the Granite Ridge Trail or bringing a picnic lunch to the bog area of our Cranberry Bog Trail.  If you’re looking to beat the crowds,",
       "lat": 46.1,
       "lng": -81.3,
@@ -167,10 +167,10 @@
     },
     "Long Point": {
       "name": "Long Point",
-      "colorChange": 70,
-      "leafFall": 50,
+      "colorChange": 100,
+      "leafFall": 60,
       "dominantColour": "Yellow",
-      "reportDate": "October 20, 2026",
+      "reportDate": "October 29, 2026",
       "bestViewing": "Within the Firefly Campground and as you go towards Turtle Dunes or Monarch Landing you are surrounded by cottonwoods, willows and Silver Maples changing into their fall colours. Watch for any moving ",
       "lat": 42.55,
       "lng": -80.35,
@@ -212,9 +212,9 @@
     "Pigeon River": {
       "name": "Pigeon River",
       "colorChange": 100,
-      "leafFall": 60,
+      "leafFall": 90,
       "dominantColour": "Yellow",
-      "reportDate": "October 22, 2026",
+      "reportDate": "October 29, 2026",
       "bestViewing": "Enjoy the fall colours as they engulf High Falls (High Falls Trail) and Middle Falls (Middle Falls Walk). Hike to the end of the Finger Point Trail for scenic views of Lake Superior surrounded by beau",
       "lat": 47.85,
       "lng": -87.7,
@@ -331,7 +331,7 @@
       "distance": 210
     }
   },
-  "lastUpdated": "2026-10-29T14:05:33.836459Z",
+  "lastUpdated": "2026-10-29T20:10:26.161455Z",
   "totalParks": 30,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
