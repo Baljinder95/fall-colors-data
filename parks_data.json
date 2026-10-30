@@ -68,10 +68,10 @@
     },
     "Darlington": {
       "name": "Darlington",
-      "colorChange": 70,
-      "leafFall": 50,
+      "colorChange": 80,
+      "leafFall": 60,
       "dominantColour": "Yellow/Orange",
-      "reportDate": "October 24, 2026",
+      "reportDate": "October 29, 2026",
       "bestViewing": "The best place to view the stunning fall colours is the Burk Trail Viewing Platform (also known as “the lookout”). This is located roughly in the middle of the Burk Trail, west of the Park Office and ",
       "lat": 43.85,
       "lng": -79.05,
@@ -156,10 +156,10 @@
     },
     "Komoka": {
       "name": "Komoka",
-      "colorChange": 70,
+      "colorChange": 90,
       "leafFall": 40,
       "dominantColour": "Yellow",
-      "reportDate": "October 22, 2026",
+      "reportDate": "October 29, 2026",
       "bestViewing": "Enjoy beautiful fall colours on Komoka’s 11 kilometre trail network. The White Trail offers a walk beneath the canopy of towering maple, oak, and beech trees along the Thames River. The Blue, Yellow, ",
       "lat": 42.95,
       "lng": -81.3,
@@ -331,7 +331,7 @@
       "distance": 210
     }
   },
-  "lastUpdated": "2026-10-29T20:10:26.161455Z",
+  "lastUpdated": "2026-10-30T00:45:38.794543Z",
   "totalParks": 30,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
