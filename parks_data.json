@@ -110,17 +110,6 @@
       "lng": -76.35,
       "distance": 130
     },
-    "Inverhuron": {
-      "name": "Inverhuron",
-      "colorChange": 100,
-      "leafFall": 80,
-      "dominantColour": "Yellow",
-      "reportDate": "October 29, 2026",
-      "bestViewing": "For the best views, look out from the boat launch across Inverhuron Bay. Maloney Trail is predominantly mature hardwoods and offers full immersion under the canopy of colours.",
-      "lat": 44.0,
-      "lng": -81.45,
-      "distance": 110
-    },
     "Kakabeka Falls": {
       "name": "Kakabeka Falls",
       "colorChange": 100,
@@ -286,17 +275,6 @@
       "lng": -75.7,
       "distance": 140
     },
-    "Sauble Falls": {
-      "name": "Sauble Falls",
-      "colorChange": 100,
-      "leafFall": 90,
-      "dominantColour": "Red/Orange",
-      "reportDate": "October 27, 2026",
-      "bestViewing": "The best area to view the fall colours is at the entrance of the park on Sauble Falls Road.",
-      "lat": 44.5,
-      "lng": -80.75,
-      "distance": 110
-    },
     "Sibbald Point": {
       "name": "Sibbald Point",
       "colorChange": 90,
@@ -331,7 +309,7 @@
       "distance": 210
     }
   },
-  "lastUpdated": "2026-11-01T00:55:19.232122Z",
-  "totalParks": 30,
+  "lastUpdated": "2026-11-01T07:20:17.276361Z",
+  "totalParks": 28,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
