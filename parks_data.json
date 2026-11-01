@@ -211,10 +211,10 @@
     },
     "Pinery": {
       "name": "Pinery",
-      "colorChange": 70,
-      "leafFall": 20,
-      "dominantColour": "Yellow",
-      "reportDate": "October 26, 2026",
+      "colorChange": 80,
+      "leafFall": 30,
+      "dominantColour": "Orange",
+      "reportDate": "November 1, 2026",
       "bestViewing": "Pinery’s oaks present rusty red and orange tones late in the season, with fall wildflowers in the understory displaying beautiful yellows and purples. Sassafras Trail offers great fall colour viewing ",
       "lat": 43.2,
       "lng": -81.75,
@@ -309,7 +309,7 @@
       "distance": 210
     }
   },
-  "lastUpdated": "2026-11-01T14:55:57.161980Z",
+  "lastUpdated": "2026-11-01T19:29:52.854089Z",
   "totalParks": 28,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
