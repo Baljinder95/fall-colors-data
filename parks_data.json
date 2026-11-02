@@ -132,17 +132,6 @@
       "lng": -81.3,
       "distance": 90
     },
-    "Killbear": {
-      "name": "Killbear",
-      "colorChange": 100,
-      "leafFall": 50,
-      "dominantColour": "Yellow/Orange",
-      "reportDate": "October 28, 2026",
-      "bestViewing": "The best fall colours can be seen along the main park road, the Recreational Trail, and the Lookout Point Trail. Colours usually peak around Thanksgiving weekend but stay surprisingly strong throughou",
-      "lat": 45.2,
-      "lng": -80.4,
-      "distance": 95
-    },
     "Komoka": {
       "name": "Komoka",
       "colorChange": 90,
@@ -309,7 +298,7 @@
       "distance": 210
     }
   },
-  "lastUpdated": "2026-11-01T23:28:39.483176Z",
-  "totalParks": 28,
+  "lastUpdated": "2026-11-02T05:42:59.287201Z",
+  "totalParks": 27,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
