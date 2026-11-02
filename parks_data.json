@@ -25,9 +25,9 @@
     "Awenda": {
       "name": "Awenda",
       "colorChange": 100,
-      "leafFall": 70,
+      "leafFall": 90,
       "dominantColour": "Brown",
-      "reportDate": "October 29, 2026",
+      "reportDate": "November 2, 2026",
       "bestViewing": "Enjoy a natural amphitheatre of vivid colour at Kettle’s Lake with a walk around the Wendat Trail. The Park’s Georgian Bay waterfront and Beach Trail offers the best September viewing while the main A",
       "lat": 44.95,
       "lng": -79.6,
@@ -102,9 +102,9 @@
     "Frontenac": {
       "name": "Frontenac",
       "colorChange": 100,
-      "leafFall": 80,
+      "leafFall": 90,
       "dominantColour": "Red/Orange",
-      "reportDate": "October 29, 2026",
+      "reportDate": "November 2, 2026",
       "bestViewing": "With over 100 km of hiking trails, Frontenac provides excellent fall colour viewing opportunities. Two trails that are sure to provide a beautiful fall colour experience are Doe Lake Loop (3 km) and D",
       "lat": 44.9,
       "lng": -76.35,
@@ -298,7 +298,7 @@
       "distance": 210
     }
   },
-  "lastUpdated": "2026-11-02T15:30:33.231591Z",
+  "lastUpdated": "2026-11-02T23:24:10.871966Z",
   "totalParks": 27,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
