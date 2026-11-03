@@ -135,9 +135,9 @@
     "Komoka": {
       "name": "Komoka",
       "colorChange": 90,
-      "leafFall": 40,
+      "leafFall": 60,
       "dominantColour": "Yellow",
-      "reportDate": "October 29, 2026",
+      "reportDate": "November 3, 2026",
       "bestViewing": "Enjoy beautiful fall colours on Komoka’s 11 kilometre trail network. The White Trail offers a walk beneath the canopy of towering maple, oak, and beech trees along the Thames River. The Blue, Yellow, ",
       "lat": 42.95,
       "lng": -81.3,
@@ -298,7 +298,7 @@
       "distance": 210
     }
   },
-  "lastUpdated": "2026-11-03T14:58:06.208338Z",
+  "lastUpdated": "2026-11-03T20:54:31.858164Z",
   "totalParks": 27,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
