@@ -256,9 +256,9 @@
     "Samuel de Champlain": {
       "name": "Samuel de Champlain",
       "colorChange": 100,
-      "leafFall": 70,
+      "leafFall": 90,
       "dominantColour": "Yellow/Orange",
-      "reportDate": "October 28, 2026",
+      "reportDate": "November 3, 2026",
       "bestViewing": "Driving the main road through the park is an easy and accessible way to view reds, yellows, and oranges as the aspens, oaks, and maples start to turn. Campion Portage is another good spot to view the ",
       "lat": 45.65,
       "lng": -75.7,
@@ -298,7 +298,7 @@
       "distance": 210
     }
   },
-  "lastUpdated": "2026-11-03T20:54:31.858164Z",
+  "lastUpdated": "2026-11-04T01:11:42.286682Z",
   "totalParks": 27,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
