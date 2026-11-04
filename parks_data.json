@@ -81,8 +81,8 @@
       "name": "Earl Rowe",
       "colorChange": 100,
       "leafFall": 100,
-      "dominantColour": "Yellow/Orange",
-      "reportDate": "October 30, 2026",
+      "dominantColour": "Brown",
+      "reportDate": "November 4, 2026",
       "bestViewing": "The best spots to view fall colours is by hiking the Lookout Trail and walking through the Meadowbrook and Trillium Woods campgrounds.",
       "lat": 44.6,
       "lng": -80.2,
@@ -92,8 +92,8 @@
       "name": "Forks of the Credit",
       "colorChange": 100,
       "leafFall": 100,
-      "dominantColour": "Red/Orange",
-      "reportDate": "October 30, 2026",
+      "dominantColour": "Brown",
+      "reportDate": "November 4, 2026",
       "bestViewing": "The best fall colour viewing spot in the park is along the Trans Canada Trail. Please note that reservations are required to guarantee your access to the park. For top tips on how to plan your trip, v",
       "lat": 43.8,
       "lng": -80.2,
@@ -180,8 +180,8 @@
       "name": "Mono Cliffs",
       "colorChange": 100,
       "leafFall": 100,
-      "dominantColour": "Yellow/Orange",
-      "reportDate": "October 30, 2026",
+      "dominantColour": "Brown",
+      "reportDate": "November 4, 2026",
       "bestViewing": "The best spot to view fall colours is by hiking along the Cliff-Top Side Trail. Please note that reservations are required to guarantee your access to the park. For top tips on how to plan your trip, ",
       "lat": 43.95,
       "lng": -80.05,
@@ -298,7 +298,7 @@
       "distance": 210
     }
   },
-  "lastUpdated": "2026-11-04T08:55:42.380183Z",
+  "lastUpdated": "2026-11-04T17:02:30.958820Z",
   "totalParks": 27,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
