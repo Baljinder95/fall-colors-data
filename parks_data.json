@@ -113,9 +113,9 @@
     "Kakabeka Falls": {
       "name": "Kakabeka Falls",
       "colorChange": 100,
-      "leafFall": 90,
+      "leafFall": 100,
       "dominantColour": "Yellow",
-      "reportDate": "October 29, 2026",
+      "reportDate": "November 5, 2026",
       "bestViewing": "Enjoy the thunder of Kakabeka Falls amongst the fall colours this season via the Boardwalk Trail around the top of the falls with various viewing pods. Walk a little further along the Mountain Portage",
       "lat": 48.4,
       "lng": -89.6,
@@ -190,9 +190,9 @@
     "Pigeon River": {
       "name": "Pigeon River",
       "colorChange": 100,
-      "leafFall": 90,
+      "leafFall": 100,
       "dominantColour": "Yellow",
-      "reportDate": "October 29, 2026",
+      "reportDate": "November 5, 2026",
       "bestViewing": "Enjoy the fall colours as they engulf High Falls (High Falls Trail) and Middle Falls (Middle Falls Walk). Hike to the end of the Finger Point Trail for scenic views of Lake Superior surrounded by beau",
       "lat": 47.85,
       "lng": -87.7,
@@ -279,8 +279,8 @@
       "name": "Silent Lake",
       "colorChange": 100,
       "leafFall": 90,
-      "dominantColour": "Yellow",
-      "reportDate": "October 24, 2026",
+      "dominantColour": "Brown",
+      "reportDate": "November 5, 2026",
       "bestViewing": "Silent Lake has many beautiful scenic locations to view fall colours. Silent Lake offers three hiking trails that offer plenty of opportunities to view fall colours: Lakehead Loop (1.5 km), Bonnies Po",
       "lat": 44.7,
       "lng": -78.0,
@@ -298,7 +298,7 @@
       "distance": 210
     }
   },
-  "lastUpdated": "2026-11-05T06:21:53.249330Z",
+  "lastUpdated": "2026-11-05T15:20:15.965415Z",
   "totalParks": 27,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
