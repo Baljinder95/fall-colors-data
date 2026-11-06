@@ -68,10 +68,10 @@
     },
     "Darlington": {
       "name": "Darlington",
-      "colorChange": 80,
-      "leafFall": 60,
-      "dominantColour": "Yellow/Orange",
-      "reportDate": "October 29, 2026",
+      "colorChange": 100,
+      "leafFall": 90,
+      "dominantColour": "Brown",
+      "reportDate": "November 5, 2026",
       "bestViewing": "The best place to view the stunning fall colours is the Burk Trail Viewing Platform (also known as “the lookout”). This is located roughly in the middle of the Burk Trail, west of the Park Office and ",
       "lat": 43.85,
       "lng": -79.05,
@@ -298,7 +298,7 @@
       "distance": 210
     }
   },
-  "lastUpdated": "2026-11-05T21:53:56.296251Z",
+  "lastUpdated": "2026-11-06T02:11:13.620766Z",
   "totalParks": 27,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
