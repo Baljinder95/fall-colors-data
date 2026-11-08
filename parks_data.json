@@ -165,17 +165,6 @@
       "lng": -81.2,
       "distance": 115
     },
-    "Mark S. Burnham": {
-      "name": "Mark S. Burnham",
-      "colorChange": 100,
-      "leafFall": 90,
-      "dominantColour": "Orange",
-      "reportDate": "November 4, 2026",
-      "bestViewing": "Mark S. Burnham has many of the oldest maple, beech, elm and hemlock trees in the area, this makes for wonderful fall colours. Try hiking the small loop or long loop of the trail to see the many diffe",
-      "lat": 43.65,
-      "lng": -79.5,
-      "distance": 50
-    },
     "Mono Cliffs": {
       "name": "Mono Cliffs",
       "colorChange": 100,
@@ -298,7 +287,7 @@
       "distance": 210
     }
   },
-  "lastUpdated": "2026-11-08T00:22:12.633390Z",
-  "totalParks": 27,
+  "lastUpdated": "2026-11-08T07:08:34.642484Z",
+  "totalParks": 26,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
