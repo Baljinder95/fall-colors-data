@@ -58,9 +58,9 @@
     "Bronte Creek": {
       "name": "Bronte Creek",
       "colorChange": 90,
-      "leafFall": 60,
+      "leafFall": 90,
       "dominantColour": "Yellow/Orange",
-      "reportDate": "November 2, 2026",
+      "reportDate": "November 9, 2026",
       "bestViewing": "The most scenic and picturesque areas during the fall include the Lookout/ Ravine Trail #4, Half Moon Valley Trail #6, Field and Forest Trail # 8 and for that old country charm you can't beat the farm",
       "lat": 43.3,
       "lng": -79.7,
@@ -190,9 +190,9 @@
     "Pinery": {
       "name": "Pinery",
       "colorChange": 90,
-      "leafFall": 40,
-      "dominantColour": "Orange",
-      "reportDate": "November 4, 2026",
+      "leafFall": 70,
+      "dominantColour": "Brown",
+      "reportDate": "November 9, 2026",
       "bestViewing": "Pinery’s oaks present rusty red and orange tones late in the season, with fall wildflowers in the understory displaying beautiful yellows and purples. Sassafras Trail offers great fall colour viewing ",
       "lat": 43.2,
       "lng": -81.75,
@@ -287,7 +287,7 @@
       "distance": 210
     }
   },
-  "lastUpdated": "2026-11-09T05:55:53.940848Z",
+  "lastUpdated": "2026-11-09T15:58:22.693922Z",
   "totalParks": 26,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
