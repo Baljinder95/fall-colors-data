@@ -157,9 +157,9 @@
     "MacGregor Point": {
       "name": "MacGregor Point",
       "colorChange": 100,
-      "leafFall": 90,
+      "leafFall": 100,
       "dominantColour": "Brown",
-      "reportDate": "October 28, 2026",
+      "reportDate": "November 9, 2026",
       "bestViewing": "The best place to see fall colours is near the park entrance and in Nipissing Campground.",
       "lat": 44.7,
       "lng": -81.2,
@@ -189,8 +189,8 @@
     },
     "Pinery": {
       "name": "Pinery",
-      "colorChange": 90,
-      "leafFall": 70,
+      "colorChange": 100,
+      "leafFall": 80,
       "dominantColour": "Brown",
       "reportDate": "November 9, 2026",
       "bestViewing": "Pinery’s oaks present rusty red and orange tones late in the season, with fall wildflowers in the understory displaying beautiful yellows and purples. Sassafras Trail offers great fall colour viewing ",
@@ -287,7 +287,7 @@
       "distance": 210
     }
   },
-  "lastUpdated": "2026-11-09T15:58:22.693922Z",
+  "lastUpdated": "2026-11-10T00:09:51.954558Z",
   "totalParks": 26,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
