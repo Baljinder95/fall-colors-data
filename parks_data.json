@@ -47,9 +47,9 @@
     "Bon Echo": {
       "name": "Bon Echo",
       "colorChange": 100,
-      "leafFall": 90,
+      "leafFall": 100,
       "dominantColour": "Yellow/Orange",
-      "reportDate": "November 4, 2026",
+      "reportDate": "November 13, 2026",
       "bestViewing": "Take in the fall colours along the Cliff Top Trail with red, yellow, and brown leaves from Sugar Maple, White Birch and Red Oak trees. The observation platforms along this trail also provide great vie",
       "lat": 44.9,
       "lng": -77.1,
@@ -287,7 +287,7 @@
       "distance": 210
     }
   },
-  "lastUpdated": "2026-11-13T07:45:54.153051Z",
+  "lastUpdated": "2026-11-13T16:05:40.777913Z",
   "totalParks": 26,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
