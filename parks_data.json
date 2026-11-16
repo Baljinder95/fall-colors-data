@@ -57,10 +57,10 @@
     },
     "Bronte Creek": {
       "name": "Bronte Creek",
-      "colorChange": 90,
+      "colorChange": 100,
       "leafFall": 90,
       "dominantColour": "Yellow/Orange",
-      "reportDate": "November 9, 2026",
+      "reportDate": "November 16, 2026",
       "bestViewing": "The most scenic and picturesque areas during the fall include the Lookout/ Ravine Trail #4, Half Moon Valley Trail #6, Field and Forest Trail # 8 and for that old country charm you can't beat the farm",
       "lat": 43.3,
       "lng": -79.7,
@@ -287,7 +287,7 @@
       "distance": 210
     }
   },
-  "lastUpdated": "2026-11-16T10:55:37.103618Z",
+  "lastUpdated": "2026-11-16T20:54:40.766856Z",
   "totalParks": 26,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
