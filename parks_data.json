@@ -201,9 +201,9 @@
     "Presqu'ile": {
       "name": "Presqu'ile",
       "colorChange": 100,
-      "leafFall": 90,
+      "leafFall": 100,
       "dominantColour": "Brown",
-      "reportDate": "November 12, 2026",
+      "reportDate": "November 25, 2026",
       "bestViewing": "There are two areas in Presqu'ile that provide beautiful fall colours. Enjoy a leisurely walk along the road leading into our Group Camping Area north of the trailhead parking lot. Craigs Campground a",
       "lat": 43.85,
       "lng": -77.7,
@@ -287,7 +287,7 @@
       "distance": 210
     }
   },
-  "lastUpdated": "2026-11-25T12:39:21.858993Z",
+  "lastUpdated": "2026-11-25T22:21:00.753833Z",
   "totalParks": 26,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
