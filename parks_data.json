@@ -223,9 +223,9 @@
     "Rondeau": {
       "name": "Rondeau",
       "colorChange": 100,
-      "leafFall": 90,
-      "dominantColour": "Burgundy",
-      "reportDate": "November 19, 2026",
+      "leafFall": 100,
+      "dominantColour": "Brown",
+      "reportDate": "November 26, 2026",
       "bestViewing": "As the colours begin to change in mid-September to early October, check out Spicebush Trail for great views. Later in the season the eastern side of the park and the Black Oak Trail will display the g",
       "lat": 42.3,
       "lng": -81.85,
@@ -287,7 +287,7 @@
       "distance": 210
     }
   },
-  "lastUpdated": "2026-11-26T04:52:37.520861Z",
+  "lastUpdated": "2026-11-26T14:56:06.485581Z",
   "totalParks": 26,
   "source": "https://www.ontarioparks.ca/fallcolour"
 }
